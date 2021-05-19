@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Hello, World!</title>
+    <link>http://himelmallick.github.io/authors/</link>
+      <atom:link href="http://himelmallick.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>http://himelmallick.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>http://himelmallick.github.io/authors/admin/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://himelmallick.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a computational biologist researching at Merck Research Laboratories (MRL). I use computational methods to generate and validate testable hypotheses that accelerate data-driven discovery. Prior to MRL, I was a postdoctoral fellow of Computational Biology and Bioinformatics at Harvard and a PhD candidate of Biostatistics at UAB.&lt;/p&gt;
+
+&lt;p&gt;Curriculum Vitae: &lt;a href=&#34;https://www.dropbox.com/s/s1mxbakp7itfe9p/CV_Himel_Mallick.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;CV&lt;/a&gt;, &lt;a href=&#34;https://www.dropbox.com/s/ho890pi76te57ma/Resume_Himel_Mallick.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Resume&lt;/a&gt; | Researcher Profile: &lt;a href=&#34;https://www.researchgate.net/profile/Himel_Mallick&#34; target=&#34;_blank&#34;&gt;ResearchGate&lt;/a&gt;, &lt;a href=&#34;https://publons.com/researcher/1190507/himel-mallick/&#34; target=&#34;_blank&#34;&gt;Publons&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robert Ford</title>
+      <link>http://himelmallick.github.io/authors/robert-ford/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://himelmallick.github.io/authors/robert-ford/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reflections | Hello, World!</title>
+    <link>/tags/reflections/</link>
+      <atom:link href="/tags/reflections/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reflections</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 31 Dec 2020 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Reflections</title>
+      <link>/tags/reflections/</link>
+    </image>
+    
+    <item>
+      <title>Year-end reflection: My 2020 highlights</title>
+      <link>/post/year_end_reflection_2020/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 -0500</pubDate>
+      <guid>/post/year_end_reflection_2020/</guid>
+      <description>&lt;p&gt;The last day of 2020 is finally here. To bring this decade to a close, I thought I would take a moment to share some of the highlights from this year in the form of pictures and anecdotes.&lt;/p&gt;
+
+&lt;p&gt;As much as I would love to remember this year as a &lt;code&gt;year of setbacks and bottlenecks&lt;/code&gt;, in retrospect, it has been packed with some very surprising yet noteworthy moments.&lt;/p&gt;
+
+&lt;p&gt;On a personal level, 2020 has been a year of many firsts, much as has been the case for the society in general where we have together achieved incredible things as a community despite challenging circumstances. From delivering vaccines in record time to abiding by the social distancing guidelines to adjusting to the &lt;code&gt;new normal&lt;/code&gt;, we have come a stunningly long way in a short period of time, which I believe, prepares us well for a pandemic-proof future in 2021 and beyond.&lt;/p&gt;
+
+&lt;p&gt;Here are some things that went surprisingly well during the entire thriving process:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;New year resolutions&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One of my new year resolutions in 2020 was to write at least one piece of writing every month (technical or non-technical). This seemed like a lofty goal at the outset but I am glad that I was able to break this seemingly hard-to-attain goal into manageable chunks to make it a reality. In my mind, this was a monumental personal milestone as it allowed me to build a decent writing habit which has been difficult historically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.jpg&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;gt;10000 steps per day&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Another seemingly unattainable habit (based on past experience) was consistently hitting an average &amp;gt;10,000 steps a day for an extended period of time (i.e. more than a few weeks or months), which I was able to achieve despite the almost year-long lockdown. Considering all the obstacles that stood in the way this year, it was a truly transformative experience!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_2.jpg&#34; alt=&#34;image info&#34; /&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Getting back into creative writing&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Towards the end of the year, I was fortunate to enroll in a &lt;code&gt;screenwriting&lt;/code&gt; class. Among other things, this was my best chance at getting back into creative writing. As a result of this experience, I was able to write a few short scripts in addition to a few poems which was enough to claw my way to get my amateur writer’s groove back :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_3.jpg&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Personal commit record&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In the meantime, almost accidentally, I broke my own record of GitHub commits, which was more than all the previous years combined. I couldn&amp;rsquo;t be more happy about this &lt;code&gt;unexpected&lt;/code&gt; milestone!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_4.jpg&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Personal peer-review record&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By the same token, I couldn&amp;rsquo;t be more appreciative of the opportunity to give back to the scientific community through volunantary contributions in the form of peer-review activities. Consequently, I was able to break my own record of &lt;a href=&#34;https://publons.com/researcher/1190507/himel-mallick/metrics/&#34; target=&#34;_blank&#34;&gt;Publons-verified peer-reviews&lt;/a&gt;, which was again &lt;code&gt;accidentally&lt;/code&gt; more than previous years.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_5.jpg&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Apart from these, there have been a few &lt;code&gt;first-of-its-kind&lt;/code&gt; professional highlights this year as well:
+
+&lt;ul&gt;
+&lt;li&gt;Completed my first internship as a mentor&lt;/li&gt;
+&lt;li&gt;Completed my first &lt;a href=&#34;https://himelmallick.github.io/post/guest_editing_reflection/&#34; target=&#34;_blank&#34;&gt;special issue&lt;/a&gt; as a lead editor&lt;/li&gt;
+&lt;li&gt;Published my first &lt;a href=&#34;https://www.bioconductor.org/packages/release/bioc/html/Maaslin2.html&#34; target=&#34;_blank&#34;&gt;Bioconductor package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Delivered my first &lt;a href=&#34;https://twitter.com/Mallick_Himel/status/1260271590320885764&#34; target=&#34;_blank&#34;&gt;keynote presentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Organized my first &lt;a href=&#34;https://ww2.amstat.org/meetings/jsm/2021/invitedsessions.cfm&#34; target=&#34;_blank&#34;&gt;JSM invited session&lt;/a&gt; (scheduled for JSM 2021)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With that note, I would love to hear your highlights from the year, so be sure to leave a comment at the end of this post :)&lt;/p&gt;
+
+&lt;p&gt;Wishing you and yours a safe, healthy, and prosperous new year! Onwards and upwards!&lt;/p&gt;
+
+&lt;p&gt;Featured image source: &lt;a href=&#34;https://www.the-scientist.com/news-opinion/what-to-expect-in-the-publishing-world-in-2020--66882&#34; target=&#34;_blank&#34;&gt;https://www.the-scientist.com/news-opinion/what-to-expect-in-the-publishing-world-in-2020&amp;ndash;66882&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
