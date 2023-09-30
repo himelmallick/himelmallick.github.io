@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computational Biology | Hello, World!</title>
+    <link>http://himelmallick.github.io/tags/computational-biology/</link>
+      <atom:link href="http://himelmallick.github.io/tags/computational-biology/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computational Biology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 31 Oct 2020 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>Computational Biology</title>
+      <link>http://himelmallick.github.io/tags/computational-biology/</link>
+    </image>
+    
+    <item>
+      <title>Student paper awards and travel grants - A resource for data science graduate students and postdocs</title>
+      <link>http://himelmallick.github.io/post/travel_grant_resource/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/post/travel_grant_resource/</guid>
+      <description>&lt;p&gt;This post is motivated by the growing list of &lt;code&gt;awesome&lt;/code&gt; public repositories that curate a list of resources dedicated to a specific topic (such as &lt;a href=&#34;https://github.com/dangkhoasdc/awesome-ai-residency&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt;, &lt;a href=&#34;https://github.com/academic/awesome-datascience&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt;, and &lt;a href=&#34;https://github.com/josephmisiti/awesome-machine-learning&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt;, among others).&lt;/p&gt;
+
+&lt;p&gt;As a graduate student, I often struggled to find such a centralized resource, especially when it comes to student paper awards and travel grants, geared towards data science graduate students and postdocs (broadly defined). On the surface, these awards help you save a few hundred dollars of registration and other out-of-pocket travel expenses but they are also worth the effort to go the extra mile in getting a nice gold star for a CV.&lt;/p&gt;
+
+&lt;p&gt;Both the &lt;a href=&#34;https://www.amstat.org/ASA/Your-Career/Student-Paper-Competitions.aspx&#34; target=&#34;_blank&#34;&gt;ASA&lt;/a&gt; and the &lt;a href=&#34;https://imstat.org/ims-awards/&#34; target=&#34;_blank&#34;&gt;IMS&lt;/a&gt; have already done a great job in gathering a subset of these opportunities in their respective websites. However, it has been difficult to quickly sort through the information with respect to several desirable aspects such as eligibility, deadline, coverage, and scope, as often difficult from multiple disparate data sources.&lt;/p&gt;
+
+&lt;p&gt;Based on these factors, I have assembled this &lt;a href=&#34;https://github.com/himelmallick/awesome_datascience_travel_grants&#34; target=&#34;_blank&#34;&gt;public repository&lt;/a&gt; (a subset of this list is snapshotted below) as an attempt to aggregate and synthesize information related to statistics/biostatistics/data science travel awards and grants with a special emphasis on those geared towards early career researchers.&lt;/p&gt;
+
+&lt;p&gt;While this is not intended to be a comprehensive overview of such opportunities, I would like this public repository to be an ongoing community effort with the hope that it serves the early-career data science community at large, and likewise, any of the following is welcome from the community members:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New information you&amp;rsquo;d like to add (such as a new award information not already listed)&lt;/li&gt;
+&lt;li&gt;Inaccuracies in the content (e.g. deadline, eligibility, etc.)&lt;/li&gt;
+&lt;li&gt;Information gaps in the content that need more details to be complete (e.g. broken links)&lt;/li&gt;
+&lt;li&gt;Typos or grammatical errors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I look forward to receiving your pull requests :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Featured image source: &lt;a href=&#34;https://www.perforce.com/blog/vcs/why-did-google-choose-centralized-repository&#34; target=&#34;_blank&#34;&gt;perforce&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

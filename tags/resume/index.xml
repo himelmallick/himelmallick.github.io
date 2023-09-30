@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resume | Hello, World!</title>
+    <link>http://himelmallick.github.io/tags/resume/</link>
+      <atom:link href="http://himelmallick.github.io/tags/resume/index.xml" rel="self" type="application/rss+xml" />
+    <description>Resume</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 03 Mar 2020 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>Resume</title>
+      <link>http://himelmallick.github.io/tags/resume/</link>
+    </image>
+    
+    <item>
+      <title>Automatically update citation metrics in your CV with a bare minimum script - Part II</title>
+      <link>http://himelmallick.github.io/post/automate_citation_metrics_resume_2/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/post/automate_citation_metrics_resume_2/</guid>
+      <description>
+
+&lt;p&gt;Following my previous post (&lt;a href=&#34;https://himelmallick.github.io/post/automate_citation_metrics_resume/&#34; target=&#34;_blank&#34;&gt;Part I&lt;/a&gt;), I received a few requests from my fellow mathematical and physical scientist colleagues who prepare their CVs and resumes in the popular typesetting system &lt;a href=&#34;https://en.wikipedia.org/wiki/LaTeX&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt;. In this post, I will go over the steps required to automatically import Google Scholar citation metrics in a LaTeX document without any hassle or compromise.&lt;/p&gt;
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;Similar to &lt;a href=&#34;https://himelmallick.github.io/post/automate_citation_metrics_resume/&#34; target=&#34;_blank&#34;&gt;Part I&lt;/a&gt;, here are just a few things I would like to maintain:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ability to edit CVs and resumes in LaTeX,&lt;/li&gt;
+&lt;li&gt;Without the need to learn a new language or markup syntax, and&lt;/li&gt;
+&lt;li&gt;Without falling back to a manual update which can be inconvenient.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;As before, here are a few things we will need: (i) A CV or resume written in LaTeX (.tex), (ii) &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt;, and (iii) &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;. Information about installing R and RStudio is &lt;a href=&#34;https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; (it&amp;rsquo;s free!). This tutorial also assumes that you have an up-to-date &lt;a href=&#34;https://scholar.google.com/&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; profile. All files described in this tutorial are &lt;a href=&#34;https://github.com/himelmallick/himelmallick.github.io/tree/master/post/automate_citation_metrics_resume_2&#34; target=&#34;_blank&#34;&gt;publicly available&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Compared to the previous post, this tutorial is more straightforward, thanks to the well-developed &lt;a href=&#34;https://en.wikipedia.org/wiki/Sweave&#34; target=&#34;_blank&#34;&gt;Sweave function&lt;/a&gt;, that enables effortless integration of R code into LaTeX documents, allowing one to execute and embed the results of R computations and graphics within a LaTeX document.&lt;/p&gt;
+
+&lt;p&gt;Without further ado, here goes the quick 3-step solution.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-1-customizing-the-latex-document&#34;&gt;Step 1: Customizing the LaTeX Document&lt;/h2&gt;
+
+&lt;p&gt;First step is to convert the existing LaTeX (.tex) document into a Sweave file (.Rnw) by simply changing the extension.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-2-adding-a-minimal-r-code&#34;&gt;Step 2: Adding a minimal R code&lt;/h2&gt;
+
+&lt;p&gt;Next, add the following R chunk in your &lt;code&gt;.Rnw&lt;/code&gt; document (anywhere between &lt;code&gt;\begin{document}&lt;/code&gt; and &lt;code&gt;\end{document}&lt;/code&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;&amp;lt;&amp;lt;echo=FALSE&amp;gt;&amp;gt;=
+library(scholar)
+my_Google_Scholar&amp;lt;-get_profile(&#39;twbXG-wAAAAJ&#39;)
+a&amp;lt;-my_Google_Scholar$total_cites
+b&amp;lt;-my_Google_Scholar$h_index
+c&amp;lt;-my_Google_Scholar$i10_index
+@
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;In the above code, I have used my own Google Scholar ID &lt;code&gt;twbXG-wAAAAJ&lt;/code&gt;. Please don&amp;rsquo;t forget to modify to yours. You also need to call out these extracted values (&lt;code&gt;a&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt;, and &lt;code&gt;c&lt;/code&gt;) using the &lt;code&gt;\Sexpr&lt;/code&gt; command in the LaTeX document as follows:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Citations = \Sexpr{a}
+h-index = \Sexpr{b}
+i-10 index = \Sexpr{c}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it. Now you can compile this file directly from RStudio by simply executing the &lt;code&gt;Compile PDF&lt;/code&gt; button on the right:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For your reference, the snapshot above is from my own resume which can be downloaded from &lt;a href=&#34;http://himelmallick.org/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;optional-step-3-automating-with-cron&#34;&gt;(Optional) Step 3: Automating with cron&lt;/h2&gt;
+
+&lt;p&gt;Once the Steps 1 and 2 are in place, it&amp;rsquo;s as easy as pie to automate this further. In particular, you can follow the exact same steps from &lt;a href=&#34;https://himelmallick.github.io/post/automate_citation_metrics_resume/&#34; target=&#34;_blank&#34;&gt;Part I&lt;/a&gt; tutorial to set up a cron job, with a few ramifications, as detailed below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_2.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The code above assumes that &lt;code&gt;Resume_Master&lt;/code&gt; is the master file that you intend to update and &lt;code&gt;Resume_Final&lt;/code&gt; is the final document, whereas the &lt;code&gt;Resume_Master-knitr&lt;/code&gt; is an intermediate file. After you execute these steps, a PDF named &lt;code&gt;Resume_Final.pdf&lt;/code&gt; with the appended Google Scholar citation metrics will be produced.&lt;/p&gt;
+
+&lt;p&gt;I have not tested the above code chunk myself but please feel free to relay any comments, suggestions, or corrections my way if you encounter any issues.&lt;/p&gt;
+
+&lt;p&gt;Happy Tuesday! I hope you find this tutorial useful :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Automatically update citation metrics in your CV with a bare minimum script - Part I</title>
+      <link>http://himelmallick.github.io/post/automate_citation_metrics_resume/</link>
+      <pubDate>Sun, 16 Feb 2020 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/post/automate_citation_metrics_resume/</guid>
+      <description>
+
+&lt;p&gt;The inspiration behind this post comes from my non-computational scientist colleagues who simply wanted to import &lt;a href=&#34;https://en.wikipedia.org/wiki/Google_Scholar&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; citation metrics in their CVs and resumes with as little overhead as possible. After a few quick searches, several solutions popped up that used either &lt;a href=&#34;https://en.wikipedia.org/wiki/Markdown&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; or &lt;a href=&#34;https://en.wikipedia.org/wiki/LaTeX&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt;. While I appreciate these more sophisticated maneuvers, they did not serve any useful purpose for my specific motivation as described below.&lt;/p&gt;
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;There are just a few things my scientist colleagues wanted to achieve:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Ability to edit their CVs and resumes in Microsoft Word,&lt;/li&gt;
+&lt;li&gt;Without the need to learn a new language or markup syntax, and&lt;/li&gt;
+&lt;li&gt;Without falling back to a manual update which can be inconvenient.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Fortunately, the &lt;a href=&#34;https://blog.revolutionanalytics.com/2017/06/r-community.html&#34; target=&#34;_blank&#34;&gt;R community&lt;/a&gt; has already done much of the hard work, thanks to the awesome &lt;a href=&#34;https://cran.r-project.org/web/packages/officer&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;officer&lt;/code&gt;&lt;/a&gt; and &lt;a href=&#34;https://cran.r-project.org/web/packages/scholar&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;scholar&lt;/code&gt;&lt;/a&gt; packages. Briefly, the &lt;code&gt;officer&lt;/code&gt; package lets users manipulate Word documents without altering the contents, styles, and properties of the original document, while the &lt;code&gt;scholar&lt;/code&gt; package provides handy functions to extract citation data from Google Scholar.&lt;/p&gt;
+
+&lt;p&gt;Among other things, I wanted this solution to be a bit more robust without being too complicated for future expansion. In particular, the possibility of adding other elements above and beyond citation metrics such as images, tables, and text from R as well as portability to other documents such as PowerPoint (*.pptx) was on the top of my list. Beyond everything, I wanted to make this exercise as seamless and efficient as possible for my scientist colleagues irrespective of their coding background.&lt;/p&gt;
+
+&lt;p&gt;Before getting started, here are a few things we will need: (i) A CV or resume written in Word (.docx), (ii) &lt;a href=&#34;https://cran.r-project.org/&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt;, and (iii) &lt;a href=&#34;https://rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;. Information about installing R and RStudio is &lt;a href=&#34;https://courses.edx.org/courses/UTAustinX/UT.7.01x/3T2014/56c5437b88fa43cf828bff5371c6a924/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; (it&amp;rsquo;s free!). This tutorial also assumes that you have an up-to-date &lt;a href=&#34;https://scholar.google.com/&#34; target=&#34;_blank&#34;&gt;Google Scholar&lt;/a&gt; profile. All files described in this tutorial are &lt;a href=&#34;https://github.com/himelmallick/himelmallick.github.io/tree/master/post/automate_citation_metrics_resume&#34; target=&#34;_blank&#34;&gt;publicly available&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So, here goes the simple 3-step solution.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-1-customizing-the-word-document&#34;&gt;Step 1: Customizing the Word Document&lt;/h2&gt;
+
+&lt;p&gt;For illustration purposes, I will use a template resume named &lt;code&gt;Resume_Master.docx&lt;/code&gt; which is mostly empty at this point:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first step is to add a bookmark where you want to insert your citation metrics. If you are unfamiliar with bookmarks in Word documents,  I suggest reading the &lt;a href=&#34;https://support.office.com/en-us/article/add-or-delete-bookmarks-in-a-word-document-or-outlook-message-f68d781f-0150-4583-a90e-a4009d99c2a0&#34; target=&#34;_blank&#34;&gt;Microsoft Office tutorial&lt;/a&gt; which is pretty concise and hence skipped here. For our specific task, I want to define three bookmarks right after the &lt;code&gt;Publications&lt;/code&gt; section as follows:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_2.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In particular, I intend to import total citation counts, h-index, and i10 index on these pre-defined bookmarks &lt;code&gt;GS_a&lt;/code&gt;, &lt;code&gt;GS_b&lt;/code&gt;, and &lt;code&gt;GS_c&lt;/code&gt; respectively, as verified by the bookmark window on the right.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-2-running-a-minimal-r-script&#34;&gt;Step 2: Running a minimal R script&lt;/h2&gt;
+
+&lt;p&gt;This step is actually pretty simple as long as you know &lt;a href=&#34;https://www.dummies.com/programming/r/how-to-source-a-script-in-r/&#34; target=&#34;_blank&#34;&gt;how to run a script in RStudio&lt;/a&gt;. A quick breakdown of what this bare minimum script (&lt;code&gt;Update_Resume.R&lt;/code&gt;) does is as follows.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_3.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First, it installs and loads the required packages. In the second chunk of the code, it extracts the relevant Google Scholar citation metrics (make sure you have an internet connection while executing this part). Here I have used my own Google Scholar ID &lt;code&gt;twbXG-wAAAAJ&lt;/code&gt; (don&amp;rsquo;t forget to change to yours). Finally, it inserts these metrics into your input Word Document (in this case &lt;code&gt;Resume_Master.docx&lt;/code&gt;) and outputs an updated document called &lt;code&gt;Resume_Final.docx&lt;/code&gt;. With my own humble contribution to science, the resulting file looks something like this (last retrieved on February 16, 2020):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_4.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Please note that, this script assumes that all the associated files are co-located in the same directory. Please make sure to change the names of your input and output files in this script as desired before executing.&lt;/p&gt;
+
+&lt;p&gt;The cool thing is that you can seamlessly edit your master file as you would normally do and run this script as frequently as you want to get the citations metrics inserted automatically.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s it! You have the exact same resume with the citation metrics inserted.&lt;/p&gt;
+
+&lt;h2 id=&#34;optional-step-3-automating-with-cron&#34;&gt;(Optional) Step 3: Automating with cron&lt;/h2&gt;
+
+&lt;p&gt;Now, if you would like to further fine-tune this process &lt;a href=&#34;http://ideophone.org/how-often-does-google-scholar-update/&#34; target=&#34;_blank&#34;&gt;without the hassle of running the script every other day&lt;/a&gt;, you can optionally do that thanks to the amazing &lt;a href=&#34;https://cran.r-project.org/web/packages/cronR&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;cronR&lt;/code&gt;&lt;/a&gt; package. Fortunately, this step is dead easy as well, especially if you are already familar with R.&lt;/p&gt;
+
+&lt;p&gt;In particular, once you are able to install the &lt;code&gt;cronR&lt;/code&gt; package following instructions &lt;a href=&#34;https://github.com/bnosac/cronR&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;, you can jump right into the &lt;code&gt;RStudio add-in&lt;/code&gt; section of that tutorial.&lt;/p&gt;
+
+&lt;p&gt;As an example, if you want to execute the &lt;code&gt;Update_Resume.R&lt;/code&gt; script hourly, all you have to do is the following before pressing the &lt;code&gt;Create job&lt;/code&gt; button:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_5.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you schedule the job above, it will update every hour whenever your computer is switched on (you can change the schedule any time). You can also save the resulting file in a shared or publicly accessible folder (such as Dropbox, Google Drive, and OneDrive) and easily embed it on your personal website if you would like.&lt;/p&gt;
+
+&lt;p&gt;Happy automating! It&amp;rsquo;s not that difficult after all :)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

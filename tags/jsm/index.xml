@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JSM | Hello, World!</title>
+    <link>http://himelmallick.github.io/tags/jsm/</link>
+      <atom:link href="http://himelmallick.github.io/tags/jsm/index.xml" rel="self" type="application/rss+xml" />
+    <description>JSM</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Aug 2018 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>JSM</title>
+      <link>http://himelmallick.github.io/tags/jsm/</link>
+    </image>
+    
+    <item>
+      <title>Nontraditional Collaboration: A Success Story at JSM 2016</title>
+      <link>http://himelmallick.github.io/post/nontraditional_collaboration/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/post/nontraditional_collaboration/</guid>
+      <description>&lt;p&gt;This is a repost backdated to match the original post that appeared in &lt;a href=&#34;https://magazine.amstat.org/&#34; target=&#34;_blank&#34;&gt;AMSTAT News&lt;/a&gt; in &lt;a href=&#34;https://magazine.amstat.org/blog/2018/08/01/nontraditional-collaboration/&#34; target=&#34;_blank&#34;&gt;August 2018&lt;/a&gt;. I hope you enjoy reading it :)
+&lt;img src=&#34;Image_1.jpg&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
