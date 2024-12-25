@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thankfulness | Hello, World!</title>
+    <link>http://himelmallick.github.io/tags/thankfulness/</link>
+      <atom:link href="http://himelmallick.github.io/tags/thankfulness/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thankfulness</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2020 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>Thankfulness</title>
+      <link>http://himelmallick.github.io/tags/thankfulness/</link>
+    </image>
+    
+    <item>
+      <title>A paper that changed my life - The Bayesian LASSO</title>
+      <link>http://himelmallick.github.io/post/most_influential_paper/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/post/most_influential_paper/</guid>
+      <description>&lt;p&gt;As tough as this year has been, it goes without saying that 2020 is a particularly good year to be thankful for science, which happens to be one of the many things that are often &lt;a href=&#34;https://www.linkedin.com/pulse/why-im-thankful-science-jeffrey-simmons&#34; target=&#34;_blank&#34;&gt;taken for granted&lt;/a&gt;. While similar &lt;a href=&#34;https://www.sciencemag.org/careers/2011/11/what-scientists-can-be-grateful-thanksgiving&#34; target=&#34;_blank&#34;&gt;thankfulness posts&lt;/a&gt; have appeared &lt;a href=&#34;https://www.criver.com/eureka/good-year-be-thankful-scientists&#34; target=&#34;_blank&#34;&gt;elsewhere&lt;/a&gt;, I want to share a different take as a computational scientist.&lt;/p&gt;
+
+&lt;p&gt;As the title suggests, I am shamelessly borrowing from the &lt;code&gt;most influential&lt;/code&gt; series that are widespread in the popular culture. A quick Google search with &lt;code&gt;_____ that changed my life&lt;/code&gt; (fill in the blank with your favorite) reveals that there is a growing list of such curated lists separately for &lt;a href=&#34;https://www.nytimes.com/2020/01/18/opinion/letters/influential-books.html&#34; target=&#34;_blank&#34;&gt;books&lt;/a&gt;, &lt;a href=&#34;https://deadline.com/2020/05/imdb-movies-that-changed-my-life-podcast-jeffrey-wright-1202927877/&#34; target=&#34;_blank&#34;&gt;movies&lt;/a&gt;, and what not but not too many dedicated to &lt;a href=&#34;https://arxiv.org/abs/1108.0216&#34; target=&#34;_blank&#34;&gt;research papers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This Thanksgiving, I want to take this opportunity to express my gratitude to the authors of the most influential paper (snapshotted below) that changed my life in one way or another.&lt;/p&gt;
+
+&lt;p&gt;Here are the Five Ws that forms the roadmap of the story:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Who?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A freshly minted PhD candidate of Biostatistics desperately seeking a dissertation topic that has sufficient methodological challenges but at the same time is motivated by real-world problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;January 2011 - just after passing the PhD qualifying examination, with no prior research experience under my belt and only a vague idea of what &lt;code&gt;Bayesian statistics&lt;/code&gt; is.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Where?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.uab.edu/soph/home/departments/biostatistics&#34; target=&#34;_blank&#34;&gt;Department of Biostatistics, University of Alabama at Birmingham&lt;/a&gt; - this is the place where I shopped for research topics across disciplines ranging from statistical genetics to clinical trials methodology and survival analysis to nonparametric inference.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks to my advisor, I came across &lt;code&gt;The Bayesian LASSO&lt;/code&gt; paper by Park and Casella which also happens to be the first paper that I read word by word multiple times.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Such was the impact of this paper that I ended up choosing &lt;a href=&#34;https://search.proquest.com/openview/92eec79a977d0452b818c4b4871a0bf8/1?pq-origsite=gscholar&amp;amp;cbl=18750&amp;amp;diss=y&#34; target=&#34;_blank&#34;&gt;Bayesian regularization&lt;/a&gt; as my dissertation topic. In hindsight, this is a decision that I am immensely proud of as it offered a right balance of theory and methods which was tricky in a predominantly applied and non-Bayesian department.&lt;/p&gt;
+
+&lt;p&gt;From a purely technical and objective standpoint, drawbacks and disadvantages aside, what makes the seminal work by Park and Casella (2008) an important paper in the literature is that it is the first successful (nontrivial) Bayesian hierarchical model formulation of the state-of-the-art &lt;a href=&#34;https://en.wikipedia.org/wiki/Lasso_(statistics)&#34; target=&#34;_blank&#34;&gt;LASSO&lt;/a&gt; method and it is the first Bayesian work that successfully demonstrated the advantage of doing Bayesian inference over the frequentist LASSO.&lt;/p&gt;
+
+&lt;p&gt;Thanks to the authors of this paper, we now have an exciting line of research (partically inspired by the methodological advances in this paper and a few other papers that followed), motivating researchers around the world to develop scalabale and interpretable Bayesian machine learning models that are able to accurately quantify &lt;code&gt;uncertainty&lt;/code&gt; which is a critical component of modern data-driven decision-making, specially in the era of big data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now it&amp;rsquo;s your turn! What are the papers that you are thankful for? What is that one &lt;code&gt;most influential&lt;/code&gt; paper that has significantly shaped your research life?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

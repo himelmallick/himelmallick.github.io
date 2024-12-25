@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Hello, World!</title>
+    <link>http://himelmallick.github.io/authors/</link>
+      <atom:link href="http://himelmallick.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>Authors</title>
+      <link>http://himelmallick.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>http://himelmallick.github.io/authors/admin/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://himelmallick.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;Himel is a Principal Investigator and Tenure-track Faculty at &lt;a href=&#34;https://weillcornell.org/&#34; target=&#34;_blank&#34;&gt;Cornell University&amp;rsquo;s&lt;/a&gt; &lt;a href=&#34;https://phs.weill.cornell.edu/&#34; target=&#34;_blank&#34;&gt;Department of Population Health Sciences&lt;/a&gt; and an Adjunct Faculty of &lt;a href=&#34;https://stat.cornell.edu/&#34; target=&#34;_blank&#34;&gt;Statistics and Data Science&lt;/a&gt; at &lt;a href=&#34;http://cis.cornell.edu/&#34; target=&#34;_blank&#34;&gt;Bowers College of Computing and Information Science&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;His &lt;a href=&#34;https://mallicklab.weill.cornell.edu&#34; target=&#34;_blank&#34;&gt;group at Cornell&lt;/a&gt; develops computational methods, software, and data products to generate and validate testable hypotheses that accelerate data-driven discovery. Much of his research has focused on reverse translational efforts aiming to integrate vastly different kinds of biological data by leveraging a combination of machine learning, systems biology, and omics data science techniques to enable target identification and biomarker discovery across a range of indications.&lt;/p&gt;
+
+&lt;p&gt;A recipient of the &lt;a href=&#34;https://www.intindstat.org/statistical-awards&#34; target=&#34;_blank&#34;&gt;IISA ECASDS award&lt;/a&gt;, Himel is a &lt;a href=&#34;https://www.amstat.org/your-career/awards/asa-fellows&#34; target=&#34;_blank&#34;&gt;Fellow of the American Statistical Association (FASA)&lt;/a&gt; and an elected member of the &lt;a href=&#34;https://www.isi-web.org/&#34; target=&#34;_blank&#34;&gt;International Statistical Institute (ISI)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Curriculum Vitae: &lt;a href=&#34;https://www.dropbox.com/s/bl1kbq0wljskkug/CV_Himel_Mallick.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;CV&lt;/a&gt;, &lt;a href=&#34;https://www.dropbox.com/s/twn2rc3mvc2ydbi/Resume_Himel_Mallick.pdf?dl=0&#34; target=&#34;_blank&#34;&gt;Resume&lt;/a&gt; | Researcher Profile: &lt;a href=&#34;https://www.researchgate.net/profile/Himel_Mallick&#34; target=&#34;_blank&#34;&gt;ResearchGate&lt;/a&gt;, &lt;a href=&#34;https://www.webofscience.com/wos/author/record/8616&#34; target=&#34;_blank&#34;&gt;WOS&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robert Ford</title>
+      <link>http://himelmallick.github.io/authors/robert-ford/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>http://himelmallick.github.io/authors/robert-ford/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

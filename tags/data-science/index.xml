@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science | Hello, World!</title>
+    <link>http://himelmallick.github.io/tags/data-science/</link>
+      <atom:link href="http://himelmallick.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>Data Science</title>
+      <link>http://himelmallick.github.io/tags/data-science/</link>
+    </image>
+    
+    <item>
+      <title>Retrospective h-index - A simple R function</title>
+      <link>http://himelmallick.github.io/post/retro_h_index/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/post/retro_h_index/</guid>
+      <description>
+
+&lt;p&gt;The inspiration behind this post comes from an ongoing `citation analysis&amp;rsquo; side project, where I wanted to calculate h-index of a researcher based on their Google Scholar profile retrospectively. Easy peasy except the following two issues:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Internet tells me no readily available solution currently exists&lt;/li&gt;
+&lt;li&gt;ChatGPT was not quite able to solve it either&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;While ChatGPT was able to efficiently turn my R function into a Shiny code, it failed to provide me the solution I needed.&lt;/p&gt;
+
+&lt;p&gt;Yet, the journey to get this work published was a bit bumpy, which happened to be an instance of early-career setback (broadly defined), an almost-unheard-of phenomenon until recently.&lt;/p&gt;
+
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+
+&lt;p&gt;In particular, I wanted to achieve the following 5-step workflow where ChatGPT was not super helpful:&lt;/p&gt;
+
+&lt;p&gt;Step I - Get a data frame of publications and citation history for a given Google Scholar ID&lt;/p&gt;
+
+&lt;p&gt;Step II - Slice citation history to remove publications beyond the given window&lt;/p&gt;
+
+&lt;p&gt;Step III - Correct total cites per article in the reduced data frame (On the reduced data frame we still don&amp;rsquo;t have the current number of citations per article for the given window as it has the total citation counts by default)&lt;/p&gt;
+
+&lt;p&gt;Step IV - On the corrected reduced data frame, calculate the retrospective h-index using the h-index formula&lt;/p&gt;
+
+&lt;p&gt;Step V- Output current and retro h-index&lt;/p&gt;
+
+&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;
+
+&lt;p&gt;Cutting to the chase, here is the simple R function that achieves this objective.&lt;/p&gt;
+
+&lt;h2 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h2&gt;
+
+&lt;p&gt;Unfortunately, Google limits how frequently you can connect with the Google Scholar server, making the code inefficient for a Shiny app. Nevertheless, a work-in-progress Shiny app is also available which is open for improvements.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A re-visit to the famous Jeff Leek commentary</title>
+      <link>http://himelmallick.github.io/post/keyword_data_science/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/post/keyword_data_science/</guid>
+      <description>&lt;p&gt;In 2013, I came across this famous &lt;a href=&#34;https://simplystatistics.org/posts/2013-12-12-the-key-word-in-data-science-is-not-data-it-is-science&#34; target=&#34;_blank&#34;&gt;blog post&lt;/a&gt; by Jeff Leek. Little did I know that I would revisit this post 9 years down the lane. As it turns out, it&amp;rsquo;s not a bad idea to revisit old work with fresh eyes and new perspectives, which is what I have attempted to do here based on personal experience.&lt;/p&gt;
+
+&lt;p&gt;Without further ado, let&amp;rsquo;s talk about a typical data science project and let&amp;rsquo;s break it down into a few possible scenarios and their consequences (hint: the reality is always in between).&lt;/p&gt;
+
+&lt;p&gt;Let&amp;rsquo;s first look at the diagonal elements of the oversimplified 2x2 table above:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Perfect data + perfect science: Win-win&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Imperfect data + imperfect science: Lose-lose&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It&amp;rsquo;s a no brainer that the combination of perfect data and perfect science is the most desirable scenario for most data scientists and decision-makers. You don&amp;rsquo;t need a sophisticated method or model when your data is near-perfect (at least most of the time) - a simple visualization or a simple model might reveal what you are looking for (or a lack thereof).&lt;/p&gt;
+
+&lt;p&gt;In a similar vein, the least desirable scenario is the combination of near-garbage data and near-garbage science - not much to say here except that it&amp;rsquo;s unfortunate when that happens and a lose-lose scenario for everyone involved.&lt;/p&gt;
+
+&lt;p&gt;Note that the above &amp;lsquo;garbage in garbage out&amp;rsquo; concept is possibly one of the most discussed topics in the &lt;a href=&#34;https://www.google.com/search?q=garbage+in+garbage+out+data+science&amp;amp;rlz=1C5GCEM_enIN970IN970&amp;amp;source=lnms&amp;amp;tbm=isch&amp;amp;sa=X&amp;amp;ved=2ahUKEwiWsqKJ09v6AhXFkokEHTu7CfoQ_AUoAXoECAIQAw&amp;amp;biw=1680&amp;amp;bih=816&amp;amp;dpr=2&#34; target=&#34;_blank&#34;&gt;data science community&lt;/a&gt;. Yet, this concept is often overused with misleading practical implications.&lt;/p&gt;
+
+&lt;p&gt;Quite naturally, when a dataset is 100% garbage, the &amp;lsquo;garbage in garbage out&amp;rsquo; concept clearly stands out. Period. No further discussion is necessary. In reality, however, a dataset is never 100% garbage - it can be imperfect and noisy but not 100% garbage, which is when this concept gets tricky and ends up being misconstrued.&lt;/p&gt;
+
+&lt;p&gt;To understand this, let’s look at the other two scenarios (off-diagonal elements in the 2x2 table above) which is typically harder than the previous ones where the &amp;lsquo;science&amp;rsquo; or the &amp;lsquo;statistical&amp;rsquo; aspect of &amp;lsquo;data science&amp;rsquo; can no longer be taken out of the equation unlike the &amp;lsquo;diagonal&amp;rsquo; use cases discussed before:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Perfect data + Imperfect science: Highly undesirable. The damage might be less visible given the rich amount of information but it&amp;rsquo;s hard to justify the missed opportunity.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Imperfect data + perfect science: Real test of a data scientist as uncertainty quantification is no longer optional. When successful, it&amp;rsquo;s a near-win for everyone involved.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As a data scientist, I thrive for a scenario when the data is imperfect which lets me test my mettle and let me break out of my comfort zone albeit at the expense of complexity, which can act as a barrier to wide acceptance and recognition. On the other hand, I have remained equally enthusiastic when the associated data is near-perfect which provided me an extra layer of cushion to posit a simpler but more impactful data science solution.&lt;/p&gt;
+
+&lt;p&gt;This brings me to the central point of this post. Amidst the natural human tendency to be safe, certain, and stress-free, it&amp;rsquo;s possible to forget the key word in data science which is not &amp;lsquo;data&amp;rsquo; but &amp;lsquo;science&amp;rsquo; even in the situation when the data is imperfect.&lt;/p&gt;
+
+&lt;p&gt;In many cases, this &amp;lsquo;science&amp;rsquo; entails &amp;lsquo;advanced statistics and machine learning&amp;rsquo; (and sometimes mathematical and computational innovations) and doing science on imperfectly collected data is astronomically harder than any of the above-mentioned &amp;lsquo;perfect data&amp;rsquo; scenarios. This is when it becomes difficult to resist the temptation to oversimplify, which is exacerbated by the fact that stakeholders tend to be distrustful of the results (regardless of whether this is warranted) given the complexity of the methods involved.&lt;/p&gt;
+
+&lt;p&gt;To conclude, while it is necessary to err on the side of caution in light of the potential pitfalls of a premature conclusion, an exploratory and open mind outside of the &amp;lsquo;comfort zone&amp;rsquo; might be necessary to answer a particularly hard question especially when the &amp;lsquo;data&amp;rsquo; is imperfect which brings me to re-iterate the main point of the 2013 Jeff Leek blog post:&lt;/p&gt;
+
+&lt;p&gt;&amp;lsquo;The key word in “Data Science” is not Data, it is Science&amp;rsquo;.&lt;/p&gt;
+
+&lt;p&gt;It is the science that can either break or make your data not the other way around :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Yearender: Looking back at 2021</title>
+      <link>http://himelmallick.github.io/post/yearender_2021/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/post/yearender_2021/</guid>
+      <description>&lt;p&gt;Every year a set of memes is circulated widely on social media, the 2022 version of which goes along the lines of:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;My goal for 2022 is to accomplish the goals of 2021 which I should have done in 2020 because I made a promise in 2019 and planned in 2018.&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the years, this remained my most favorite ‘new year’ meme for no real reason other than that it was hilarious, funny, and relatable, but in 2021, the actuality of these lines hit me hard as it tested my mettle out and out by bestowing a series of unfinished businesses and frequent hiccups throughout the year!&lt;/p&gt;
+
+&lt;p&gt;The timeline of this blog post spans approximately two pandemic years (2020-2021) as it dates back to my planned month-long India trip when the COVID-19 situation in India was better than what it was in the US (Fall, 2020). A chain of abrupt COVID cancellations later, my much-awaited India trip finally materialized in April 2021 - little did I know that my spring sojourn was on the verge of becoming a lengthy nightmare.&lt;/p&gt;
+
+&lt;p&gt;A few weeks into my arrival, &lt;a href=&#34;https://en.wikipedia.org/wiki/Timeline_of_the_COVID-19_pandemic_in_April_2021&#34; target=&#34;_blank&#34;&gt;a second wave of the  global disease outbreak&lt;/a&gt; wreaked havoc across the nation. With a nearly collapsed health care system, India&amp;rsquo;s pandemic suddenly turned into a human tragedy in quick succession. As the difficult days unfolded, it was just a matter of time that the COVID-19 pandemic disrupted the normal living, and I was no exception.&lt;/p&gt;
+
+&lt;p&gt;The unprecedented consequences of the pandemic have been widely reported in the media but there are a few things that personally affected me more than anything, which broadly manifested as a general decrease in productivity at the expense of regular mental and emotional breakdowns, including but not limited to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Insurmountable personal losses&lt;/strong&gt; (It&amp;rsquo;s one thing to read the news or track the worldometer, but it&amp;rsquo;s a whole different ballgame to witness personal losses up close and personal and hear individual stories that are &lt;a href=&#34;https://www.reuters.com/world/india/situation-india-beyond-heartbreaking-who-chief-says-2021-04-26/&#34; target=&#34;_blank&#34;&gt;beyond heartbreaking&lt;/a&gt;.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Delayed academic collaborations&lt;/strong&gt; (As much as I wanted to keep the &lt;a href=&#34;http://himelmallick.github.io/post/year_end_reflection_2020/&#34; target=&#34;_blank&#34;&gt;2020 momentum&lt;/a&gt; going, &lt;a href=&#34;https://www.nature.com/articles/d41586-021-00663-2&#34; target=&#34;_blank&#34;&gt;pandemic burnout&lt;/a&gt; turned out to be real, which slowly but surely led to an inevitable slowdown in productiveness.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;COVID diagnosis with moderate-to-severe symptoms&lt;/strong&gt; (A massive turning point was testing postive for COVID-19 with fairly severe symptoms. Although I was fortunate to escape a visit to the hospital (thanks to &lt;a href=&#34;https://en.wikipedia.org/wiki/Favipiravir&#34; target=&#34;_blank&#34;&gt;Favipiravir&lt;/a&gt;), the experience of end-to-end recovery was gruesome.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Immigration uncertainty and travel ban&lt;/strong&gt; (An icing on the cake was immigration uncertainty induced by closures of consulates and embassies and the subsequent travel ban (not to forget the curfews and lockdown measures from time to time). I mean nothing more painful than having a confirmed interview appointment, and then finding out that it was cancelled only after traveling 1000 miles. All in all, it took 5 months, several round-trip flights, and multiple letters and email exchanges to finally secure a VISA interview in the capital.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Aftermath of Hurricane Ida&lt;/strong&gt; (The final nail in the coffin came in the form of Hurricane Ida when I was able to finally return to the US in September 2021. In case you are wondering, life without a car in New Jersey is not as manageable as in other states, which is precisely why the experience of becoming a victim of a flooded out car (declared total loss by insurance) is not a great one. This was further exacerbated by an expired driver&amp;rsquo;s license and &lt;a href=&#34;https://nj1015.com/car-shopping-in-nj-right-now-is-a-nightmare-my-story-and-some-advice-opinion/&#34; target=&#34;_blank&#34;&gt;shortage of new cars in the area&lt;/a&gt;, adding to the worry and already-mounting anxiety).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As I come in terms with a particularly difficult year and reflect, there are a number of positive things that I am grateful for, which in turn made the journey a lot more easier:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A long overdue family reunion and precious quality time with the extended family&lt;/li&gt;
+&lt;li&gt;Completion of a six-month-long &lt;a href=&#34;https://www.ccl.org/leadership-programs/leadership-development-program/&#34; target=&#34;_blank&#34;&gt;leadership course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;gt;10K &lt;a href=&#34;http://bioconductor.org/packages/stats/bioc/Maaslin2/&#34; target=&#34;_blank&#34;&gt;official downloads&lt;/a&gt; of our software tool (&lt;a href=&#34;https://huttenhower.sph.harvard.edu/maaslin/&#34; target=&#34;_blank&#34;&gt;MaAsLin 2&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&amp;gt;100 &lt;a href=&#34;https://publons.com/researcher/1190507/himel-mallick/&#34; target=&#34;_blank&#34;&gt;Publons-verified reviews&lt;/a&gt; and &amp;gt;2500 &lt;a href=&#34;https://scholar.google.com/citations?user=twbXG-wAAAAJ&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;Google Scholar citations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Back-to-back keynote presentations including an extremely fulfilling &lt;a href=&#34;https://www.youtube.com/watch?v=YV_KRtMfqr0&#34; target=&#34;_blank&#34;&gt;BVCN featured talk&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Promotion to Associate Principal Scientist at work&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To sum it up, instead of dwelling on the negatives, I made a solemn pledge this year to embrace things that didn&amp;rsquo;t go well in 2021, which in retrospect, was precisely what I needed to press that reset button and start the new year on a high note! Welcome, 2022!&lt;/p&gt;
+
+&lt;p&gt;Featured image source: &lt;a href=&#34;https://www.istockphoto.com/&#34; target=&#34;_blank&#34;&gt;https://www.istockphoto.com/&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Year-end reflection: My 2020 highlights</title>
+      <link>http://himelmallick.github.io/post/year_end_reflection_2020/</link>
+      <pubDate>Thu, 31 Dec 2020 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/post/year_end_reflection_2020/</guid>
+      <description>
+
+&lt;p&gt;The last day of 2020 is finally here. To bring this decade to a close, I thought I would take a moment to share some of the highlights from this year in the form of pictures and anecdotes.&lt;/p&gt;
+
+&lt;p&gt;As much as I would love to remember this year as a year of &lt;code&gt;setbacks and bottlenecks&lt;/code&gt;, in retrospect, it has been packed with some very surprising yet noteworthy moments.&lt;/p&gt;
+
+&lt;p&gt;On a personal level, 2020 has been a year of many firsts, much as has been the case for the society in general where we have together achieved incredible things as a community despite challenging circumstances. From delivering vaccines in record time to abiding by the social distancing guidelines to adjusting to the &lt;code&gt;new normal&lt;/code&gt;, we have come a stunningly long way in a short period of time, which I believe, prepares us well for a pandemic-proof future in 2021 and beyond.&lt;/p&gt;
+
+&lt;p&gt;Here are some things that went surprisingly well during the entire thriving process:&lt;/p&gt;
+
+&lt;h2 id=&#34;new-year-resolutions&#34;&gt;New year resolutions&lt;/h2&gt;
+
+&lt;p&gt;One of my new year resolutions in 2020 was to write at least one piece of writing every month (technical or non-technical). This seemed like a lofty goal at the outset but I am glad that I was able to break this seemingly hard-to-attain goal into manageable chunks to make it a reality. In my mind, this was a monumental personal milestone as it allowed me to build a decent writing habit which has been difficult historically.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.jpg&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;10000-steps-per-day&#34;&gt;&amp;gt;10000 steps per day&lt;/h2&gt;
+
+&lt;p&gt;Another seemingly unattainable habit (based on past experiences) was consistently hitting an average &amp;gt;10,000 steps a day for an extended period of time (i.e. more than a few weeks or months), which I was able to achieve despite the almost year round lockdown. Considering all the obstacles that stood in the way this year, it was a truly transformative experience to start 2021 on a &lt;code&gt;lighter&lt;/code&gt; note!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_2.jpg&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-back-into-creative-writing&#34;&gt;Getting back into creative writing&lt;/h2&gt;
+
+&lt;p&gt;Towards the end of the year, I was fortunate to enroll in a &lt;code&gt;screenwriting&lt;/code&gt; class. Among other things, this was my best chance at getting back into creative writing. As a result of this experience, I was able to write a few short scripts in addition to a few amateur poems which was enough to eventually claw my way to get my writer’s groove back :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_3.jpg&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;personal-commit-record&#34;&gt;Personal commit record&lt;/h2&gt;
+
+&lt;p&gt;In the meantime, almost accidentally, I broke my own record of GitHub commits, which was more than all the previous years combined. I couldn&amp;rsquo;t be more happy about this &lt;code&gt;unexpected&lt;/code&gt; milestone!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_4.jpg&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;personal-peer-review-record&#34;&gt;Personal peer-review record&lt;/h2&gt;
+
+&lt;p&gt;By the same token, I couldn&amp;rsquo;t be more appreciative of the opportunity to give back to the scientific community through voluntary contributions in the form of peer-review activities. Consequently, I was able to break my own record of &lt;a href=&#34;https://publons.com/researcher/1190507/himel-mallick/metrics/&#34; target=&#34;_blank&#34;&gt;Publons-verified peer-reviews&lt;/a&gt;, which was again &lt;code&gt;accidentally&lt;/code&gt; more than all previous years.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_5.jpg&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Apart from these, there have been a few &lt;code&gt;first-of-its-kind&lt;/code&gt; professional highlights this year as well:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Completed my first internship as a mentor&lt;/li&gt;
+&lt;li&gt;Edited my first &lt;a href=&#34;https://himelmallick.github.io/post/guest_editing_reflection/&#34; target=&#34;_blank&#34;&gt;special issue&lt;/a&gt; as a lead editor&lt;/li&gt;
+&lt;li&gt;Published my first &lt;a href=&#34;https://www.bioconductor.org/packages/release/bioc/html/Maaslin2.html&#34; target=&#34;_blank&#34;&gt;Bioconductor package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Delivered my first &lt;a href=&#34;https://twitter.com/Mallick_Himel/status/1260271590320885764&#34; target=&#34;_blank&#34;&gt;keynote presentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Organized my first &lt;a href=&#34;https://ww2.amstat.org/meetings/jsm/2021/invitedsessions.cfm&#34; target=&#34;_blank&#34;&gt;JSM invited session&lt;/a&gt; (scheduled for JSM 2021)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;With that note, I would love to hear your highlights from the year, so be sure to leave a comment :)&lt;/p&gt;
+
+&lt;p&gt;Wishing you and yours a safe, healthy, and prosperous new year! Onwards and upwards!&lt;/p&gt;
+
+&lt;p&gt;Featured image source: &lt;a href=&#34;https://www.the-scientist.com/news-opinion/what-to-expect-in-the-publishing-world-in-2020--66882&#34; target=&#34;_blank&#34;&gt;https://www.the-scientist.com/news-opinion/what-to-expect-in-the-publishing-world-in-2020&amp;ndash;66882&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A paper that changed my life - The Bayesian LASSO</title>
+      <link>http://himelmallick.github.io/post/most_influential_paper/</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/post/most_influential_paper/</guid>
+      <description>&lt;p&gt;As tough as this year has been, it goes without saying that 2020 is a particularly good year to be thankful for science, which happens to be one of the many things that are often &lt;a href=&#34;https://www.linkedin.com/pulse/why-im-thankful-science-jeffrey-simmons&#34; target=&#34;_blank&#34;&gt;taken for granted&lt;/a&gt;. While similar &lt;a href=&#34;https://www.sciencemag.org/careers/2011/11/what-scientists-can-be-grateful-thanksgiving&#34; target=&#34;_blank&#34;&gt;thankfulness posts&lt;/a&gt; have appeared &lt;a href=&#34;https://www.criver.com/eureka/good-year-be-thankful-scientists&#34; target=&#34;_blank&#34;&gt;elsewhere&lt;/a&gt;, I want to share a different take as a computational scientist.&lt;/p&gt;
+
+&lt;p&gt;As the title suggests, I am shamelessly borrowing idea from the so-called &lt;code&gt;most influential&lt;/code&gt; series that are widespread in the popular culture. A quick Google search with &lt;code&gt;_____ that changed my life&lt;/code&gt; (fill in the blank with your favorite) reveals that there is a growing list of such curated lists separately for &lt;a href=&#34;https://www.nytimes.com/2020/01/18/opinion/letters/influential-books.html&#34; target=&#34;_blank&#34;&gt;books&lt;/a&gt;, &lt;a href=&#34;https://deadline.com/2020/05/imdb-movies-that-changed-my-life-podcast-jeffrey-wright-1202927877/&#34; target=&#34;_blank&#34;&gt;movies&lt;/a&gt;, and what not but not too many dedicated to &lt;a href=&#34;https://arxiv.org/abs/1108.0216&#34; target=&#34;_blank&#34;&gt;research papers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This Thanksgiving, I want to take this opportunity to express my gratitude to the authors of the &lt;a href=&#34;https://www.tandfonline.com/doi/abs/10.1198/016214508000000337&#34; target=&#34;_blank&#34;&gt;most influential paper&lt;/a&gt; (snapshotted below) that changed my life in one way or another.&lt;/p&gt;
+
+&lt;p&gt;Here are the Five Ws that form the crux of the story:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Who?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Yours truly - A freshly minted PhD candidate of Biostatistics desperately seeking a dissertation topic that has sufficient methodological challenges but at the same time is motivated by real-world problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;When?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;January 2011 - just after passing the PhD qualifying examination, with no prior research experience under my belt and only a vague idea of what &lt;code&gt;Bayesian statistics&lt;/code&gt; is.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Where?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.uab.edu/soph/home/departments/biostatistics&#34; target=&#34;_blank&#34;&gt;Department of Biostatistics, University of Alabama at Birmingham&lt;/a&gt; - this is the place where I shopped for research topics across disciplines ranging from statistical genetics to clinical trials methodology and survival analysis to nonparametric inference.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Plot_point&#34; target=&#34;_blank&#34;&gt;Plot point&lt;/a&gt; - Thanks to my advisor, I came across &lt;code&gt;The Bayesian LASSO&lt;/code&gt; paper by Park and Casella which also happens to be the first paper that I read word by word multiple times.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Eureka_effect&#34; target=&#34;_blank&#34;&gt;The eureka effect&lt;/a&gt; - Such was the impact of this paper that I ended up choosing &lt;a href=&#34;https://search.proquest.com/openview/92eec79a977d0452b818c4b4871a0bf8/1?pq-origsite=gscholar&amp;amp;cbl=18750&amp;amp;diss=y&#34; target=&#34;_blank&#34;&gt;Bayesian regularization&lt;/a&gt; as my dissertation topic. In hindsight, this is a decision that I am immensely proud of as it offered a right balance of theory and methods which was tricky in a predominantly applied and non-Bayesian department.&lt;/p&gt;
+
+&lt;p&gt;From a purely technical and objective standpoint, drawbacks and disadvantages aside, what makes the seminal work by Park and Casella (2008) an important paper in the literature is that it is the first successful (nontrivial) Bayesian hierarchical model formulation of the state-of-the-art &lt;a href=&#34;https://en.wikipedia.org/wiki/Lasso_(statistics)&#34; target=&#34;_blank&#34;&gt;LASSO&lt;/a&gt; method and it is the first Bayesian work that successfully demonstrated the advantage of doing Bayesian inference over the frequentist LASSO.&lt;/p&gt;
+
+&lt;p&gt;Thanks to the authors of this paper, we now have an exciting line of research (partially inspired by the methodological advances in this paper and a few other papers that followed), motivating researchers around the world to develop scalabale and interpretable Bayesian machine learning models that are able to accurately quantify &lt;code&gt;uncertainty&lt;/code&gt;, a critical component of modern data-driven decision-making in the era of big data.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now it&amp;rsquo;s your turn! What are the papers that you are thankful for? What is that one &lt;code&gt;most influential&lt;/code&gt; paper that has significantly shaped your research life?&lt;/p&gt;
+
+&lt;p&gt;Featured image source: &lt;a href=&#34;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120017&#34; target=&#34;_blank&#34;&gt;https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120017&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Student paper awards and travel grants - A resource for data science graduate students and postdocs</title>
+      <link>http://himelmallick.github.io/post/travel_grant_resource/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/post/travel_grant_resource/</guid>
+      <description>&lt;p&gt;This post is motivated by the growing list of &lt;code&gt;awesome&lt;/code&gt; public repositories that curate a list of resources dedicated to a specific topic (such as &lt;a href=&#34;https://github.com/dangkhoasdc/awesome-ai-residency&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt;, &lt;a href=&#34;https://github.com/academic/awesome-datascience&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt;, and &lt;a href=&#34;https://github.com/josephmisiti/awesome-machine-learning&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt;, among others).&lt;/p&gt;
+
+&lt;p&gt;As a graduate student, I often struggled to find such a centralized resource, especially when it comes to student paper awards and travel grants, geared towards data science graduate students and postdocs (broadly defined). On the surface, these awards help you save a few hundred dollars of registration and other out-of-pocket travel expenses but they are also worth the effort to go the extra mile in getting a nice gold star for a CV.&lt;/p&gt;
+
+&lt;p&gt;Both the &lt;a href=&#34;https://www.amstat.org/ASA/Your-Career/Student-Paper-Competitions.aspx&#34; target=&#34;_blank&#34;&gt;ASA&lt;/a&gt; and the &lt;a href=&#34;https://imstat.org/ims-awards/&#34; target=&#34;_blank&#34;&gt;IMS&lt;/a&gt; have already done a great job in gathering a subset of these opportunities in their respective websites. However, it has been difficult to quickly sort through the information with respect to several desirable aspects such as eligibility, deadline, coverage, and scope, as often difficult from multiple disparate data sources.&lt;/p&gt;
+
+&lt;p&gt;Based on these factors, I have assembled this &lt;a href=&#34;https://github.com/himelmallick/awesome_datascience_travel_grants&#34; target=&#34;_blank&#34;&gt;public repository&lt;/a&gt; (a subset of this list is snapshotted below) as an attempt to aggregate and synthesize information related to statistics/biostatistics/data science travel awards and grants with a special emphasis on those geared towards early career researchers.&lt;/p&gt;
+
+&lt;p&gt;While this is not intended to be a comprehensive overview of such opportunities, I would like this public repository to be an ongoing community effort with the hope that it serves the early-career data science community at large, and likewise, any of the following is welcome from the community members:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New information you&amp;rsquo;d like to add (such as a new award information not already listed)&lt;/li&gt;
+&lt;li&gt;Inaccuracies in the content (e.g. deadline, eligibility, etc.)&lt;/li&gt;
+&lt;li&gt;Information gaps in the content that need more details to be complete (e.g. broken links)&lt;/li&gt;
+&lt;li&gt;Typos or grammatical errors&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I look forward to receiving your pull requests :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Featured image source: &lt;a href=&#34;https://www.perforce.com/blog/vcs/why-did-google-choose-centralized-repository&#34; target=&#34;_blank&#34;&gt;perforce&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Early-career setback - A throwback to my first paper</title>
+      <link>http://himelmallick.github.io/post/early_career_setback/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/post/early_career_setback/</guid>
+      <description>&lt;p&gt;This 15th August marked 7 years since I submitted my &lt;a href=&#34;https://www.intlpress.com/site/pub/pages/journals/items/sii/content/vols/0007/0004/a012/&#34; target=&#34;_blank&#34;&gt;first paper&lt;/a&gt; (first-authored research article). Coincidentally, it also completed five calendar years last December, which gave me a chance to measure it&amp;rsquo;s &lt;a href=&#34;https://support.clarivate.com/ScientificandAcademicResearch/s/article/Journal-Citation-Reports-5-Year-Impact-Factors?language=en_US&#34; target=&#34;_blank&#34;&gt;5-year impact&lt;/a&gt; (erring on the conservative side of course).&lt;/p&gt;
+
+&lt;p&gt;I am very happy to see that it has been well-received as shown in the figure above (the R code to generate the plot is &lt;a href=&#34;https://github.com/himelmallick/himelmallick.github.io/tree/master/post/early_career_setback&#34; target=&#34;_blank&#34;&gt;publicly available&lt;/a&gt;). To interpret it more accurately in plain English, it has performed significantly better than an average paper in the same journal or same discipline (Statistics).&lt;/p&gt;
+
+&lt;p&gt;Yet, the journey to get this work published was a bit bumpy, which happened to be an instance of early-career setback (broadly defined), an almost-unheard-of phenomenon until recently.&lt;/p&gt;
+
+&lt;p&gt;Here is the overall roadmap of the paper (inspired by a &lt;a href=&#34;https://simplystatistics.tumblr.com/post/26977029850/my-worst-recent-experience-with-peer-review&#34; target=&#34;_blank&#34;&gt;similar post&lt;/a&gt; in a different context): &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://projecteuclid.org/euclid.ba&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Bayesian Analysis&lt;/strong&gt;&lt;/a&gt;: Submitted  08/30/2012, rejected 09/16/2012.  Not much to say here, except that I am grateful for the rapid decision that helped me move on to the next journal.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.journals.elsevier.com/computational-statistics-and-data-analysis&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Computational Statistics and Data Analysis&lt;/strong&gt;&lt;/a&gt;: Submitted  09/20/2012, rejected 04/30/2013. This substantial delay was mentally agonizing.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.jmlr.org/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Journal of Machine Learning Research&lt;/strong&gt;&lt;/a&gt;: Submitted 04/30/2013, rejected 08/15/2013 with some constructive and legitimate reviews that led to a substantive improvement of the manuscript later on.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.intlpress.com/site/pub/pages/journals/items/sii/_home/_main/index.php&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Statistics and Its Interface&lt;/strong&gt;&lt;/a&gt;: Submitted 08/15/2013, first review 12/09/2013, resubmitted 05/20/2014 (got delayed by a few other dissertation projects), second revision requested 06/27/2014, revised version submitted 06/30/2014, accepted 06/30/2014, published in final edited form 12/23/2014 (as snapshotted below). &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a graduate student, it was very hard not to take unreasonable reviews personally, especially in the absence of &lt;a href=&#34;https://www.pnas.org/content/114/48/12708&#34; target=&#34;_blank&#34;&gt;big names and prior experience in the author list&lt;/a&gt;, possibly more so as it felt like a never-ending process - both figuratively and literally!&lt;/p&gt;
+
+&lt;p&gt;As an aside, I used a rather generous denominator of 4.2 while calculating the &lt;a href=&#34;http://help.prod-incites.com/inCites2Live/indicatorsGroup/aboutHandbook/usingCitationIndicatorsWisely/normalizedCitationImpact.html&#34; target=&#34;_blank&#34;&gt;FWCI&lt;/a&gt; (excluding self-citations), &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S2405844016322800&#34; target=&#34;_blank&#34;&gt;which is only based on a handful of top journals in the field&lt;/a&gt;. Even going by the current impact factor of the &lt;a href=&#34;https://www.intlpress.com/site/pub/pages/journals/items/sii/_home/_main/index.php&#34; target=&#34;_blank&#34;&gt;publishing journal&lt;/a&gt; (~0.5), this is a gross overestimate.&lt;/p&gt;
+
+&lt;p&gt;Regardless, I could not be more appreciative of how it has turned out despite appearing in a relatively low-impact journal in challenging circumstances. In hindsight, this early-career setback prepared me well for my future endeavors, consistent with the aphorism that &lt;a href=&#34;https://www.nature.com/articles/s41467-019-12189-3&#34; target=&#34;_blank&#34;&gt;“what doesn’t kill you makes you stronger”&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;OK - that was my story. What is your early-career setback story?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predicting the diverse metabolic activities of the microbiome</title>
+      <link>http://himelmallick.github.io/post/metabolite_prediction/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/post/metabolite_prediction/</guid>
+      <description>&lt;p&gt;This is a repost backdated to match the original post that appeared in &lt;a href=&#34;https://naturemicrobiologycommunity.nature.com/&#34; target=&#34;_blank&#34;&gt;Nature Research Microbiology Community&lt;/a&gt; in &lt;a href=&#34;https://naturemicrobiologycommunity.nature.com/users/78027-himel-mallick/posts/49662-predicting-the-diverse-metabolic-activities-of-the-microbiome&#34; target=&#34;_blank&#34;&gt;July 2019&lt;/a&gt;. It represents the backstory behind the &lt;a href=&#34;https://www.nature.com/articles/s41564-017-0084-4&#34; target=&#34;_blank&#34;&gt;following publication&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy the read. Comments and feedback are always welcome :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>And they lived happily ever after - a microbial fairy tale of DNA and RNA</title>
+      <link>http://himelmallick.github.io/post/happily_ever_after/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/post/happily_ever_after/</guid>
+      <description>&lt;p&gt;This is a repost backdated to match the original post that appeared in &lt;a href=&#34;https://naturemicrobiologycommunity.nature.com/&#34; target=&#34;_blank&#34;&gt;Nature Research Microbiology Community&lt;/a&gt; in &lt;a href=&#34;https://naturemicrobiologycommunity.nature.com/users/78027-himel-mallick/posts/29027-and-they-lived-happily-ever-after-a-microbial-fairy-tale-of-dna-and-rna&#34; target=&#34;_blank&#34;&gt;January 2018&lt;/a&gt;. In case you are wondering, this post is a prelude to the &lt;a href=&#34;https://www.nature.com/articles/s41564-017-0084-4&#34; target=&#34;_blank&#34;&gt;following publication&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy reading my first ever technical blog post as much as I enjoyed writing it :)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

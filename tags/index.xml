@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Hello, World!</title>
+    <link>http://himelmallick.github.io/tags/</link>
+      <atom:link href="http://himelmallick.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jan 2024 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>Tags</title>
+      <link>http://himelmallick.github.io/tags/</link>
+    </image>
+    
+    <item>
+      <title>Career</title>
+      <link>http://himelmallick.github.io/tags/career/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/tags/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>http://himelmallick.github.io/tags/data-science/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://himelmallick.github.io/tags/r/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biostatistics</title>
+      <link>http://himelmallick.github.io/tags/biostatistics/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/biostatistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>http://himelmallick.github.io/tags/statistics/</link>
+      <pubDate>Thu, 20 Oct 2022 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/statistics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic Service</title>
+      <link>http://himelmallick.github.io/tags/academic-service/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/tags/academic-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peer Review</title>
+      <link>http://himelmallick.github.io/tags/peer-review/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/tags/peer-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>http://himelmallick.github.io/tags/research/</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/tags/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computational Biology</title>
+      <link>http://himelmallick.github.io/tags/computational-biology/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/computational-biology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academics</title>
+      <link>http://himelmallick.github.io/tags/academics/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/academics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Editing</title>
+      <link>http://himelmallick.github.io/tags/editing/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/editing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guest Editing</title>
+      <link>http://himelmallick.github.io/tags/guest-editing/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/guest-editing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microbiome</title>
+      <link>http://himelmallick.github.io/tags/microbiome/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/microbiome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multiomics</title>
+      <link>http://himelmallick.github.io/tags/multiomics/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/multiomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>http://himelmallick.github.io/tags/resume/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/tags/resume/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metabolomics</title>
+      <link>http://himelmallick.github.io/tags/metabolomics/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/metabolomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metagenomics</title>
+      <link>http://himelmallick.github.io/tags/metagenomics/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/metagenomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Micorobiome</title>
+      <link>http://himelmallick.github.io/tags/micorobiome/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/micorobiome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Multi-omics</title>
+      <link>http://himelmallick.github.io/tags/multi-omics/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/multi-omics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Source Themes</title>
+      <link>http://himelmallick.github.io/tags/source-themes/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>http://himelmallick.github.io/tags/source-themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaboration</title>
+      <link>http://himelmallick.github.io/tags/collaboration/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/collaboration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>http://himelmallick.github.io/tags/conference/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JSM</title>
+      <link>http://himelmallick.github.io/tags/jsm/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/tags/jsm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metatranscriptomics</title>
+      <link>http://himelmallick.github.io/tags/metatranscriptomics/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/tags/metatranscriptomics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>http://himelmallick.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://himelmallick.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Demo</title>
+      <link>http://himelmallick.github.io/tags/demo/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://himelmallick.github.io/tags/demo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

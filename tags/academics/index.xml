@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Academics | Hello, World!</title>
+    <link>http://himelmallick.github.io/tags/academics/</link>
+      <atom:link href="http://himelmallick.github.io/tags/academics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 15 Sep 2020 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>Academics</title>
+      <link>http://himelmallick.github.io/tags/academics/</link>
+    </image>
+    
+    <item>
+      <title>Celebrating milestones as a scientist</title>
+      <link>http://himelmallick.github.io/post/on_celebrating_milestones/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/post/on_celebrating_milestones/</guid>
+      <description>&lt;p&gt;As scientists, we rarely celebrate &lt;a href=&#34;https://www.sciencemag.org/careers/2018/12/what-s-milestone-reflecting-life-scientist&#34; target=&#34;_blank&#34;&gt;milestones&lt;/a&gt; be it a certain number of citations we have received or a certain number of impactful papers/patents we have co-authored. This is in sharp contrast to other professions where it is customary to celebrate even the tiniest bit of success in numbers. Be it how many runs a Cricketer has scored (yes I am an ardent Cricket fan!) or the number of box office successes a filmmaker has delivered.&lt;/p&gt;
+
+&lt;p&gt;Most of us who are in a research scientist track know very well that peer-reviewed publications constitute the bread and butter of a researcher&amp;rsquo;s career. Of course, how much weight it carries varies from sector to sector, which can range from anywhere between 0% to 100%. Regardless of whether we are at the lower end of the spectrum (which is possibly true for many industry scientists) or the upper end of the spectrum (e.g. academics in research institutes), it is undeniable that much of the reputation a scientist builds is derived from their publications/patents/products and the associated impact they have on the greater scientific community.&lt;/p&gt;
+
+&lt;p&gt;I don&amp;rsquo;t want to delve into the philosophical discussion of whether publications/patents/products are the only yardsticks to measure a scientist&amp;rsquo;s success. In stead, through this post, I want to embrace the importance of celebrating such milestones (however small that might seem) that define the trajectory of a scientist&amp;rsquo;s career. I truly hope that &amp;lsquo;celebration of milestones&amp;rsquo; becomes widespread in the science community.&lt;/p&gt;
+
+&lt;p&gt;Personally, September 2020 marks the milestone of 1000 Google Scholar citations which I believe is an important landmark for me even though it&amp;rsquo;s minuscule in the big scheme of things and I have miles to go before I sleep! This tiny feat wouldn&amp;rsquo;t be possible without my excellent collaborators, colleagues, friends, and mentors and I want to thank them all from the bottom of my heart!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Featured image source: &lt;a href=&#34;http://clipart-library.com/milestone-cliparts.html&#34; target=&#34;_blank&#34;&gt;Clipart Library&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

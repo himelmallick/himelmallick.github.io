@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Editorship | Hello, World!</title>
+    <link>/tags/editorship/</link>
+      <atom:link href="/tags/editorship/index.xml" rel="self" type="application/rss+xml" />
+    <description>Editorship</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 31 Jul 2020 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Editorship</title>
+      <link>/tags/editorship/</link>
+    </image>
+    
+    <item>
+      <title>A reflection on my first editorial experience</title>
+      <link>/post/editorial_reflection/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 -0400</pubDate>
+      <guid>/post/editorial_reflection/</guid>
+      <description>&lt;p&gt;Recently, I had a chance to wrap up a special issue at the journal &amp;lsquo;Frontiers in Genetics&amp;rsquo;. This is my first-hand experience as a lead Guest Associate Editor.&lt;/p&gt;
+
+&lt;p&gt;Ironically, this opportunity came to me at a time when I was exponentially busy as a postdoctoral fellow juggling research, occasional teaching and other administrative duties while also preparing my transition to a new role. I am so glad I took the chance when Frontiers in Genetics reached out to me in 2018.&lt;/p&gt;
+
+&lt;p&gt;The experience of (i) proposing a research topic, (ii) putting together a team of editors, (iii) reaching out to potential contributors, (iv) handling manuscripts on a shared basis, (v) assigning reviewers, (vi) deciding the fate of the manuscripts, and (vii) finally closing the special issue with an editorial - it has been a long and fulfilling journey.&lt;/p&gt;
+
+&lt;p&gt;There are 11 articles in this research topic including an editorial, where we have curated high-quality articles published between April 2019 and July 2020 on various topics in microbiome data science.&lt;/p&gt;
+
+&lt;p&gt;Some of the papers have already been highly shared over the last year or so and they have together generated &amp;gt;60K views within a short amount of time. Many thanks to all the authors and editorial contributors for your support.&lt;/p&gt;
+
+&lt;p&gt;I am looking forward to the second round of this Research Topic which is currently open for new research, methodology, review and comment articles.&lt;/p&gt;
+
+&lt;p&gt;I hope you all have a chance to catch up on some of the progress being made in the field :)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

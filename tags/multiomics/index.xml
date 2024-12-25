@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multiomics | Hello, World!</title>
+    <link>http://himelmallick.github.io/tags/multiomics/</link>
+      <atom:link href="http://himelmallick.github.io/tags/multiomics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multiomics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 Jul 2020 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>Multiomics</title>
+      <link>http://himelmallick.github.io/tags/multiomics/</link>
+    </image>
+    
+    <item>
+      <title>A reflection on my first guest editorial experience</title>
+      <link>http://himelmallick.github.io/post/guest_editing_reflection/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/post/guest_editing_reflection/</guid>
+      <description>&lt;p&gt;Recently, I had a chance to wrap up a &lt;a href=&#34;https://www.frontiersin.org/research-topics/8604/statistical-and-computational-methods-for-microbiome-multi-omics-data&#34; target=&#34;_blank&#34;&gt;special issue&lt;/a&gt; at the journal &lt;a href=&#34;https://www.frontiersin.org/&#34; target=&#34;_blank&#34;&gt;Frontiers in Genetics&lt;/a&gt;. This is my first-hand experience as a lead Guest Associate Editor.&lt;/p&gt;
+
+&lt;p&gt;Ironically, this opportunity came to me at a time when I was exponentially busy as a postdoctoral fellow juggling research, occasional teaching and other administrative duties while also preparing my transition to a new role. I am so glad I took the chance when the Frontiers editorial office reached out to me in 2018.&lt;/p&gt;
+
+&lt;p&gt;The experience of (i) proposing a research topic, (ii) putting together a team of co-editors, (iii) reaching out to potential contributors, (iv) handling manuscripts on a shared basis, (v) assigning reviewers, (vi) collectively deciding the fate of the manuscripts often over multiple rounds, and (vii) finally closing the special issue with an &lt;a href=&#34;https://www.frontiersin.org/articles/10.3389/fgene.2020.00927/full&#34; target=&#34;_blank&#34;&gt;editorial&lt;/a&gt; - it has been a long and fulfilling journey.&lt;/p&gt;
+
+&lt;p&gt;There are 11 articles in this research topic including an editorial, where we have curated high-quality articles published between April 2019 and July 2020 on various topics in microbiome and multi-omics data science (snapshotted below).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of the papers have already been highly shared over the last year or so and they have together generated &lt;a href=&#34;https://www.frontiersin.org/research-topics/8604/statistical-and-computational-methods-for-microbiome-multi-omics-data#impact&#34; target=&#34;_blank&#34;&gt;&amp;gt;60K&lt;/a&gt; views within a short amount of time. Many thanks to all the authors and editorial contributors for your support.&lt;/p&gt;
+
+&lt;p&gt;I am looking forward to the &lt;a href=&#34;https://www.frontiersin.org/research-topics/13026/methods-for-single-cell-and-microbiome-sequencing-data&#34; target=&#34;_blank&#34;&gt;second round&lt;/a&gt; of this Research Topic which is currently open for new research, methodology, review, and comment articles.&lt;/p&gt;
+
+&lt;p&gt;I hope you all have a chance to catch up on some of the progress made in the field :)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

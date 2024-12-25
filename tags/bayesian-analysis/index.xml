@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bayesian Analysis | Hello, World!</title>
+    <link>/tags/bayesian-analysis/</link>
+      <atom:link href="/tags/bayesian-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bayesian Analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Aug 2020 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>/img/icon-192.png</url>
+      <title>Bayesian Analysis</title>
+      <link>/tags/bayesian-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Revisiting my first PhD paper - A hard-fought battle with peer-review</title>
+      <link>/post/first_paper_memories/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 -0400</pubDate>
+      <guid>/post/first_paper_memories/</guid>
+      <description>&lt;p&gt;Unfortunately it was not a smooth journey. Here is the overall timeline: &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Bayesian Analysis: Submitted  08/30/2012, rejected 09/16/2012.  Not much to say here, except that I am grateful for the rapid decision that helped me move on to the next journal :)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Computational Statistics and Data Analysis: Submitted  09/20/2012, rejected 04/30/2013. This substantive delay was mentally agonizing.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Journal of Machine Learning Research: Submitted 04/30/2013, rejected 10/28/10 with some constructive reviews that led to a substantive improvement of the manuscript.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Statistics and Its Interface: Submitted 08/16/2013, first review 12/09/2013, resubmitted 05/20/2014 (got delayed by a few other dissertation projects), second revision requested 06/27/2014, revised version submitted 06/30/2014, accepted 8/15/2014. &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;What is your worst peer-review experience?&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

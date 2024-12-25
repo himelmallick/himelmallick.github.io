@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Micorobiome | Hello, World!</title>
+    <link>http://himelmallick.github.io/tags/micorobiome/</link>
+      <atom:link href="http://himelmallick.github.io/tags/micorobiome/index.xml" rel="self" type="application/rss+xml" />
+    <description>Micorobiome</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jul 2019 00:00:00 -0400</lastBuildDate>
+    <image>
+      <url>http://himelmallick.github.io/img/icon-192.png</url>
+      <title>Micorobiome</title>
+      <link>http://himelmallick.github.io/tags/micorobiome/</link>
+    </image>
+    
+    <item>
+      <title>Predicting the diverse metabolic activities of the microbiome</title>
+      <link>http://himelmallick.github.io/post/metabolite_prediction/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 -0400</pubDate>
+      <guid>http://himelmallick.github.io/post/metabolite_prediction/</guid>
+      <description>&lt;p&gt;This is a repost backdated to match the original post that appeared in &lt;a href=&#34;https://naturemicrobiologycommunity.nature.com/&#34; target=&#34;_blank&#34;&gt;Nature Research Microbiology Community&lt;/a&gt; in &lt;a href=&#34;https://naturemicrobiologycommunity.nature.com/users/78027-himel-mallick/posts/49662-predicting-the-diverse-metabolic-activities-of-the-microbiome&#34; target=&#34;_blank&#34;&gt;July 2019&lt;/a&gt;. It represents the backstory behind the &lt;a href=&#34;https://www.nature.com/articles/s41564-017-0084-4&#34; target=&#34;_blank&#34;&gt;following publication&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy the read. Comments and feedback are always welcome :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>And they lived happily ever after - a microbial fairy tale of DNA and RNA</title>
+      <link>http://himelmallick.github.io/post/happily_ever_after/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 -0500</pubDate>
+      <guid>http://himelmallick.github.io/post/happily_ever_after/</guid>
+      <description>&lt;p&gt;This is a repost backdated to match the original post that appeared in &lt;a href=&#34;https://naturemicrobiologycommunity.nature.com/&#34; target=&#34;_blank&#34;&gt;Nature Research Microbiology Community&lt;/a&gt; in &lt;a href=&#34;https://naturemicrobiologycommunity.nature.com/users/78027-himel-mallick/posts/29027-and-they-lived-happily-ever-after-a-microbial-fairy-tale-of-dna-and-rna&#34; target=&#34;_blank&#34;&gt;January 2018&lt;/a&gt;. In case you are wondering, this post is a prelude to the &lt;a href=&#34;https://www.nature.com/articles/s41564-017-0084-4&#34; target=&#34;_blank&#34;&gt;following publication&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;Image_1.png&#34; alt=&#34;image info&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy reading my first ever technical blog post as much as I enjoyed writing it :)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
