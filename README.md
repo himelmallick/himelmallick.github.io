@@ -1,57 +1,133 @@
 # himelmallick.github.io
 
-Personal website of Himel Mallick, built with [Quarto](https://quarto.org). Edit a file, push to GitHub, and the site rebuilds and publishes itself in about two minutes.
+Source for [himelmallick.org](https://www.himelmallick.org), the personal website of Himel Mallick, built with [Quarto](https://quarto.org).
 
-## Update the site
+The site is a small set of plain text files. It has a home page, a few list pages (experience, papers, software, awards) and a blog with an RSS feed. It adapts to phones, tablets and desktops, follows the visitor's light or dark setting, serves its own typeface, and publishes itself through GitHub Actions on every push.
 
-1. Open `himelmallick.github.io.Rproj` in RStudio and edit the file (see the table).
-2. Click **Render** to preview.
-3. In the **Git** tab: tick the changed files, **Commit**, then **Push**.
+The repository is meant as a resource for the community: you are welcome to use it as a base template for your own site. The steps below show how, by hand or with Claude.
 
-## Where things are
+## Use this as a starting point
 
-| To change | Edit |
+You need [Quarto](https://quarto.org/docs/get-started/) and a GitHub account. RStudio or Positron is optional.
+
+**1. Get your own copy.** Fork this repository (or download it) and name your copy `<your-username>.github.io`.
+
+**2. Preview it.** In the project folder:
+
+```
+quarto preview
+```
+
+**3. Replace the content with yours.**
+
+| File | What to change |
 |---|---|
-| Name, tagline, biography, research areas, profile links, lab video | `index.qmd` |
-| Main photo (600 x 900 pixels) | `assets/himel-mallick.jpg` |
-| Jobs and skills | `experience/index.qmd` |
-| Notable Papers | `papers/index.qmd` |
-| Notable Software | `software/index.qmd` |
-| Honors and Awards | `awards/index.qmd` |
-| A blog post | `post/<name>/index.qmd` |
-| Menu, footer, CV and Resume links | `_quarto.yml` |
-| Colors and type | `assets/theme.scss`, `assets/theme-dark.scss` |
+| `_quarto.yml` | Site title, description, `site-url`, menu, CV links, footer |
+| `index.qmd` | Name, tagline, biography, research areas, education, profile links, contact |
+| `assets/himel-mallick.jpg` | Your photo (600 x 900 pixels). Rename it and update the name in `index.qmd` |
+| `experience/index.qmd` | Positions and skills |
+| `papers/index.qmd` | Papers |
+| `software/index.qmd` | Software |
+| `awards/index.qmd` | Honors and awards |
+| `post/` | Delete the existing post folders. Keep `_template`, `_metadata.yml` and `index.qmd` |
+| `assets/theme.scss` | Six colors at the top set the palette. `assets/theme-dark.scss` holds the dark versions |
+| `assets/favicon.svg` | The browser tab icon |
 
-To add a paper, software package or award, copy an existing entry in that file and change it.
+Two parts of the home page are specific to this site and can be removed from `index.qmd`: the "Mallick Lab" video section, and the line `{{< include assets/_laplace.html >}}`, which draws the curve under the name.
 
-## Posts
+To drop a page, delete its folder and remove it from `render` and `navbar` in `_quarto.yml`. To add one, create `<name>/index.qmd` and add it in the same two places.
+
+**4. Publish.** In your repository on GitHub, open Settings, then Pages, and set Source to **GitHub Actions**. Push your changes. The workflow in `.github/workflows/publish.yml` builds the site and publishes it at `https://<your-username>.github.io` in about two minutes.
+
+## Adapt it with Claude
+
+This site was moved from Hugo to Quarto and redesigned with the help of [Claude](https://claude.com). You can make the template yours the same way. Open your copy of the project folder in Claude Code (or give Claude access to the folder) and work through prompts like the ones below, one at a time. Review each change in `quarto preview` before moving on.
+
+**1. Replace the content.**
+
+```
+This folder is a Quarto personal website I am using as a template. My CV is
+attached. Replace the content of index.qmd, experience/index.qmd,
+papers/index.qmd, software/index.qmd and awards/index.qmd with my information.
+Keep the layout, the styles and the file structure unchanged. Ask me about
+anything my CV does not cover.
+```
+
+**2. Update the site settings.**
+
+```
+Update _quarto.yml for me: site title, description, site-url
+(https://<my-username>.github.io), the menu, the CV and Resume links and the
+footer. My details are: <name, affiliation, address, email, GitHub handle>.
+```
+
+**3. Swap the photo and remove what is specific to the original site.**
+
+```
+Use the attached photo as the main portrait: crop it to 600 x 900 pixels, save
+it in assets/ under my name and update index.qmd. Remove the "Mallick Lab" video
+section and the curve under the name. Delete the existing posts and keep
+post/_template, post/_metadata.yml and post/index.qmd.
+```
+
+**4. Change the look (optional).**
+
+```
+Change the accent color to <color> in assets/theme.scss and choose a matching
+dark-mode value in assets/theme-dark.scss. Check that links and headings keep
+enough contrast in both modes.
+```
+
+**5. Bring your old posts along (optional).**
+
+```
+My current site is at <address> (source in <folder>). Move its blog posts into
+post/, one folder per post, and keep every post at the same web address it has
+today. List anything that could not be carried over.
+```
+
+**6. Check the result.**
+
+```
+Render the site and check every page at phone, tablet and desktop widths.
+Report broken links, missing images, text that overflows and anything that
+loads from a third-party server, then fix what you find.
+```
+
+**7. Publish.**
+
+```
+Walk me through the first push to GitHub for this site, including the GitHub
+Pages setting, and tell me how to confirm that the publishing workflow ran.
+```
+
+## Everyday use
+
+1. Edit a file.
+2. Run `quarto preview`, or click **Render** in RStudio.
+3. Commit and push. The site republishes itself.
 
 **New post.** Copy `post/_template` to `post/my_new_post`, edit `index.qmd` inside it, put pictures in the same folder, and delete the line `draft: true` when it is ready. The folder name becomes the address `/post/my_new_post/`.
 
 **Unpublish a post.** Move its folder from `post/` to `_drafts/`. That folder is never built and never sent to GitHub.
 
-## First push (once)
+**If a build fails.** The Actions tab shows a red cross and the live site keeps its last good version. The cause is nearly always a typo in the block between the two `---` lines at the top of a `.qmd` file.
 
-1. On GitHub: repository Settings, Pages, set Source to **GitHub Actions**.
-2. Create a token in the R console:
+## What is in the repository
 
-   ```r
-   usethis::create_github_token()
-   gitcreds::gitcreds_set()
-   ```
+```
+_quarto.yml              site settings: menu, footer, theme
+index.qmd                home page
+experience/ papers/ software/ awards/
+                         one page each, in index.qmd
+post/                    blog: one folder per post, plus the list page
+assets/theme.scss        the look of the site
+assets/theme-dark.scss   dark-mode colors
+assets/fonts/            STIX Two Text, served from the site itself
+assets/post-image.lua    shows a post's image above its text
+.github/workflows/       automatic publishing
+```
 
-3. In the RStudio Terminal:
+## Reuse
 
-   ```
-   git init -b master
-   git remote add origin https://github.com/himelmallick/himelmallick.github.io
-   git add --all
-   git commit -m "Rebuild site with Quarto"
-   git push -f origin master
-   ```
-
-4. Watch the Actions tab on GitHub. A green check means the site is live.
-
-## If a build fails
-
-The Actions tab shows a red cross and the live site keeps its last good version. The cause is nearly always a typo in the block between the two `---` lines at the top of a `.qmd` file. Fix it and push again.
+The layout, styles and configuration are free to reuse for your own site. The text, photo and blog posts are Himel Mallick's own, so please replace them. The typeface is STIX Two Text, under the SIL Open Font License (see `assets/fonts`).
