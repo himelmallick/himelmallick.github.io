@@ -1,0 +1,7 @@
+---
+title: "Page Not Found"
+---
+
+This page does not exist. It may have moved when the site was rebuilt.
+
+Go to the [home page](/) or browse [all posts](/post/).

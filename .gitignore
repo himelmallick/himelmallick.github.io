@@ -1,0 +1,16 @@
+/_site/
+/.quarto/
+.DS_Store
+.Rhistory
+.Rproj.user/
+
+**/*.quarto_ipynb
+
+# Unpublished posts stay on your computer and are never pushed to GitHub
+/_drafts/
+
+# Old versions of the site kept for reference; never pushed to GitHub
+/Attic/
+
+# Temporary folders Quarto creates while rendering
+**/index_files/

@@ -1,0 +1,41 @@
+---
+title: "Yearender: Looking back at 2021"
+date: 2021-12-31
+categories: [Research, Career, Statistics, Biostatistics, Data Science, Academic Service, Peer Review]
+image: featured.jpg
+---
+
+Every year a set of memes is circulated widely on social media, the 2022 version of which goes along the lines of:
+
+`My goal for 2022 is to accomplish the goals of 2021 which I should have done in 2020 because I made a promise in 2019 and planned in 2018.`
+
+Over the years, this remained my most favorite 'new year' meme for no real reason other than that it was hilarious, funny, and relatable, but in 2021, the actuality of these lines hit me hard as it tested my mettle out and out by bestowing a series of unfinished businesses and frequent hiccups throughout the year!
+
+The timeline of this blog post spans approximately two pandemic years (2020-2021) as it dates back to my planned month-long India trip when the COVID-19 situation in India was better than what it was in the US (Fall, 2020). A chain of abrupt COVID cancellations later, my much-awaited India trip finally materialized in April 2021 - little did I know that my spring sojourn was on the verge of becoming a lengthy nightmare.
+
+A few weeks into my arrival, [a second wave of the global disease outbreak](https://en.wikipedia.org/wiki/Timeline_of_the_COVID-19_pandemic_in_April_2021) wreaked havoc across the nation. With a nearly collapsed health care system, India's pandemic suddenly turned into a human tragedy in quick succession. As the difficult days unfolded, it was just a matter of time that the COVID-19 pandemic disrupted the normal living, and I was no exception.
+
+The unprecedented consequences of the pandemic have been widely reported in the media but there are a few things that personally affected me more than anything, which broadly manifested as a general decrease in productivity at the expense of regular mental and emotional breakdowns, including but not limited to:
+
+- **Insurmountable personal losses** (It's one thing to read the news or track the worldometer, but it's a whole different ballgame to witness personal losses up close and personal and hear individual stories that are [beyond heartbreaking](https://www.reuters.com/world/india/situation-india-beyond-heartbreaking-who-chief-says-2021-04-26/).)
+
+- **Delayed academic collaborations** (As much as I wanted to keep the [2020 momentum](http://himelmallick.github.io/post/year_end_reflection_2020/) going, [pandemic burnout](https://www.nature.com/articles/d41586-021-00663-2) turned out to be real, which slowly but surely led to an inevitable slowdown in productiveness.)
+
+- **COVID diagnosis with moderate-to-severe symptoms** (A massive turning point was testing postive for COVID-19 with fairly severe symptoms. Although I was fortunate to escape a visit to the hospital (thanks to [Favipiravir](https://en.wikipedia.org/wiki/Favipiravir)), the experience of end-to-end recovery was gruesome.)
+
+- **Immigration uncertainty and travel ban** (An icing on the cake was immigration uncertainty induced by closures of consulates and embassies and the subsequent travel ban (not to forget the curfews and lockdown measures from time to time). I mean nothing more painful than having a confirmed interview appointment, and then finding out that it was cancelled only after traveling 1000 miles. All in all, it took 5 months, several round-trip flights, and multiple letters and email exchanges to finally secure a VISA interview in the capital.)
+
+- **Aftermath of Hurricane Ida** (The final nail in the coffin came in the form of Hurricane Ida when I was able to finally return to the US in September 2021. In case you are wondering, life without a car in New Jersey is not as manageable as in other states, which is precisely why the experience of becoming a victim of a flooded out car (declared total loss by insurance) is not a great one. This was further exacerbated by an expired driver's license and [shortage of new cars in the area](https://nj1015.com/car-shopping-in-nj-right-now-is-a-nightmare-my-story-and-some-advice-opinion/), adding to the worry and already-mounting anxiety).
+
+As I come in terms with a particularly difficult year and reflect, there are a number of positive things that I am grateful for, which in turn made the journey a lot more easier:
+
+- A long overdue family reunion and precious quality time with the extended family
+- Completion of a six-month-long [leadership course](https://www.ccl.org/leadership-programs/leadership-development-program/)
+- \>10K [official downloads](http://bioconductor.org/packages/stats/bioc/Maaslin2/) of our software tool ([MaAsLin 2](https://huttenhower.sph.harvard.edu/maaslin/))
+- \>100 [Publons-verified reviews](https://publons.com/researcher/1190507/himel-mallick/) and \>2500 [Google Scholar citations](https://scholar.google.com/citations?user=twbXG-wAAAAJ&hl=en)
+- Back-to-back keynote presentations including an extremely fulfilling [BVCN featured talk](https://www.youtube.com/watch?v=YV_KRtMfqr0)
+- Promotion to Associate Principal Scientist at work
+
+To sum it up, instead of dwelling on the negatives, I made a solemn pledge this year to embrace things that didn't go well in 2021, which in retrospect, was precisely what I needed to press that reset button and start the new year on a high note! Welcome, 2022!
+
+Featured image source: <https://www.istockphoto.com/>.

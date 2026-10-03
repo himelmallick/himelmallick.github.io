@@ -1,0 +1,8 @@
+# Settings shared by every post
+filters:
+  - ../assets/post-image.lua
+title-block-banner: false
+# Lets the categories under a post title link back to the filtered list of posts.
+# (Quarto only writes this tag itself when site search is on.)
+header-includes: |
+  <meta name="quarto:offset" content="../../">

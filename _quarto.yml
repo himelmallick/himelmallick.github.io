@@ -1,0 +1,70 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "experience/"
+    - "awards/"
+    - "software/"
+    - "papers/"
+    - "post/"
+  resources:
+    - "post/**/*.R"
+    - "post/**/*.docx"
+    - "post/**/Rplot.pdf"
+    - "assets/fonts/*.woff2"
+
+website:
+  title: "Himel Mallick"
+  description: "Himel Mallick is a statistical scientist and Principal Investigator at Cornell University, with broad research interests in AI and medicine, working on problems at the intersection of computational biology and machine learning."
+  site-url: https://himelmallick.github.io
+  favicon: assets/favicon.svg
+  search: false
+  open-graph: true
+  twitter-card:
+    creator: "@Mallick_Himel"
+  navbar:
+    title: "Himel Mallick"
+    collapse-below: lg
+    right:
+      - text: About
+        href: index.qmd
+      - text: Experience
+        href: experience/index.qmd
+      - text: Papers
+        href: papers/index.qmd
+      - text: Software
+        href: software/index.qmd
+      - text: Posts
+        href: post/index.qmd
+      - text: Curriculum Vitae
+        menu:
+          - text: CV
+            href: "https://www.dropbox.com/scl/fi/ij55y5rrbvv43vnaof5bs/CV_Himel_Mallick.pdf?rlkey=7ml4tszlvzjemxmxiodnr9j22&st=4xvgj2jc&dl=0"
+          - text: Resume
+            href: "https://www.dropbox.com/scl/fi/4tlby20n50ojk68q1lcp7/Resume_Himel_Mallick.pdf?rlkey=g1menxgovd41beibctvyv6tll&st=boqgvuqe&dl=0"
+  page-footer:
+    left: "Himel Mallick, Weill Cornell Medicine, 425 E 61st St, New York, NY 10065"
+    right: "[Email](mailto:him4004@med.cornell.edu) [GitHub](https://github.com/himelmallick) [RSS](/post/index.xml)"
+
+format:
+  html:
+    theme:
+      light: [default, assets/theme.scss]
+      dark: [default, assets/theme.scss, assets/theme-dark.scss]
+    respect-user-color-scheme: true
+    css: assets/fonts/fonts.css
+    page-layout: full
+    toc: false
+    anchor-sections: false
+    smooth-scroll: false
+    link-external-newwindow: true
+    link-external-icon: false
+    citations-hover: false
+    footnotes-hover: false
+    code-copy: true
+    highlight-style:
+      light: github
+      dark: github-dark
+    date-format: "MMM D, YYYY"
+    lang: en

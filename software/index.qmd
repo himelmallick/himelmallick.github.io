@@ -1,0 +1,22 @@
+---
+title: "Notable Software"
+---
+
+Top 5 are shown. Full list is [here](https://github.com/himelmallick).
+
+::: {.software}
+[MaAsLin2](https://github.com/biobakery/Maaslin2)
+: Multivariable association between phenotypes, environments, exposures, covariates and microbial meta-omics features. Also on [Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/Maaslin2.html).
+
+[MelonnPan](https://github.com/biobakery/melonnpan)
+: Prediction of metabolite compositions from microbiome sequencing data.
+
+[Tweedieverse](https://github.com/himelmallick/Tweedieverse)
+: Differential analysis of omics data based on the Tweedie distribution.
+
+[BayesRecipe](https://github.com/himelmallick/BayesRecipe)
+: Bayesian reciprocal regularization for regression and classification.
+
+[IntegratedLearner](https://github.com/himelmallick/IntegratedLearner)
+: Integrated machine learning that consolidates predictions across longitudinal and cross-sectional omics layers and quantifies the uncertainty of the integration.
+:::

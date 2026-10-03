@@ -1,0 +1,22 @@
+---
+title: "Title of the post"
+date: 2026-01-01
+categories: [Research, Statistics]
+image: featured.jpg        # optional: shown above the text and on social cards
+image-alt: "One sentence describing the image"
+draft: true                # delete this line when the post is ready
+---
+
+Write the post here in Markdown.
+
+## A section heading
+
+Put pictures in this folder and include them like this:
+
+![](figure.png){fig-alt="One sentence describing the picture"}
+
+R code is highlighted and gets a copy button:
+
+```r
+summary(lm(mpg ~ wt, data = mtcars))
+```

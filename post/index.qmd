@@ -1,0 +1,12 @@
+---
+title: "Posts"
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, reading-time]
+  categories: true
+  page-size: 20
+  feed: true
+html-math-method: plain
+---

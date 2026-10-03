@@ -1,0 +1,351 @@
+/*-- scss:defaults --*/
+
+// Palette. Change these six values to recolor the whole site.
+$paper:      #ffffff !default;   // page background
+$wash:       #f2f5f4 !default;   // quiet bands and code blocks
+$ink:        #17212b !default;   // text
+$muted:      #5a6672 !default;   // dates, captions, secondary text
+$accent:     #b31b1b !default;   // links and the curve (Cornell carnelian)
+$rule:       #d8dedc !default;   // hairlines
+
+// Type. One serif family for everything, system monospace for code.
+$font-family-sans-serif: "STIX Two Text", "STIX Two Text Variable", Georgia, "Times New Roman", serif !default;
+$font-family-monospace:  ui-monospace, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace !default;
+$font-size-root:         19px !default;
+$line-height-base:       1.6 !default;
+$headings-font-weight:   600 !default;
+$headings-line-height:   1.2 !default;
+
+$body-bg:          $paper !default;
+$body-color:       $ink !default;
+$link-color:       $accent !default;
+$border-color:     $rule !default;
+$code-color:       $ink !default;
+$code-bg:          $wash !default;
+$code-block-bg:    $wash !default;
+
+$navbar-bg:        $paper !default;
+$navbar-fg:        $ink !default;
+$navbar-hl:        $accent !default;
+$footer-bg:        $paper !default;
+$footer-fg:        $muted !default;
+
+/*-- scss:rules --*/
+
+:root {
+  --paper: #{$paper};
+  --wash: #{$wash};
+  --ink: #{$ink};
+  --muted: #{$muted};
+  --accent: #{$accent};
+  --rule: #{$rule};
+  --page: 60rem;                          // overall page width
+  --measure: 36rem;                       // reading column
+  --gutter: clamp(1.25rem, 5vw, 3rem);
+}
+
+// ---- Page frame: one left edge shared by the navbar, the content and the footer
+
+body { font-variant-numeric: oldstyle-nums; text-rendering: optimizeLegibility; }
+
+.navbar { padding-inline: 0; }
+.navbar .navbar-container,
+#quarto-content.page-columns,
+footer.footer .nav-footer {
+  max-width: calc(var(--page) + 2 * var(--gutter));
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+// Quarto's column grid is replaced by a simpler one: the text, plus an
+// optional side column (used for the category filter on the posts page).
+#quarto-content.page-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: 4rem;
+  > main.content { grid-column: 1; padding: 0; margin-top: 2.5rem; margin-bottom: 4rem; }
+  > #quarto-margin-sidebar {
+    grid-column: 2; grid-row: 1; width: 13rem; padding: 0; margin: 2.5rem 0 0;
+    position: sticky; top: 5rem; align-self: start; height: auto;
+  }
+  > #quarto-margin-sidebar:not(:has(*)) { display: none; }
+}
+main.content > *:not(.hero):not(.laplace):not(.about):not(.timeline):not(.honors):not(.software) { max-width: var(--measure); }
+
+// ---- Navbar and footer
+
+.navbar {
+  border-bottom: 1px solid var(--rule);
+  padding-block: 0.6rem;
+  .navbar-brand { font-weight: 600; font-size: 1.1rem; letter-spacing: -0.005em; padding-left: 0; }
+  .navbar-nav .nav-link { font-size: 1rem; padding-inline: 0.7rem; }
+  .navbar-nav .nav-link.active { color: var(--accent); }
+  .navbar-toggler { border: 0; padding-left: 0; }
+  .navbar-toggler:focus { box-shadow: none; }
+  .quarto-navbar-tools { margin-left: 0.4rem; }
+  @media (min-width: 992px) {
+    .navbar-collapse { order: 2; }
+    .quarto-navbar-tools { order: 3; }
+  }
+  @media (max-width: 991.98px) {
+    .navbar-nav .nav-link { padding-inline: 0; }
+  }
+}
+
+footer.footer { border-top: 1px solid var(--rule); }
+footer.footer .nav-footer {
+  padding-block: 1.25rem;
+  font-size: 0.85rem;
+  .nav-footer-left, .nav-footer-right { color: var(--muted); }
+  .nav-footer-left { text-align: left; }
+  .nav-footer-right a { margin-left: 1.1rem; }
+  .nav-footer-center { display: none; }
+}
+
+// Quarto draws these two icons as inline pictures, so the 176 KB icon font
+// never needs to download. This keeps the browser from fetching it anyway.
+.quarto-color-scheme-toggle .bi::before,
+.code-copy-button .bi::before { font-family: inherit !important; }
+
+// ---- Text
+
+a { text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+h1, .h1 { font-size: 2.35rem; letter-spacing: -0.015em; margin-top: 0; }
+h2, .h2 { font-size: 1.45rem; margin-top: 2.6rem; margin-bottom: 0.8rem; border: 0; padding: 0; }
+h3, .h3 { font-size: 1.15rem; margin-top: 2rem; }
+
+main.content p, main.content li { hanging-punctuation: first; }
+main.content ul, main.content ol { padding-left: 1.2rem; }
+main.content .about-side ul { padding-left: 0; }
+main.content li + li { margin-top: 0.3rem; }
+
+code { font-size: 0.82em; padding: 0.1em 0.3em; border-radius: 3px; }
+pre, div.sourceCode { font-size: 0.8rem; border-radius: 4px; }
+div.sourceCode { border: 1px solid var(--rule); background: var(--wash); }
+div.sourceCode pre { padding: 0.9rem 1rem; margin: 0; }
+pre:not(.sourceCode) { background: var(--wash); border: 1px solid var(--rule); padding: 0.9rem 1rem; }
+
+// ---- Home
+
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 14.5rem;
+  gap: 2.5rem 3.5rem;
+  align-items: end;
+  margin-top: 1.5rem;
+}
+.hero .hero-name {
+  font-size: clamp(2.7rem, 7.2vw, 4.6rem);
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.1rem;
+}
+.credentials {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0;
+  color: var(--muted);
+  margin-top: 0.9rem;
+}
+.hero-role { display: block; font-size: 1.15rem; font-weight: 600; }
+.hero-text p { margin: 0 0 0.5rem; max-width: 31rem; }
+.hero-text p:last-child { font-size: 1.15rem; line-height: 1.5; margin-bottom: 0; }
+.hero .hero-portrait, .hero > p { margin: 0; }
+.hero-portrait { width: 100%; height: auto; display: block; border-radius: 3px; border: 1px solid var(--rule); }
+
+// The one flourish: a Laplace density drawn as the rule under the introduction.
+.laplace {
+  margin: 0.25rem 0 0;
+  svg { display: block; width: 100%; height: clamp(5rem, 13vw, 8.5rem); overflow: visible; }
+  .laplace-fill { fill: var(--wash); }
+  .laplace-axis { stroke: var(--rule); stroke-width: 1; vector-effect: non-scaling-stroke; }
+  .laplace-line {
+    fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-linejoin: round;
+    vector-effect: non-scaling-stroke;
+    stroke-dasharray: 1; stroke-dashoffset: 0;
+    animation: laplace-draw 1.6s cubic-bezier(0.6, 0, 0.2, 1) both;
+  }
+  figcaption { font-size: 0.82rem; font-style: italic; color: var(--muted); text-align: right; margin-top: 0.45rem; }
+  figcaption a { color: inherit; }
+}
+@keyframes laplace-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) { .laplace .laplace-line { animation: none; } }
+
+.about {
+  display: grid;
+  grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr);
+  gap: 0 4rem;
+  margin-top: 1rem;
+}
+.about-main { max-width: var(--measure); }
+.about-main h2 { margin-top: 2.75rem; }
+.about-side {
+  font-size: 0.92rem;
+  section { margin-top: 2.2rem; }
+  section:first-child { margin-top: 3rem; }
+  h2 { font-size: 1.1rem; margin-top: 0; margin-bottom: 0.5rem; }
+  ul { list-style: none; margin-bottom: 0; }
+  li + li { margin-top: 0.4rem; }
+  .where { color: var(--muted); }
+}
+
+// The lab video: nothing is downloaded until the visitor presses play.
+.lab-video { margin: 0.4rem 0 0; }
+.lab-video-frame {
+  position: relative; aspect-ratio: 16 / 9; background: var(--wash);
+  border: 1px solid var(--rule); border-radius: 3px; overflow: hidden;
+}
+.lab-video video { display: block; width: 100%; height: 100%; background: transparent; }
+.lab-video-play {
+  position: absolute; inset: 0; z-index: 1; width: 100%;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.7rem;
+  border: 0; background: var(--wash); color: var(--ink); font: inherit; font-size: 0.95rem; cursor: pointer;
+  circle { fill: var(--accent); }
+  path { fill: var(--paper); }
+  svg { transition: transform 0.15s ease; }
+  &:hover svg { transform: scale(1.06); }
+  &[hidden] { display: none; }
+}
+.lab-video figcaption { font-size: 0.86rem; color: var(--muted); margin-top: 0.5rem; }
+@media (prefers-reduced-motion: reduce) { .lab-video-play svg { transition: none; } }
+
+.more { display: inline-block; margin-top: 0.6rem; font-size: 0.95rem; }
+.contact p { margin: 0; }
+
+// ---- Lists of posts (home and /post/)
+
+.quarto-listing { margin-top: 0; }
+.quarto-listing-default {
+  .quarto-post {
+    display: grid;
+    grid-template-columns: 6.6rem minmax(0, 1fr);
+    column-gap: 1.25rem;
+    align-items: baseline;
+    border-bottom: 1px solid var(--rule);
+    padding: 0.85rem 0;
+    margin: 0;
+  }
+  .quarto-post:first-child { border-top: 1px solid var(--rule); }
+  .quarto-post .metadata {
+    order: -1; flex: none; width: auto; margin: 0; text-align: left;
+    font-size: 0.86rem; color: var(--muted); font-variant-numeric: tabular-nums lining-nums;
+  }
+  .quarto-post .metadata .listing-date, .quarto-post .metadata .listing-reading-time { display: block; margin: 0; }
+  .quarto-post .metadata .listing-reading-time { font-size: 0.78rem; }
+  .quarto-post .body { flex: none; min-width: 0; }
+  .quarto-post .body .listing-title { font-size: 1.12rem; font-weight: 600; line-height: 1.3; margin: 0; }
+  .quarto-post .body .listing-description { font-size: 0.92rem; color: var(--muted); margin: 0.3rem 0 0; }
+  .quarto-post .body .listing-description p { margin: 0; }
+  .quarto-post a { text-decoration: none; color: inherit; }
+  .quarto-post .listing-title a:hover { color: var(--accent); text-decoration: underline; }
+}
+
+// ---- Post pages
+
+#title-block-header.quarto-title-block.default {
+  margin-bottom: 1.75rem;
+  .quarto-title h1.title { margin-bottom: 0.6rem; }
+  .quarto-title .quarto-categories { gap: 0.15rem 0.9rem; padding: 0; margin: 0; }
+  .quarto-title .quarto-category {
+    border: 0; padding: 0; opacity: 1; text-transform: none;
+    font-size: 0.86rem; color: var(--muted);
+    a { color: inherit; text-decoration-color: var(--rule); }
+  }
+  .quarto-title-meta { margin-top: 0.5rem; }
+  .quarto-title-meta-heading { display: none; }
+  .quarto-title-meta-contents p { margin: 0; font-size: 0.86rem; color: var(--muted); font-variant-numeric: lining-nums; }
+}
+
+.post-lead { margin: 0 0 1.75rem; }
+main.content img { max-width: 100%; height: auto; }
+main.content img:not(.hero-portrait) { border: 1px solid var(--rule); border-radius: 3px; background: #fff; }
+main.content figure { margin: 1.5rem 0; }
+
+// Category filter beside the list of posts
+.quarto-listing-category-title { font-size: 1.1rem; font-weight: 600; margin-top: 0; }
+.quarto-listing-category { font-size: 0.9rem; }
+.quarto-listing-category .category { color: var(--muted); }
+.quarto-listing-category .category.active, .quarto-listing-category .category:hover { color: var(--accent); }
+
+// ---- Experience
+
+.timeline { max-width: 50rem; }
+.role {
+  display: grid;
+  grid-template-columns: 9.5rem minmax(0, 1fr);
+  column-gap: 1.5rem;
+  padding: 1.4rem 0;
+  border-top: 1px solid var(--rule);
+  > * { grid-column: 2; margin-top: 0; }
+  > p:first-child { grid-column: 1; grid-row: 1 / span 6; margin: 0.15rem 0 0; }
+  h2 { font-size: 1.2rem; margin: 0 0 0.15rem; }
+  .when { font-size: 0.86rem; color: var(--muted); font-variant-numeric: tabular-nums lining-nums; }
+  .org { color: var(--muted); }
+  p, ul { margin-bottom: 0.6rem; font-size: 0.95rem; }
+  ul:last-child, p:last-child { margin-bottom: 0; }
+}
+.skills-heading { font-size: 1.45rem; margin-top: 3rem; margin-bottom: 1rem; max-width: 50rem !important; }
+main.content > .skills, .honors, .software { max-width: 50rem; }
+.software dl { display: grid; grid-template-columns: 11rem minmax(0, 1fr); margin: 0; }
+.software dt, .software dd { border-top: 1px solid var(--rule); padding: 0.7rem 0; margin: 0; }
+.software dt { grid-column: 1; font-weight: 600; padding-right: 1rem; overflow-wrap: anywhere; }
+.software dd { grid-column: 2; font-size: 0.95rem; }
+.software dd p { margin: 0; }
+.honors dl { display: grid; grid-template-columns: 11rem minmax(0, 1fr); margin: 0; }
+.honors dd p { margin: 0; }
+.papers dl { grid-template-columns: 5rem minmax(0, 1fr); }
+.papers dd > p > a:first-child, .papers dd > a:first-child { font-weight: 600; }
+.papers .where { color: var(--muted); font-size: 0.9em; }
+main.content > p > .more { margin-top: 1.4rem; }
+.honors dt, .honors dd { border-top: 1px solid var(--rule); padding: 0.7rem 0; margin: 0; }
+.honors dt { grid-column: 1; font-weight: 400; font-size: 0.86rem; color: var(--muted); padding-top: 0.85rem; font-variant-numeric: tabular-nums lining-nums; }
+.honors dd { grid-column: 2; font-size: 0.95rem; }
+.skills dl { display: grid; grid-template-columns: 13rem minmax(0, 1fr); margin: 0; font-size: 0.95rem; }
+.skills dt, .skills dd { border-top: 1px solid var(--rule); padding: 0.7rem 0; margin: 0; }
+.skills dt { font-weight: 600; grid-column: 1; padding-right: 1.5rem; }
+.skills dd { grid-column: 2; }
+
+// ---- Tablets: one text column, the side notes become a row of three
+
+@media (max-width: 991.98px) {
+  .about { grid-template-columns: minmax(0, 1fr); }
+  .about-side { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 2rem; margin-top: 1rem; }
+  .about-side section, .about-side section:first-child { margin-top: 2rem; }
+
+  // The category filter moves under the list of posts
+  #quarto-content.page-columns > #quarto-margin-sidebar {
+    display: block; grid-column: 1; grid-row: 2; position: static; width: auto; margin: -1.5rem 0 3rem;
+  }
+  #quarto-margin-sidebar .quarto-listing-category { display: flex; flex-wrap: wrap; gap: 0.2rem 1rem; }
+}
+
+// ---- Phones
+
+@media (max-width: 767.98px) {
+  .hero { grid-template-columns: 1fr; align-items: start; }
+  .hero-portrait { width: 9.5rem; }
+  .about-side { grid-template-columns: 1fr; }
+  .quarto-listing-default .quarto-post { grid-template-columns: 1fr; row-gap: 0.15rem; }
+  .quarto-listing-default .quarto-post .metadata .listing-date,
+  .quarto-listing-default .quarto-post .metadata .listing-reading-time { display: inline; margin-right: 0.75rem; }
+  .role { grid-template-columns: 1fr; }
+  .role > * { grid-column: 1; }
+  .role > p:first-child { grid-row: auto; margin-bottom: 0.3rem; }
+  .honors dl, .software dl { grid-template-columns: 1fr; }
+  .honors dt, .honors dd, .software dt, .software dd { grid-column: 1; }
+  .honors dt, .software dt { padding-bottom: 0; }
+  .honors dd, .software dd { border-top: 0; padding-top: 0.15rem; }
+  .skills dl { grid-template-columns: 1fr; }
+  .skills dt, .skills dd { grid-column: 1; }
+  .skills dt { padding-bottom: 0; }
+  .skills dd { border-top: 0; padding-top: 0.15rem; }
+  footer.footer .nav-footer { display: block; }
+  footer.footer .nav-footer .nav-footer-left, footer.footer .nav-footer .nav-footer-right { text-align: left; }
+  footer.footer .nav-footer .nav-footer-right a { margin: 0 1.1rem 0 0; }
+}

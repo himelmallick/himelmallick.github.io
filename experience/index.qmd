@@ -1,0 +1,119 @@
+---
+title: "Experience"
+---
+
+:::: {.timeline}
+
+::: {.role}
+[Apr 2023 – Present]{.when}
+
+## Principal Investigator
+
+[Cornell University, New York, NY]{.org}
+
+Building and managing a cross-disciplinary research group of computational scientists that brings powerful techniques associated with AI/ML/Statistics, Systems Biology, and Omics Data Science to create reverse translational solutions for target identification and biomarker discovery, significantly contributing to the understanding of complex biological processes, facilitate new treatments and cures, and improve public health outcomes
+:::
+
+::: {.role}
+[Mar 2019 – Apr 2023]{.when}
+
+## Senior Scientist/Associate Principal Scientist, Biostatistics
+
+[Merck Research Laboratories, Rahway, NJ]{.org}
+
+- Led multiple data science projects providing end-to-end bioinformatics and biostatistics support across all stages of biomarker discovery and development including assay quality control, drafting SAP, and performing statistical analyses
+- Supported Merck's internal efforts in the single-cell and spatial transcriptomics initiatives for translational oncology studies
+- Liaised with digital pathology scientists and bioinformaticians on crucial statistical analyses for both exploratory and clinical development purposes
+- Employed machine learning classification to the discovery of clinically actionable biomarkers from integrated multi-omics profiles to enable better disease outcome prediction and patient stratification
+- Secured funding to initiate and execute multiple academic collaborations to conduct research on various 5-year strategic initiatives specified by the organization
+- Successfully hired and co-mentored four Ph.D. summer interns towards the development and implementation of sophisticated statistical and AI/ML approaches for enabling personalized medicine
+- Published research across several disease areas (infectious diseases, oncology, and microbiology) that utilized innovative statistical methodology and systems biology techniques spanning a wide range of translational applications
+:::
+
+::: {.role}
+[Oct 2015 – Mar 2019]{.when}
+
+## Postdoctoral Associate, Computational Biology and Bioinformatics
+
+[Harvard University and Broad Institute, Cambridge, MA]{.org}
+
+- Lead developer of MaAsLin 2, a R/Bioconductor package for associating microbial multi-omic data with arbitrarily complex clinical metadata (\>100K official downloads)
+- Lead developer of MelonnPan, a computational method to predict metabolite profiles from metagenomic sequencing data using concepts from machine learning and ecology, implemented in R (\>300 citations)
+- Contributed to grant writing, manuscript preparation, interdisciplinary collaborations, and teaching and mentoring of graduate and undergraduate students and trainees
+:::
+
+::: {.role}
+[May 2015 – Aug 2015]{.when}
+
+## Intern, Biostatistics
+
+[Mayo Clinic, Rochester, MN]{.org}
+
+Developed Bayesian adaptive trial designs for clinical trials utilizing surrogate endpoints in the presence of biomarkers
+:::
+
+::: {.role}
+[May 2014 – Aug 2014]{.when}
+
+## Intern, Biostatistics
+
+[Novartis Pharmaceuticals Corporation, East Hanover, NJ]{.org}
+
+Developed novel Bayesian methods to conduct heterogeneity of treatment effect (HTE) analyses in phase III clinical trials
+:::
+
+::: {.role}
+[Jun 2013 – Aug 2013]{.when}
+
+## Intern, Biostatistics
+
+[University of Arkansas for Medical Sciences, Little Rock, AR]{.org}
+
+Developed methods for detecting maternal-fetal gene-gene interactions associated with obstructive heart defects in newborns from mother-offspring paired genetic data
+:::
+
+::: {.role}
+[Aug 2010 – Apr 2015]{.when}
+
+## Research Assistant, Biostatistics
+
+[University of Alabama at Birmingham, Birmingham, AL]{.org}
+
+- Developed Bayesian machine learning methods for high-dimensional feature selection in personalized medicine applications
+- Developed and validated risk prediction models for assessing short-term mortality in obese adults
+- Conducted high-dimensional predictive modeling of zero-inflated count phenotypes to identify genetic susceptibility markers in Rheumatoid Arthritis patients
+:::
+
+::: {.role}
+[May 2008 – Jul 2008]{.when}
+
+## Intern, Biostatistics
+
+[Indian Statistical Institute, Kolkata, India]{.org}
+
+Performed research on non-linear statistical modeling of cross-sectional growth curve data by the Preece-Baines growth model
+:::
+
+::::
+
+# Skills {.skills-heading}
+
+::: {.skills}
+Statistical methods
+: Bayesian inference, high-dimensional regularization and variable selection, causal inference, uncertainty quantification, multiple instance learning
+
+Machine learning and AI
+: Multimodal AI, agentic AI, foundation models, large language models, multiview learning, transfer learning, conformal prediction, deep learning
+
+Omics data science
+: Microbiome multi-omics, single-cell and spatial omics, digital pathology and imaging, multimodal data integration, biomarker discovery
+
+Programming
+: R, Python, Julia, C/C++, SQL, SAS, MATLAB
+
+Deep learning frameworks
+: PyTorch, TensorFlow, Keras
+
+Research computing
+: High-performance computing, R/Bioconductor package development, Git, Shiny, Quarto, LaTeX, Adobe Illustrator
+:::
