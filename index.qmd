@@ -44,10 +44,11 @@ Himel is a [Fellow of the American Statistical Association (FASA)](https://www.a
 <figure class="lab-video">
   <div class="lab-video-frame">
     <button type="button" class="lab-video-play" onclick="this.hidden = true; this.nextElementSibling.play();">
+      <img src="assets/lab-video-poster.jpg" alt="" width="1280" height="720" loading="lazy" decoding="async">
       <svg viewBox="0 0 64 64" width="64" height="64" aria-hidden="true"><circle cx="32" cy="32" r="31"/><path d="M26 20 L46 32 L26 44 Z"/></svg>
       <span>Play the lab video</span>
     </button>
-    <video controls preload="none" playsinline>
+    <video controls preload="none" playsinline poster="assets/lab-video-poster.jpg">
       <source src="https://www.dropbox.com/s/hw29ng589b4jhft/Mallick%20Lab%20new.mp4?raw=1" type="video/mp4">
     </video>
   </div>
@@ -66,7 +67,7 @@ Himel is a [Fellow of the American Statistical Association (FASA)](https://www.a
 ## Contact {#contact}
 
 ::: {.contact}
-[him4004@med.cornell.edu](mailto:him4004@med.cornell.edu)\
+[Contact me](mailto:him4004@med.cornell.edu)\
 425 E 61st St, New York, NY 10065
 :::
 ::::
