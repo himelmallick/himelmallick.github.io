@@ -5,7 +5,6 @@ date: 2026-10-04
 categories: [Quarto, AI, Career]
 image: featured.jpg
 image-alt: "The old Hugo home page on the left and the new Quarto home page on the right"
-draft: true                # delete this line when the post is ready
 ---
 
 This is my first blog post as a faculty member, and my first in almost four years. The last one went up in October 2022, a few months before I started my lab at Cornell, and the blog had been quiet ever since. So for my birthday this year, I gave myself a gift that was long overdue: a complete rebuild of this site, done over one weekend with an AI assistant.

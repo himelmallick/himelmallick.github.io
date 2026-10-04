@@ -1,6 +1,6 @@
 # The numbers under "stats" are written by assets/update-stats.R and assets/update-stats.py.
 stats:
-  citations_date: "October 3, 2026"
+  citations_date: "October 4, 2026"
   downloads_date: "October 4, 2026"
   citations:
     integratedlearner: "41"
