@@ -3,8 +3,10 @@
 -- once its date has passed, because the site is rebuilt every night.
 --
 -- Each entry has: date ("2027-03" or "2027-03-14"), type (course, keynote or
--- invited), title, where, and optionally link and note.
+-- invited), title, where, and optionally end (the last day of an event that
+-- runs over several days), link and note.
 
+local SHORT = { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }
 local MONTHS = { "January", "February", "March", "April", "May", "June", "July",
                  "August", "September", "October", "November", "December" }
 local LABELS = { course = "Short course", keynote = "Keynote", invited = "Invited talk" }
@@ -26,12 +28,22 @@ local function last_day(date)
   return date
 end
 
-local function pretty(date)
+local function pretty(date, finish)
   local y, m, d = date:match("^(%d%d%d%d)-(%d%d)-?(%d*)$")
   if not y then return date end
   local month = MONTHS[tonumber(m)] or m
-  if d ~= "" then return month .. " " .. tonumber(d) .. ", " .. y end
-  return month .. " " .. y
+  if d == "" then return month .. " " .. y end
+  local y2, m2, d2 = (finish or ""):match("^(%d%d%d%d)-(%d%d)-(%d%d)$")
+  if not y2 then return month .. " " .. tonumber(d) .. ", " .. y end
+  -- a range: "March 2–6, 2026" or "Nov 30–Dec 4, 2026"
+  if m2 == m then return month .. " " .. tonumber(d) .. "–" .. tonumber(d2) .. ", " .. y2 end
+  return SHORT[tonumber(m)] .. " " .. tonumber(d) .. "–" .. SHORT[tonumber(m2)] .. " " .. tonumber(d2) .. ", " .. y2
+end
+
+-- The day an event is over: its end date when it has one
+local function over(e)
+  if e["end"] then return text(e["end"]) end
+  return last_day(text(e.date))
 end
 
 local function entry_blocks(e, with_label)
@@ -57,7 +69,7 @@ end
 local function list_of(entries, with_label)
   local items = {}
   for _, e in ipairs(entries) do
-    items[#items + 1] = { { pandoc.Str(pretty(text(e.date))) }, { entry_blocks(e, with_label) } }
+    items[#items + 1] = { { pandoc.Str(pretty(text(e.date), e["end"] and text(e["end"]))) }, { entry_blocks(e, with_label) } }
   end
   return pandoc.Div({ pandoc.DefinitionList(items) }, pandoc.Attr("", { "honors", "talks" }))
 end
@@ -73,7 +85,7 @@ function Pandoc(doc)
   for i, e in ipairs(talks) do
     e.position = i                      -- keeps the order of the file when dates tie
     local kind = text(e.type)
-    if last_day(text(e.date)) >= today then
+    if over(e) >= today then
       upcoming[#upcoming + 1] = e
     elseif past[kind] then
       table.insert(past[kind], e)

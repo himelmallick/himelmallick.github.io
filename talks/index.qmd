@@ -7,6 +7,7 @@ invited-shown: 10     # how many past invited talks to list
 
 # One entry per event. An entry moves out of "Upcoming" by itself once its date has passed.
 #   date:  "2027-03" or "2027-03-14"
+#   end:   the last day, for an event that runs over several days (optional)
 #   type:  course, keynote or invited
 #   link and note are optional
 talks:
@@ -15,55 +16,83 @@ talks:
     type: course
     title: "Multimodal Integration and Multimodal Causal Inference using R/Bioconductor"
     where: "ENAR 2027 Short Course"
-    link: "https://github.com/himelmallick/ENAR2027MultimodalShortCourse"
-  - date: "2026-12"
+    link: "https://github.com/himelmallick/DataScienceWorkshops"
+  - date: "2026-11-30"
+    end: "2026-12-04"
     type: course
-    title: "Multimodal AI and Multimodal Causal Inference"
-    where: "Physalia Courses (Bayesian Statistics), Virtual"
-  - date: "2026-11"
+    title: "Bayesian Methods for Biomedical Data Science"
+    where: "Physalia Courses, Online"
+    link: "https://www.physalia-courses.org/courses-workshops/bayesian-in-compgen/"
+  - date: "2026-11-02"
+    end: "2026-11-06"
     type: course
-    title: "Multimodal AI and Multimodal Causal Inference"
-    where: "Physalia Courses (Causal Inference), Virtual"
+    title: "Causal AI Methods for Computational Biology"
+    where: "Physalia Courses, Online"
+    link: "https://www.physalia-courses.org/courses-workshops/causal-ai-methods/"
   - date: "2026-07-06"
     type: course
     title: "Multimodal Integration and Multimodal Causal Inference using R/Bioconductor"
     where: "ISMB 2026 Tutorial VT4, Virtual"
     link: "https://github.com/himelmallick/ISMB2026MultimodalShortCourse"
-  - date: "2026-04"
+    note: "Joint with Saptarshi Roy and Sreya Sarkar"
+  - date: "2026-06-01"
+    end: "2026-06-02"
     type: course
-    title: "Omics Data Science"
-    where: "Physalia Courses (Metatranscriptomics), Virtual"
-  - date: "2026-03"
+    title: "Orchestrating Microbiome Analysis with Bioconductor"
+    where: "EuroBioC 2026 Pre-conference Workshop, Turku, Finland"
+    link: "https://eurobioc2026.bioconductor.org/pages/pre-conference.html"
+    note: "Joint with Leo Lahti, Thomaz Bastiaanssen, Tuomas Borman, Anna Kaisanlahti and Giulio Benedetti"
+  - date: "2026-04-27"
+    end: "2026-04-29"
     type: course
-    title: "Multimodal AI and Multimodal Causal Inference"
-    where: "Physalia Courses (Multimodal AI for Systems Biology), Virtual"
-  - date: "2025-06"
+    title: "Statistical Methods for Metatranscriptomics"
+    where: "Physalia Courses, Online"
+    link: "https://www.physalia-courses.org/courses-workshops/metatranscriptomics/"
+  - date: "2026-03-02"
+    end: "2026-03-06"
     type: course
-    title: "Multimodal AI and Multimodal Causal Inference"
+    title: "Multimodal AI for Systems Biology"
+    where: "Physalia Courses, Online"
+    link: "https://www.physalia-courses.org/courses-workshops/multimodal-ai/"
+  - date: "2025-06-14"
+    type: course
+    title: "Multimodal Causal Inference for Data Science and Biomedical Research"
     where: "International Indian Statistical Association Conference, Lincoln, NE"
-  - date: "2024-12"
+    link: "https://www.intindstat.org/conference2025/shortCourses"
+  - date: "2025-03-24"
     type: course
-    title: "Omics Data Science"
+    title: "Statistical Methods for Biomarker Discovery Using Metabolomics"
+    where: "ENAR 2025 Spring Meeting Tutorial, New Orleans, LA"
+    link: "https://enar.org/meetings/spring2025/profdev/tutorials.cfm"
+    note: "Joint with Ali Rahnavard"
+  - date: "2024-12-29"
+    type: course
+    title: "Omics Data Science Workshop"
     where: "International Indian Statistical Association Conference, Kochi, Kerala, India"
-  - date: "2023-08"
+    link: "https://www.intindstat.org/conference2024/shortCourses"
+  - date: "2023-08-08"
     type: course
-    title: "Omics Data Science"
+    title: "Orchestrating Biomarker Discovery and Pathway Enrichment using Multi-omics Integration and Data Science"
     where: "Joint Statistical Meetings, Toronto, ON, Canada"
+    link: "https://github.com/omicsEye/Workshop/wiki/JSM2023"
     note: "Joint with Ali Rahnavard"
-  - date: "2022-02"
+  - date: "2022-02-07"
     type: course
-    title: "Omics Data Science"
-    where: "SDSU Data Science Conference, Brookings, SD"
+    title: "Omics Data Workshop"
+    where: "SDSU Data Science Symposium, Brookings, SD"
+    link: "https://openprairie.sdstate.edu/datascience_symposium/2022/sessions/2"
     note: "Joint with Ali Rahnavard"
-  - date: "2021-09"
+  - date: "2021-09-12"
     type: course
-    title: "Omics Data Science"
-    where: "ICSA Conference, Virtual"
+    title: "Biomarker Discovery and Pathway Enrichment Analysis of Omics Data"
+    where: "ICSA Applied Statistics Symposium, Virtual"
+    link: "https://symposium2021.icsa.org/wp-content/uploads/2021/07/Short-Courses-2021.pdf"
     note: "Joint with Ali Rahnavard"
-  - date: "2021-03"
+  - date: "2021-03-26"
     type: course
-    title: "Omics Data Science"
-    where: "George Washington University, Virtual"
+    title: "Omics Data Science Workshop: Downstream"
+    where: "The George Washington University, Virtual"
+    link: "https://github.com/omicsEye/Workshop/wiki/ODS2021"
     note: "Joint with Ali Rahnavard"
 
   # ---- Keynotes ----
@@ -158,7 +187,7 @@ talks:
     where: "Center for Artificial Intelligence and Machine Learning, Indian Statistical Institute, Kolkata, India"
 ---
 
-Upcoming and recent short courses and talks. The full list is in the [CV](https://www.dropbox.com/scl/fi/ij55y5rrbvv43vnaof5bs/CV_Himel_Mallick.pdf?rlkey=7ml4tszlvzjemxmxiodnr9j22&st=4xvgj2jc&dl=0).
+Upcoming and recent short courses and talks. Teaching materials are on [GitHub](https://github.com/himelmallick/DataScienceWorkshops), and the full list is in the [CV](https://www.dropbox.com/scl/fi/ij55y5rrbvv43vnaof5bs/CV_Himel_Mallick.pdf?rlkey=7ml4tszlvzjemxmxiodnr9j22&st=4xvgj2jc&dl=0).
 
 ## Upcoming
 
