@@ -17,6 +17,16 @@ talks:
     title: "Multimodal Integration and Multimodal Causal Inference using R/Bioconductor"
     where: "ENAR 2027 Short Course"
     link: "https://github.com/himelmallick/DataScienceWorkshops"
+  - date: "2027-03"
+    type: course
+    title: "Multimodal AI for Systems Biology"
+    where: "Physalia Courses, Online"
+    link: "https://www.physalia-courses.org/courses-workshops/multimodal-ai/"
+  - date: "2026-12"
+    type: course
+    title: "Deep Learning for Biological Data"
+    where: "Inserm"
+    note: "Joint with Jatin Chaudhary"
   - date: "2026-11-30"
     end: "2026-12-04"
     type: course
