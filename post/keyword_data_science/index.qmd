@@ -6,6 +6,8 @@ image: featured.jpg
 image-alt: "A 2x2 table of data science: near-perfect or imperfect data against near-perfect or imperfect science"
 ---
 
+*Update, October 2026: this post has a follow-up, [The key word in data science is still science](../keyword_still_science/index.qmd).*
+
 In 2013, I came across this famous [blog post](https://simplystatistics.org/posts/2013-12-12-the-key-word-in-data-science-is-not-data-it-is-science) by Jeff Leek. Little did I know that I would revisit this post 9 years down the lane. As it turns out, it's not a bad idea to revisit old work with fresh eyes and new perspectives, which is what I have attempted to do here based on personal experience.
 
 Without further ado, let's talk about a typical data science project and let's break it down into a few possible scenarios and their consequences (hint: the reality is always in between).
