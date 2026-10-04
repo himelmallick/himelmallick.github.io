@@ -1,0 +1,10 @@
+%% Page design. Quarto reads this file when it renders Resume_Master.qmd.
+%% One rule when editing here: type every dollar sign twice.
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[colorlinks, urlcolor=blue]{hyperref}
+\pagestyle{empty}
+\begin{document}
+$body$
+\end{document}

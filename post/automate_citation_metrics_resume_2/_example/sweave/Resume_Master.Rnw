@@ -1,0 +1,38 @@
+% Resume_Master.Rnw: the Sweave route. In RStudio, click Compile PDF.
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[colorlinks, urlcolor=blue]{hyperref}
+\pagestyle{empty}
+\begin{document}
+
+<<echo=FALSE>>=
+library(scholar)
+saved <- "scholar_metrics.rds"
+gs <- tryCatch(get_profile("twbXG-wAAAAJ"), error = function(e) NULL)
+if (is.list(gs) && !is.na(gs$total_cites)) saveRDS(gs, saved) else gs <- readRDS(saved)
+a <- gs$total_cites
+b <- gs$h_index
+c <- gs$i10_index
+@
+
+\begin{center}
+{\LARGE Himel Mallick}\\[4pt]
+Resume\_Master: a small example to try the method on
+\end{center}
+
+\section*{Publications}
+
+Google Scholar citations = \Sexpr{a}, h-index = \Sexpr{b}, i10-index = \Sexpr{c}
+
+\begin{enumerate}
+\item \textbf{Mallick H} et al. (2021). \href{https://doi.org/10.1371/journal.pcbi.1009442}{Multivariable Association Discovery in Population-scale Meta-omics Studies}. \textit{PLOS Computational Biology} 17(11):e1009442.
+
+\item \textbf{Mallick H}, Yi N (2018). \href{https://www.ncbi.nlm.nih.gov/pubmed/30906097}{Bayesian Bridge Regression}. \textit{Journal of Applied Statistics} 45(6):988--1008.
+
+\item \textbf{Mallick H}, Yi N (2017). \href{https://www.ncbi.nlm.nih.gov/pubmed/28943688}{Bayesian Group Bridge for Bi-level Variable Selection}. \textit{Computational Statistics and Data Analysis} 110:115--133.
+
+\item \textbf{Mallick H}, Yi N (2014). \href{https://www.ncbi.nlm.nih.gov/pubmed/27570577}{A New Bayesian Lasso}. \textit{Statistics and Its Interface} 7(4):571--581.
+\end{enumerate}
+
+\end{document}

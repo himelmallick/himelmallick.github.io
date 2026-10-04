@@ -14,3 +14,9 @@
 
 # Temporary folders Quarto creates while rendering
 **/index_files/
+
+# Files the example scripts in the posts create when you run them
+scholar-cache.json
+scholar_metrics.rds
+/post/**/_example/**/*.pdf
+/post/**/_example/**/*.tex

@@ -1,0 +1,44 @@
+---
+# Resume_Master.qmd: the Quarto route. In RStudio, click Render.
+format:
+  pdf:
+    template: resume-template.latex
+    pdf-engine: pdflatex
+    # latex-tinytex: false   # remove the first "#" if you use MacTeX and Quarto reports a TinyTeX error
+engine: knitr
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+source("scholar.R")
+scholar_setup(
+  id = "twbXG-wAAAAJ",                  # your Google Scholar profile
+  min_citations = 30,                   # papers with at least this many citations show a count
+  citation_format = "[Citations: %s]"   # how the count is written; %s is the number
+)
+```
+
+```{=latex}
+\begin{center}
+{\LARGE Himel Mallick}\\[4pt]
+Resume\_Master: a small example to try the method on
+\end{center}
+
+\section*{Publications}
+
+Google Scholar citations = \GSCitations{}, h-index = \GSHIndex{}, i10-index = \GSIIndex{}
+
+\begin{enumerate}
+%% citation counts: on
+\item \textbf{Mallick H} et al. (2021). \href{https://doi.org/10.1371/journal.pcbi.1009442}{Multivariable Association Discovery in Population-scale Meta-omics Studies}. \textit{PLOS Computational Biology} 17(11):e1009442.
+
+\item \textbf{Mallick H}, Yi N (2018). \href{https://www.ncbi.nlm.nih.gov/pubmed/30906097}{Bayesian Bridge Regression}. \textit{Journal of Applied Statistics} 45(6):988--1008.
+
+\item \textbf{Mallick H}, Yi N (2017). \href{https://www.ncbi.nlm.nih.gov/pubmed/28943688}{Bayesian Group Bridge for Bi-level Variable Selection}. \textit{Computational Statistics and Data Analysis} 110:115--133.
+
+\item \textbf{Mallick H}, Yi N (2014). \href{https://www.ncbi.nlm.nih.gov/pubmed/27570577}{A New Bayesian Lasso}. \textit{Statistics and Its Interface} 7(4):571--581.
+%% citation counts: off
+\end{enumerate}
+```

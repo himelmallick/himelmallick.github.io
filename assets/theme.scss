@@ -267,6 +267,7 @@ pre:not(.sourceCode) { background: var(--wash); border: 1px solid var(--rule); p
   }
   .quarto-title-meta { margin-top: 0.5rem; }
   .quarto-title-meta-heading { display: none; }
+  .quarto-title-meta-contents p.date-modified::before { content: "Updated "; }
   .quarto-title-meta-contents p { margin: 0; font-size: 0.86rem; color: var(--muted); font-variant-numeric: lining-nums; }
 }
 

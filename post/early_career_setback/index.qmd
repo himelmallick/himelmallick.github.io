@@ -3,8 +3,10 @@ title: "Early-career setback - A throwback to my first paper"
 date: 2020-08-20
 categories: [Peer Review, Career, Research, Statistics, Biostatistics, Data Science]
 image: featured.jpg
-image-alt: "Bar chart of the field-weighted citation impact of 'A New Bayesian LASSO' by year, above the world average of 1 from 2017 to 2019"
+image-alt: "Bar chart of the field-weighted citation impact of 'A New Bayesian LASSO' by year, above the world average of 1 in every year from 2017 to 2025"
 ---
+
+*Note: the figure above was regenerated on October 4, 2026. It now runs through 2025 and uses Google Scholar's yearly citation counts as they are, self-citations included. The text below is unchanged from 2020.*
 
 This 15th August marked 7 years since I submitted my [first paper](https://www.intlpress.com/site/pub/pages/journals/items/sii/content/vols/0007/0004/a012/) (first-authored research article). Coincidentally, it also completed five calendar years last December, which gave me a chance to measure it's [5-year impact](https://support.clarivate.com/ScientificandAcademicResearch/s/article/Journal-Citation-Reports-5-Year-Impact-Factors?language=en_US) (erring on the conservative side of course).
 

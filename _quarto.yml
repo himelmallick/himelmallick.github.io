@@ -17,7 +17,7 @@ project:
 website:
   title: "Himel Mallick"
   description: "Himel Mallick is a statistical scientist and Principal Investigator at Cornell University, with broad research interests in AI and medicine, working on problems at the intersection of computational biology and machine learning."
-  site-url: https://himelmallick.github.io
+  site-url: https://www.himelmallick.org
   favicon: assets/favicon.svg
   search: false
   open-graph: true
