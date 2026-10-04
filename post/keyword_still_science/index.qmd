@@ -4,6 +4,12 @@ date: 2026-10-04
 categories: [Statistics, Biostatistics, Data Science, AI]
 image: featured.jpg
 image-alt: "The 2x2 table of data science, 2026 edition: near-perfect or imperfect data against near-perfect or imperfect science, with an AI assistant at work in every cell"
+open-graph:
+  image: share.jpg
+  image-width: 1200
+  image-height: 630
+twitter-card:
+  image: share.jpg
 ---
 
 This is my first blog post as a faculty member, and my first in almost four years. The last one went up in October 2022, a few months before I started my lab at Cornell. It was a revisit of a famous commentary by Jeff Leek, so it seems fitting to pick up exactly where I left off.

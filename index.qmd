@@ -1,6 +1,16 @@
 ---
 pagetitle: "Himel Mallick, PhD, FASA"
 description-meta: "Statistical scientist and Principal Investigator at Cornell University, with broad research interests in AI and medicine."
+open-graph:
+  description: "Statistical scientist and Principal Investigator at Cornell University, with broad research interests in AI and medicine."
+  image: assets/share-card.jpg
+  image-alt: "Himel Mallick, PhD, FASA. Principal Investigator, Cornell University."
+  image-width: 1200
+  image-height: 630
+twitter-card:
+  description: "Statistical scientist and Principal Investigator at Cornell University, with broad research interests in AI and medicine."
+  image: assets/share-card.jpg
+  image-alt: "Himel Mallick, PhD, FASA. Principal Investigator, Cornell University."
 listing:
   id: recent-posts
   contents: "post/*/index.qmd"
