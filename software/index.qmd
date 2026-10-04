@@ -2,7 +2,7 @@
 title: "Notable Software"
 ---
 
-Top 5 are shown, ordered by citations. Full list is [here](https://github.com/himelmallick). Download counts are from Bioconductor, as of {{< var stats.downloads_date >}}, and citation counts are from Google Scholar, as of {{< var stats.citations_date >}}.
+Top 5 selected software. Full list is [here](https://github.com/himelmallick). Download counts are from Bioconductor and citation counts are from Google Scholar, as of {{< var stats.citations_date >}}.
 
 ::: {.software}
 [MaAsLin](https://github.com/biobakery/maaslin3)

@@ -100,6 +100,7 @@ talks:
     type: keynote
     title: "Foundation Models for Microbial Community Multiomics"
     where: "Bioinformatics Day, Finnish Society for Bioinformatics, Espoo, Finland"
+    link: "https://bioinf.fi/pages/bioinformatics-day-2026.html"
   - date: "2025-12"
     type: keynote
     title: "Multimodal AI for Microbiome Multiomics"
@@ -108,10 +109,12 @@ talks:
     type: keynote
     title: "Integrated Machine Learning for Multi-omics Prediction and Classification"
     where: "2023 International Conference on Technology, Applied Mathematics, and Statistics, University of Al-Qadisiyyah, Al Diwaniyah, Iraq"
+    link: "https://cmc.qu.edu.iq/en/2023/03/25/the-college-of-computer-science-and-information-technology-at-the-university-of-al-qadisiyah-holds-its-fifth-international-scientific-conference-on-information-technology-with-a-wide-academic-and-eli/"
   - date: "2021-06"
     type: keynote
     title: "Tweedieverse: A Single Home for Microbiome Multi-omics Differential Analysis"
     where: "2021 BVCN Conference, Bioinformatics Virtual Coordination Network"
+    link: "https://www.youtube.com/watch?v=YV_KRtMfqr0"
   - date: "2020-05"
     type: keynote
     title: "The Reciprocal Bayesian LASSO"
@@ -134,6 +137,7 @@ talks:
     type: invited
     title: "Multi-omics Data Integration with Bioconductor"
     where: "Bioconductor Africa Seminar Series"
+    link: "https://www.youtube.com/watch?v=N2W3jobpAqM"
     note: "Invited tutorial"
   - date: "2026-07"
     type: invited
@@ -149,6 +153,7 @@ talks:
     type: invited
     title: "Scalable Multimodal AI for Cancer Microbiome Epidemiology"
     where: "NCI Virtual Workshop on Emerging Technologies in Cancer Epidemiology"
+    link: "https://events.cancer.gov/dccps/emerging-technologies-cancer-epidemiology"
   - date: "2026-01"
     type: invited
     title: "Meta-analytic Microbiome Target Discovery for Immune Checkpoint Inhibitor Response in Advanced Melanoma"
@@ -165,6 +170,7 @@ talks:
     type: invited
     title: "An Integrated Bayesian Framework for Multi-omics Prediction and Classification"
     where: "Bayesian BioPharm Meeting, Los Angeles, CA"
+    link: "https://bnp14.org/bbp2025/"
   - date: "2025-06"
     type: invited
     title: "Bayesian Joint Additive Factor Models for Multiview Learning"

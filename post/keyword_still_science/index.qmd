@@ -37,6 +37,12 @@ In the same place Jeff Leek pointed to, with different day-to-day work:
 
 The last habit is the one I would teach first. When I ask an AI assistant for something consequential, the most valuable sentence in my request is the one that asks for proof: a comparison against a known answer, a held-out test, a validation that fluent writing cannot get around.
 
+## An example from my own field
+
+Microbiome research makes the point concrete. In a [recent essay](https://blekhman.substack.com/p/ai-keeps-failing-at-microbiome-prediction), Ran Blekhman reviews why AI keeps failing at microbiome prediction. In the largest benchmark he discusses, 156 modeling pipelines were compared across 83 gut microbiome cohorts and 20 diseases, and ridge regression and random forest came out on top, ahead of neural networks. In another study, a transformer trained on American Gut Project data was outperformed by a plain random forest on nearly every task. The reasons are scientific ones: the typical study has about 160 samples, more than half of the entries in an abundance table are zeros, and the signal linking microbes to disease is modest. In Blekhman's words, "the bottleneck is biological, not algorithmic."
+
+The same essay shows where deep learning does help: generalizing across studies, and integrating the microbiome with metabolomics, host gene expression or clinical data. Knowing which of the two situations you are in is the science.
+
 ## The 2026 edition of the table
 
 - Near-perfect data + AI: the win-win, only faster.

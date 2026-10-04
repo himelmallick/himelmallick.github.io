@@ -15,15 +15,13 @@ This post is the story of that weekend: why I left Hugo, how the work was divide
 
 My old site ran on [Hugo](https://gohugo.io/) with the Academic theme, through the [blogdown](https://pkgs.rstudio.com/blogdown/) package in R. It served me well for years. By 2026, it had three problems.
 
-<!-- HIMEL: add one concrete episode here if you have one, for example an update that broke the build, or a small edit you kept postponing because the process was painful. -->
-
 **The theme was frozen in time.** My copy of the Academic theme dated from 2019 and was written for a version of Hugo from that year. The theme has since been renamed twice, and Hugo itself has moved far ahead. The site could be built only with old tools, and upgrading it meant redoing it.
 
 **It was heavy for what it did.** The generated site had 1,078 files and weighed 48 MB. The home page fetched 16 files from third-party servers, including icon sets, a search library and a maps library, to display a biography. The menu had two items, and the site title still read "Hello, World!".
 
 **Publishing was manual.** Every change meant building the site on my laptop and pushing the generated pages by hand. That is enough friction to postpone a small edit for months, and months became years.
 
-I am far from the first to make this move. [Rob Hyndman](https://robjhyndman.com/hyndsight/quarto.html), [Nicola Rennie](https://nrennie.rbind.io/blog/hugo-quarto-website/) and [Robin Lovelace](https://robinlovelace.net/posts/2026-04-10-quarto-website-update/) have each described their own, and their posts make the case for Quarto well. What I can add is an account of doing it in 2026, with an AI assistant doing most of the typing.
+I am far from the first to make this move. [Rob Hyndman](https://robjhyndman.com/hyndsight/quarto.html), [Nicola Rennie](https://nrennie.rbind.io/blog/hugo-quarto-website/) and [Robin Lovelace](https://robinlovelace.net/posts/2026-04-10-quarto-website-update/) have each described their own, and their posts make the case for Quarto well. In short, Quarto is the better tool for a site that is mostly writing, code and a CV, and that one person has to keep alive for years; Hugo remains faster and more flexible for large or highly customized sites. What I can add is an account of doing it in 2026, with an AI assistant doing most of the typing.
 
 ## What I wanted
 
@@ -57,15 +55,13 @@ This is the part a tutorial leaves out.
 
 **4. My CV disappeared from the internet.** Quarto deletes the old PDF at the start of a build. My first build on my own computer failed, because of a leftover installation of a LaTeX distribution, and the PDF behind the public CV link was gone until I restored it from the archive. One line in the document settings now tells Quarto to use the LaTeX already installed on my computer.
 
-**5. Facebook cut my head off.** When I shared the new site, the link preview showed my shirt. Social networks crop preview images to a wide rectangle, and my home page was offering them a tall portrait. A dedicated wide image for link previews fixed it.
+**5. The link preview cut my head off.** When I shared the new site, the preview showed my shirt. Social networks crop preview images to a wide rectangle, and my home page was offering them a tall portrait. A dedicated wide image for link previews fixed it.
 
 **6. The assistant edited too much.** Asked to refresh an old post, it rewrote my text. Asked to update a chart, it redesigned the chart. In both cases I had it restore my original and limit itself to what I had asked for. An assistant that edits fast also edits freely, and it helps to say at the start which parts are yours and must stay as they are.
 
 **7. Google Scholar turned the assistant away.** The citation counts could not be fetched from the assistant's cloud workspace. The script therefore runs on my own computer, saves the numbers it receives, and reuses them on days when Google Scholar declines to answer.
 
 ## What I would tell a colleague
-
-<!-- HIMEL: these four are suggestions in your voice. Edit, replace or reorder them. -->
 
 - **Keep an archive of the old site.** Several of the problems above were solved from it.
 - **Review every change before it goes live.** A local preview takes seconds.

@@ -2,7 +2,7 @@
 title: "Notable Papers"
 ---
 
-Top 5 are shown, ordered by citations. Full list is [here](https://scholar.google.com/citations?user=twbXG-wAAAAJ&hl=en). Citation counts are from Google Scholar, as of {{< var stats.citations_date >}}.
+Top 5 selected publications. Full list is [here](https://scholar.google.com/citations?user=twbXG-wAAAAJ&hl=en). Citation counts are from Google Scholar, as of {{< var stats.citations_date >}}.
 
 ::: {.honors .papers}
 2021

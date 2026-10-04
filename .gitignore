@@ -14,6 +14,7 @@
 
 # Temporary folders Quarto creates while rendering
 **/index_files/
+/site_libs/
 
 # Files the example scripts in the posts create when you run them
 scholar-cache.json
