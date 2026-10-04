@@ -107,6 +107,18 @@ Pages setting, and tell me how to confirm that the publishing workflow ran.
 2. Run `quarto preview`, or click **Render** in RStudio.
 3. Commit and push. The site republishes itself.
 
+Everything works from a terminal, with no need to open RStudio. In the project folder:
+
+```
+quarto render                         # optional: build the whole site and catch errors before pushing
+quarto preview                        # optional: open a live preview in your browser
+git add -A
+git commit -m "Describe the change"
+git push
+```
+
+GitHub builds the site after every push, so pushing is all it takes to publish. The two `quarto` commands are for checking a change on your own computer first: `quarto render` builds the site once into `_site`, and `quarto preview` keeps a preview open that refreshes as you edit.
+
 **New post.** Copy `post/_template` to `post/my_new_post`, edit `index.qmd` inside it, put pictures in the same folder, and delete the line `draft: true` when it is ready. The folder name becomes the address `/post/my_new_post/`.
 
 **Unpublish a post.** Move its folder from `post/` to `_drafts/`. That folder is never built and never sent to GitHub.
