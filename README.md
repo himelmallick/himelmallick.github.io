@@ -128,6 +128,8 @@ GitHub builds the site after every push, so pushing is all it takes to publish. 
 
 **Citation and download counts.** The Papers and Software pages show numbers kept in `_variables.yml`. Bioconductor downloads refresh by themselves at every build. Google Scholar answers requests from a personal computer only, so citations refresh when you run `Rscript assets/update-stats.R` on your computer (or click Source on that file in RStudio) and push. The papers and packages to track are listed in `assets/stats.json`.
 
+**Update the CV and the resume.** The two PDFs are served from the site itself, from the `files/` folder, and the menu links point there. Run `bash assets/update-cv.sh` in the project folder: it builds both documents on your computer and copies the fresh PDFs into `files/`. Then commit and push. If a build fails, the script stops and the copies on the site stay as they are. The folders the script reads from are set in its first lines.
+
 **Unpublish a post.** Move its folder from `post/` to `_drafts/`. That folder is never built and never sent to GitHub.
 
 **If a build fails.** The Actions tab shows a red cross and the live site keeps its last good version. The cause is nearly always a typo in the block between the two `---` lines at the top of a `.qmd` file.
@@ -147,6 +149,8 @@ assets/post-image.lua    shows a post's image above its text
 assets/talks.lua         builds the lists on the Talks page
 assets/schedule-posts.py holds back posts dated in the future
 assets/update-stats.R    refreshes the citation and download counts
+assets/update-cv.sh      builds the CV and resume and copies the PDFs into files/
+files/                   the CV and resume PDFs that visitors download
 _variables.yml           the saved counts
 .github/workflows/       automatic publishing
 ```

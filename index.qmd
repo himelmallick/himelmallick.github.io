@@ -104,7 +104,7 @@ Himel is a [Fellow of the American Statistical Association (FASA)](https://www.a
 
 ## Profiles
 
-- [Curriculum Vitae](https://www.dropbox.com/scl/fi/ij55y5rrbvv43vnaof5bs/CV_Himel_Mallick.pdf?rlkey=7ml4tszlvzjemxmxiodnr9j22&st=4xvgj2jc&dl=0) and [Resume](https://www.dropbox.com/scl/fi/4tlby20n50ojk68q1lcp7/Resume_Himel_Mallick.pdf?rlkey=g1menxgovd41beibctvyv6tll&st=boqgvuqe&dl=0)
+- [Curriculum Vitae](files/CV_Himel_Mallick.pdf){target="_blank"} and [Resume](files/Resume_Himel_Mallick.pdf){target="_blank"}
 - [Google Scholar](https://scholar.google.com/citations?user=twbXG-wAAAAJ&hl=en)
 - [Semantic Scholar](https://www.semanticscholar.org/author/Himel-Mallick/4080321)
 - [ResearchGate](https://www.researchgate.net/profile/Himel_Mallick)

@@ -14,6 +14,7 @@ project:
     - "post/**/*.docx"
     - "post/**/Rplot.pdf"
     - "assets/fonts/*.woff2"
+    - "files/*.pdf"
 
 website:
   title: "Himel Mallick"
@@ -43,9 +44,11 @@ website:
       - text: Curriculum Vitae
         menu:
           - text: CV
-            href: "https://www.dropbox.com/scl/fi/ij55y5rrbvv43vnaof5bs/CV_Himel_Mallick.pdf?rlkey=7ml4tszlvzjemxmxiodnr9j22&st=4xvgj2jc&dl=0"
+            href: files/CV_Himel_Mallick.pdf
+            target: _blank
           - text: Resume
-            href: "https://www.dropbox.com/scl/fi/4tlby20n50ojk68q1lcp7/Resume_Himel_Mallick.pdf?rlkey=g1menxgovd41beibctvyv6tll&st=boqgvuqe&dl=0"
+            href: files/Resume_Himel_Mallick.pdf
+            target: _blank
   page-footer:
     left: "Himel Mallick, Weill Cornell Medicine, 425 E 61st St, New York, NY 10065"
     right: "[Email](mailto:him4004@med.cornell.edu) [GitHub](https://github.com/himelmallick) [RSS](/post/index.xml)"

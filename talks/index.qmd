@@ -203,7 +203,7 @@ talks:
     where: "Center for Artificial Intelligence and Machine Learning, Indian Statistical Institute, Kolkata, India"
 ---
 
-Upcoming and recent short courses and talks. Teaching materials are on [GitHub](https://github.com/himelmallick/DataScienceWorkshops), and the full list is in the [CV](https://www.dropbox.com/scl/fi/ij55y5rrbvv43vnaof5bs/CV_Himel_Mallick.pdf?rlkey=7ml4tszlvzjemxmxiodnr9j22&st=4xvgj2jc&dl=0).
+Upcoming and recent short courses and talks. Teaching materials are on [GitHub](https://github.com/himelmallick/DataScienceWorkshops), and the full list is in the [CV](../files/CV_Himel_Mallick.pdf){target="_blank"}.
 
 ## Upcoming
 
