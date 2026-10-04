@@ -28,6 +28,7 @@ quarto preview
 | `experience/index.qmd` | Positions and skills |
 | `papers/index.qmd` | Papers |
 | `software/index.qmd` | Software |
+| `talks/index.qmd` | Talks and short courses |
 | `awards/index.qmd` | Honors and awards |
 | `post/` | Delete the existing post folders. Keep `_template`, `_metadata.yml` and `index.qmd` |
 | `assets/theme.scss` | Six colors at the top set the palette. `assets/theme-dark.scss` holds the dark versions |
@@ -121,6 +122,12 @@ GitHub builds the site after every push, so pushing is all it takes to publish. 
 
 **New post.** Copy `post/_template` to `post/my_new_post`, edit `index.qmd` inside it, put pictures in the same folder, and delete the line `draft: true` when it is ready. The folder name becomes the address `/post/my_new_post/`.
 
+**Schedule a post.** Give it a future `date:` and push. It stays off the site until that day, and the site rebuilds itself every night, so it appears by itself. `quarto preview` on your computer shows it at any time. To use a different time zone for "today", change `TIMEZONE` in `assets/schedule-posts.py`.
+
+**Add a talk or a short course.** Add an entry to the list at the top of `talks/index.qmd` and push. Upcoming events are shown first, and each one moves to its own list by itself once its date has passed.
+
+**Citation and download counts.** The Papers and Software pages show numbers kept in `_variables.yml`. Bioconductor downloads refresh by themselves at every build. Google Scholar answers requests from a personal computer only, so citations refresh when you run `Rscript assets/update-stats.R` on your computer (or click Source on that file in RStudio) and push. The papers and packages to track are listed in `assets/stats.json`.
+
 **Unpublish a post.** Move its folder from `post/` to `_drafts/`. That folder is never built and never sent to GitHub.
 
 **If a build fails.** The Actions tab shows a red cross and the live site keeps its last good version. The cause is nearly always a typo in the block between the two `---` lines at the top of a `.qmd` file.
@@ -130,13 +137,17 @@ GitHub builds the site after every push, so pushing is all it takes to publish. 
 ```
 _quarto.yml              site settings: menu, footer, theme
 index.qmd                home page
-experience/ papers/ software/ awards/
+experience/ papers/ software/ talks/ awards/
                          one page each, in index.qmd
 post/                    blog: one folder per post, plus the list page
 assets/theme.scss        the look of the site
 assets/theme-dark.scss   dark-mode colors
 assets/fonts/            STIX Two Text, served from the site itself
 assets/post-image.lua    shows a post's image above its text
+assets/talks.lua         builds the lists on the Talks page
+assets/schedule-posts.py holds back posts dated in the future
+assets/update-stats.R    refreshes the citation and download counts
+_variables.yml           the saved counts
 .github/workflows/       automatic publishing
 ```
 

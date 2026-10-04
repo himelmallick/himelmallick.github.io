@@ -2,21 +2,26 @@
 title: "Notable Software"
 ---
 
-Top 5 are shown. Full list is [here](https://github.com/himelmallick).
+Top 5 are shown, ordered by citations. Full list is [here](https://github.com/himelmallick). Download counts are from Bioconductor, as of {{< var stats.downloads_date >}}, and citation counts are from Google Scholar, as of {{< var stats.citations_date >}}.
 
 ::: {.software}
-[MaAsLin2](https://github.com/biobakery/Maaslin2)
-: Multivariable association between phenotypes, environments, exposures, covariates and microbial meta-omics features. Also on [Bioconductor](https://www.bioconductor.org/packages/release/bioc/html/Maaslin2.html).
+[MaAsLin](https://github.com/biobakery/maaslin3)
+: Multivariable association between phenotypes, environments, exposures, covariates and microbial meta-omics features. [MaAsLin 2](https://www.bioconductor.org/packages/release/bioc/html/Maaslin2.html) and [MaAsLin 3](https://www.bioconductor.org/packages/release/bioc/html/maaslin3.html) are on Bioconductor.\
+  [Bioconductor downloads: {{< var stats.downloads.maaslin >}} · Citations: {{< var stats.citations.maaslin >}}]{.where}
 
 [MelonnPan](https://github.com/biobakery/melonnpan)
-: Prediction of metabolite compositions from microbiome sequencing data.
-
-[Tweedieverse](https://github.com/himelmallick/Tweedieverse)
-: Differential analysis of omics data based on the Tweedie distribution.
+: Prediction of metabolite compositions from microbiome sequencing data.\
+  [Citations: {{< var stats.citations.melonnpan >}}]{.where}
 
 [BayesRecipe](https://github.com/himelmallick/BayesRecipe)
-: Bayesian reciprocal regularization for regression and classification.
+: Bayesian reciprocal regularization for regression and classification.\
+  [Citations: {{< var stats.citations.bayesrecipe >}}]{.where}
+
+[Tweedieverse](https://github.com/himelmallick/Tweedieverse)
+: Differential analysis of omics data based on the Tweedie distribution.\
+  [Citations: {{< var stats.citations.tweedieverse >}}]{.where}
 
 [IntegratedLearner](https://github.com/himelmallick/IntegratedLearner)
-: Integrated machine learning that consolidates predictions across longitudinal and cross-sectional omics layers and quantifies the uncertainty of the integration.
+: Integrated machine learning that consolidates predictions across longitudinal and cross-sectional omics layers and quantifies the uncertainty of the integration.\
+  [Citations: {{< var stats.citations.integratedlearner >}}]{.where}
 :::

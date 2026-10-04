@@ -2,30 +2,31 @@
 title: "Notable Papers"
 ---
 
-Top 5 are shown. Full list is [here](https://scholar.google.com/citations?user=twbXG-wAAAAJ&hl=en).
+Top 5 are shown, ordered by citations. Full list is [here](https://scholar.google.com/citations?user=twbXG-wAAAAJ&hl=en). Citation counts are from Google Scholar, as of {{< var stats.citations_date >}}.
 
 ::: {.honors .papers}
-2024
-: [An Integrated Bayesian Framework for Multi-omics Prediction and Classification](https://pubmed.ncbi.nlm.nih.gov/38146838/)\
-  Mallick et al. *Statistics in Medicine* 43(5):983–1002.\
-  [Software: [IntegratedLearner](https://github.com/himelmallick/IntegratedLearner)]{.where}
-
-2022
-: [Differential Expression of Single-cell RNA-seq Data using Tweedie Models](https://pubmed.ncbi.nlm.nih.gov/35656596/)\
-  Mallick et al. *Statistics in Medicine* 41(18):3492–3510.\
-  [Software: [Tweedieverse](https://github.com/himelmallick/Tweedieverse)]{.where}
-
 2021
 : [Multivariable Association Discovery in Population-scale Meta-omics Studies](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009442)\
   Mallick et al. *PLoS Computational Biology* 17(11):e1009442.\
-  [Software: [MaAsLin2](https://github.com/biobakery/Maaslin2)]{.where}
+  [Software: [MaAsLin2](https://github.com/biobakery/Maaslin2) · Citations: {{< var stats.citations.maaslin2 >}}]{.where}
 
 2019
 : [Predictive Metabolomic Profiling of Microbial Communities Using Amplicon or Metagenomic Sequences](https://www.ncbi.nlm.nih.gov/pubmed/31316056)\
   Mallick et al. *Nature Communications* 10(1):3136–3146.\
-  [Software: [MelonnPan](https://github.com/biobakery/melonnpan)]{.where}
+  [Software: [MelonnPan](https://github.com/biobakery/melonnpan) · Citations: {{< var stats.citations.melonnpan >}}]{.where}
 
 2014
 : [A New Bayesian LASSO](https://www.ncbi.nlm.nih.gov/pubmed/27570577)\
-  Mallick and Yi. *Statistics and Its Interface* 7(4):571–581.
+  Mallick and Yi. *Statistics and Its Interface* 7(4):571–581.\
+  [Software: [BayesRecipe](https://github.com/himelmallick/BayesRecipe) · Citations: {{< var stats.citations.bayesian_lasso >}}]{.where}
+
+2022
+: [Differential Expression of Single-cell RNA-seq Data using Tweedie Models](https://pubmed.ncbi.nlm.nih.gov/35656596/)\
+  Mallick et al. *Statistics in Medicine* 41(18):3492–3510.\
+  [Software: [Tweedieverse](https://github.com/himelmallick/Tweedieverse) · Citations: {{< var stats.citations.tweedieverse >}}]{.where}
+
+2024
+: [An Integrated Bayesian Framework for Multi-omics Prediction and Classification](https://pubmed.ncbi.nlm.nih.gov/38146838/)\
+  Mallick et al. *Statistics in Medicine* 43(5):983–1002.\
+  [Software: [IntegratedLearner](https://github.com/himelmallick/IntegratedLearner) · Citations: {{< var stats.citations.integratedlearner >}}]{.where}
 :::

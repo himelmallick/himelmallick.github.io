@@ -1,0 +1,181 @@
+---
+title: "Talks and Short Courses"
+section-divs: false
+filters:
+  - ../assets/talks.lua
+invited-shown: 10     # how many past invited talks to list
+
+# One entry per event. An entry moves out of "Upcoming" by itself once its date has passed.
+#   date:  "2027-03" or "2027-03-14"
+#   type:  course, keynote or invited
+#   link and note are optional
+talks:
+  # ---- Short courses ----
+  - date: "2027-03"
+    type: course
+    title: "Multimodal Integration and Multimodal Causal Inference using R/Bioconductor"
+    where: "ENAR 2027 Short Course"
+    link: "https://github.com/himelmallick/ENAR2027MultimodalShortCourse"
+  - date: "2026-12"
+    type: course
+    title: "Multimodal AI and Multimodal Causal Inference"
+    where: "Physalia Courses (Bayesian Statistics), Virtual"
+  - date: "2026-11"
+    type: course
+    title: "Multimodal AI and Multimodal Causal Inference"
+    where: "Physalia Courses (Causal Inference), Virtual"
+  - date: "2026-07-06"
+    type: course
+    title: "Multimodal Integration and Multimodal Causal Inference using R/Bioconductor"
+    where: "ISMB 2026 Tutorial VT4, Virtual"
+    link: "https://github.com/himelmallick/ISMB2026MultimodalShortCourse"
+  - date: "2026-04"
+    type: course
+    title: "Omics Data Science"
+    where: "Physalia Courses (Metatranscriptomics), Virtual"
+  - date: "2026-03"
+    type: course
+    title: "Multimodal AI and Multimodal Causal Inference"
+    where: "Physalia Courses (Multimodal AI for Systems Biology), Virtual"
+  - date: "2025-06"
+    type: course
+    title: "Multimodal AI and Multimodal Causal Inference"
+    where: "International Indian Statistical Association Conference, Lincoln, NE"
+  - date: "2024-12"
+    type: course
+    title: "Omics Data Science"
+    where: "International Indian Statistical Association Conference, Kochi, Kerala, India"
+  - date: "2023-08"
+    type: course
+    title: "Omics Data Science"
+    where: "Joint Statistical Meetings, Toronto, ON, Canada"
+    note: "Joint with Ali Rahnavard"
+  - date: "2022-02"
+    type: course
+    title: "Omics Data Science"
+    where: "SDSU Data Science Conference, Brookings, SD"
+    note: "Joint with Ali Rahnavard"
+  - date: "2021-09"
+    type: course
+    title: "Omics Data Science"
+    where: "ICSA Conference, Virtual"
+    note: "Joint with Ali Rahnavard"
+  - date: "2021-03"
+    type: course
+    title: "Omics Data Science"
+    where: "George Washington University, Virtual"
+    note: "Joint with Ali Rahnavard"
+
+  # ---- Keynotes ----
+  - date: "2026-05"
+    type: keynote
+    title: "Foundation Models for Microbial Community Multiomics"
+    where: "Bioinformatics Day, Finnish Society for Bioinformatics, Espoo, Finland"
+  - date: "2025-12"
+    type: keynote
+    title: "Multimodal AI for Microbiome Multiomics"
+    where: "Nebraska Microbiome Research Group Fall 2025 Mini Summit, University of Nebraska Medical Center, Omaha, NE"
+  - date: "2023-03"
+    type: keynote
+    title: "Integrated Machine Learning for Multi-omics Prediction and Classification"
+    where: "2023 International Conference on Technology, Applied Mathematics, and Statistics, University of Al-Qadisiyyah, Al Diwaniyah, Iraq"
+  - date: "2021-06"
+    type: keynote
+    title: "Tweedieverse: A Single Home for Microbiome Multi-omics Differential Analysis"
+    where: "2021 BVCN Conference, Bioinformatics Virtual Coordination Network"
+  - date: "2020-05"
+    type: keynote
+    title: "The Reciprocal Bayesian LASSO"
+    where: "2020 International Virtual Conference on Statistics, University of Al-Qadisiyyah, Al Diwaniyah, Iraq"
+
+  # ---- Invited talks ----
+  - date: "2026-10-23"
+    type: invited
+    title: "Bayesian Multimodal AI for Scalable Biomedical Discovery"
+    where: "Biostatistics Research Seminar, Virginia Commonwealth University, Richmond, VA"
+  - date: "2026-08"
+    type: invited
+    title: "Multimodal AI for Scalable Biomedical Discovery"
+    where: "National Institute of Research and Innovation, Riga, Latvia"
+  - date: "2026-08"
+    type: invited
+    title: "Foundation Models for Microbial Community Metabolomics"
+    where: "University of Helsinki, Helsinki, Finland"
+  - date: "2026-08"
+    type: invited
+    title: "Multi-omics Data Integration with Bioconductor"
+    where: "Bioconductor Africa Seminar Series"
+    note: "Invited tutorial"
+  - date: "2026-07"
+    type: invited
+    title: "Meta-Analytic Microbiome Target Discovery for Immune Checkpoint Inhibitor Response in Advanced Melanoma"
+    where: "Research Spotlight Speaker, WCM Biostatistics Internship Program, Weill Cornell Medicine, New York, NY"
+    note: "Invited guest lecture"
+  - date: "2026-06"
+    type: invited
+    title: "Causal Reasoning for Responsible AI"
+    where: "Human-Centric Artificial Intelligence for Sustainable Future Program, University of Turku, Turku, Finland"
+    note: "Invited guest lecture"
+  - date: "2026-06"
+    type: invited
+    title: "Scalable Multimodal AI for Cancer Microbiome Epidemiology"
+    where: "NCI Virtual Workshop on Emerging Technologies in Cancer Epidemiology"
+  - date: "2026-01"
+    type: invited
+    title: "Meta-analytic Microbiome Target Discovery for Immune Checkpoint Inhibitor Response in Advanced Melanoma"
+    where: "WCM Meyer Cancer Center, Cancer Genetics and Control Research Program Meeting, New York, NY"
+  - date: "2025-07"
+    type: invited
+    title: "Orchestrating Microbiome Multi-omics Integration and Analysis"
+    where: "Biodesign Center for Health Through Microbiomes, Arizona State University, Phoenix, AZ"
+  - date: "2025-07"
+    type: invited
+    title: "Scalable, Uncertainty-aware, Interpretable Multimodal AI"
+    where: "Turku Data Science Group, University of Turku, Turku, Finland"
+  - date: "2025-06"
+    type: invited
+    title: "An Integrated Bayesian Framework for Multi-omics Prediction and Classification"
+    where: "Bayesian BioPharm Meeting, Los Angeles, CA"
+  - date: "2025-06"
+    type: invited
+    title: "Bayesian Joint Additive Factor Models for Multiview Learning"
+    where: "International Indian Statistical Association Conference, Lincoln, NE"
+  - date: "2025-05"
+    type: invited
+    title: "Bayesian Joint Additive Factor Models for Multiview Learning"
+    where: "IMSI Workshop on Statistics Meets Tensors, Institute for Mathematical and Statistical Innovation, Chicago, IL"
+  - date: "2025-03"
+    type: invited
+    title: "Metabolite Prediction in the Human Microbiome: A Transfer Learning Approach"
+    where: "ENAR Spring Meeting of the International Biometric Society, New Orleans, LA"
+  - date: "2025-02"
+    type: invited
+    title: "Scalable, Uncertainty-aware, Interpretable Machine Learning for Multimodal AI Agents"
+    where: "Indraprastha Institute of Information Technology, Delhi, India"
+  - date: "2025-02"
+    type: invited
+    title: "Scalable, Uncertainty-aware, Interpretable Machine Learning for Multimodal AI Agents"
+    where: "Center for Artificial Intelligence and Machine Learning, Indian Statistical Institute, Kolkata, India"
+---
+
+Upcoming and recent short courses and talks. The full list is in the [CV](https://www.dropbox.com/scl/fi/ij55y5rrbvv43vnaof5bs/CV_Himel_Mallick.pdf?rlkey=7ml4tszlvzjemxmxiodnr9j22&st=4xvgj2jc&dl=0).
+
+## Upcoming
+
+::: {#talks-upcoming}
+:::
+
+## Short Courses
+
+::: {#talks-courses}
+:::
+
+## Keynotes
+
+::: {#talks-keynotes}
+:::
+
+## Invited Talks
+
+::: {#talks-invited}
+:::

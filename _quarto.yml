@@ -7,6 +7,7 @@ project:
     - "awards/"
     - "software/"
     - "papers/"
+    - "talks/"
     - "post/"
   resources:
     - "post/**/*.R"
@@ -35,6 +36,8 @@ website:
         href: papers/index.qmd
       - text: Software
         href: software/index.qmd
+      - text: Talks
+        href: talks/index.qmd
       - text: Posts
         href: post/index.qmd
       - text: Curriculum Vitae

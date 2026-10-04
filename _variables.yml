@@ -1,0 +1,14 @@
+# The numbers under "stats" are written by assets/update-stats.R and assets/update-stats.py.
+stats:
+  citations_date: "October 3, 2026"
+  downloads_date: "October 4, 2026"
+  citations:
+    integratedlearner: "41"
+    tweedieverse: "48"
+    maaslin2: "3,069"
+    maaslin: "3,276"
+    melonnpan: "334"
+    bayesian_lasso: "90"
+    bayesrecipe: "186"
+  downloads:
+    maaslin: "119,904"

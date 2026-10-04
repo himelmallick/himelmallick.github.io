@@ -1,6 +1,6 @@
 ---
 title: "The key word in data science is still science"
-date: 2026-10-04
+date: 2026-10-11
 categories: [Statistics, Biostatistics, Data Science, AI]
 image: featured.jpg
 image-alt: "The 2x2 table of data science, 2026 edition: near-perfect or imperfect data against near-perfect or imperfect science, with an AI assistant at work in every cell"
@@ -12,7 +12,7 @@ twitter-card:
   image: share.jpg
 ---
 
-This is my first blog post as a faculty member, and my first in almost four years. The last one went up in October 2022, a few months before I started my lab at Cornell. It was a revisit of a famous commentary by Jeff Leek, so it seems fitting to pick up exactly where I left off.
+My last post before starting my lab went up in October 2022. It was a revisit of a famous commentary by Jeff Leek, so now that I am writing again, it seems fitting to pick up where I left off.
 
 In 2013, Jeff Leek wrote a now-famous [blog post](https://simplystatistics.org/posts/2013-12-12-the-key-word-in-data-science-is-not-data-it-is-science) arguing that the key word in "data science" is science. In that 2022 post, I [revisited it](../keyword_data_science/index.qmd) with a simple 2x2 table: near-perfect or imperfect data on one side, near-perfect or imperfect science on the other. Good data with good science is a win-win, bad data with bad science is a lose-lose, and the two cells in between are where a data scientist earns their keep.
 

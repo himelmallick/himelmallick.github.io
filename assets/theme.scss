@@ -310,7 +310,7 @@ main.content > .skills, .honors, .software { max-width: 50rem; }
 .honors dd p { margin: 0; }
 .papers dl { grid-template-columns: 5rem minmax(0, 1fr); }
 .papers dd > p > a:first-child, .papers dd > a:first-child { font-weight: 600; }
-.papers .where { color: var(--muted); font-size: 0.9em; }
+.papers .where, .software .where, .talks .where { color: var(--muted); font-size: 0.9em; }
 main.content > p > .more { margin-top: 1.4rem; }
 .honors dt, .honors dd { border-top: 1px solid var(--rule); padding: 0.7rem 0; margin: 0; }
 .honors dt { grid-column: 1; font-weight: 400; font-size: 0.86rem; color: var(--muted); padding-top: 0.85rem; font-variant-numeric: tabular-nums lining-nums; }

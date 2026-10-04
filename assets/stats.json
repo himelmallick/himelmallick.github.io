@@ -1,0 +1,24 @@
+{
+  "scholar_id": "twbXG-wAAAAJ",
+  "papers": {
+    "integratedlearner": "An Integrated Bayesian Framework for Multi-omics Prediction and Classification",
+    "tweedieverse": "Differential Expression of Single-cell RNA-seq Data using Tweedie Models",
+    "maaslin2": "Multivariable Association Discovery in Population-scale Meta-omics Studies",
+    "maaslin": [
+      "Multivariable Association Discovery in Population-scale Meta-omics Studies",
+      "MaAsLin 3: Refining and Extending Generalized Multivariable Linear Models for Meta-omic Association Discovery"
+    ],
+    "melonnpan": "Predictive Metabolomic Profiling of Microbial Communities using Amplicon or Metagenomic Sequences",
+    "bayesian_lasso": "A New Bayesian LASSO",
+    "bayesrecipe": [
+      "A New Bayesian LASSO",
+      "Bayesian Bridge Regression",
+      "Bayesian Group Bridge for Bi-level Variable Selection",
+      "The Reciprocal Bayesian LASSO",
+      "Accelerated Bayesian Reciprocal LASSO"
+    ]
+  },
+  "packages": {
+    "maaslin": ["Maaslin2", "maaslin3"]
+  }
+}

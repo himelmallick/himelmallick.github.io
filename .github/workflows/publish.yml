@@ -1,10 +1,13 @@
-# Builds the site with Quarto and publishes it to GitHub Pages on every push.
+# Builds the site with Quarto and publishes it to GitHub Pages on every push,
+# and once a night so that posts dated in the future appear on their day.
 # One-time setup: repository Settings > Pages > Source = "GitHub Actions".
 name: Publish site
 
 on:
   push:
     branches: [master, main]
+  schedule:
+    - cron: "10 5 * * *"   # every night, shortly after midnight in New York
   workflow_dispatch:
 
 permissions:
@@ -22,6 +25,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: quarto-dev/quarto-actions/setup@v2
+      - run: python3 assets/schedule-posts.py   # holds back posts dated in the future
+      - run: python3 assets/update-stats.py     # refreshes the download counts on the Software page
       - run: quarto render
       - uses: actions/upload-pages-artifact@v3
         with:
