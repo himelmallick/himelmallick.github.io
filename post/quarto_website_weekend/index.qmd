@@ -40,7 +40,7 @@ Four things: a site that looks good, loads fast, works on every device, and take
 - **The engine.** The site is now a folder of plain text files built by [Quarto](https://quarto.org/). GitHub rebuilds and publishes it after every push, so updating the site takes three commands in a terminal.
 - **The design.** One typeface, six colors, a dark mode, and a Laplace density curve under my name. The new site has about 100 files, and the home page loads its fonts and styles from the site itself.
 - **The pages.** About, Experience, Papers, Software, Awards and Posts. Every published post kept its web address.
-- **The CV and the resume.** Both moved from Sweave to Quarto, and each well-cited paper now shows its Google Scholar citation count, fetched when the document is built.
+- **The CV and the resume.** Both are now built with Quarto, the same way as the site.
 - **The older posts.** Several were refreshed, including the two tutorials on [automating citation metrics](../automate_citation_metrics_resume/index.qmd) and the [list of student paper awards and travel grants](../travel_grant_resource/index.qmd), which grew from 17 awards to 74.
 
 ## Who did what
@@ -61,7 +61,7 @@ This is the part a tutorial leaves out.
 
 **3. The images lost quality.** During the move, the assistant had resized and recompressed the pictures in my posts. I noticed that some looked soft. The fix was to restore 27 originals from the archived copy of the old site and to re-save six more from their sources. Keep your originals.
 
-**4. My CV disappeared from the internet.** Quarto deletes the old PDF at the start of a build. My first build on my own computer failed, because of a leftover installation of a LaTeX distribution, and the PDF behind the public CV link was gone until I restored it from the archive. One line in the document settings now tells Quarto to use the LaTeX already installed on my computer.
+**4. My CV disappeared from the internet.** Quarto deletes the old PDF at the start of a build. My first build on my own computer failed, and the PDF behind the public CV link was gone until I restored it from the archive. If a public link points to a file that your build produces, a failed build takes it down.
 
 **5. The link preview cut my head off.** When I shared the new site, the preview showed my shirt. Social networks crop preview images to a wide rectangle, and my home page was offering them a tall portrait. A dedicated wide image for link previews fixed it.
 
