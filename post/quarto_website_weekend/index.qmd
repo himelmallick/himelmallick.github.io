@@ -4,7 +4,13 @@ subtitle: "Leaving Hugo behind, and everything that went wrong along the way"
 date: 2026-10-04
 categories: [Quarto, AI, Career]
 image: featured.jpg
-image-alt: "The old Hugo home page on the left and the new Quarto home page on the right"
+image-alt: "After: the new home page of this site, built with Quarto"
+open-graph:
+  image: share.jpg
+  image-width: 1200
+  image-height: 630
+twitter-card:
+  image: share.jpg
 ---
 
 This is my first blog post as a faculty member, and my first in almost four years. The last one went up in October 2022, a few months before I started my lab at Cornell, and the blog had been quiet ever since. So for my birthday this year, I gave myself a gift that was long overdue: a complete rebuild of this site, done over one weekend with an AI assistant.
@@ -12,6 +18,8 @@ This is my first blog post as a faculty member, and my first in almost four year
 This post is the story of that weekend: why I left Hugo, how the work was divided between me and the assistant, what went wrong, and how you can reuse the result.
 
 ## Why now
+
+![](before.jpg){fig-alt="Before: the old home page, built with Hugo. The site title reads Hello, World! and the menu has two items."}
 
 My old site ran on [Hugo](https://gohugo.io/) with the Academic theme, through the [blogdown](https://pkgs.rstudio.com/blogdown/) package in R. It served me well for years. By 2026, it had three problems.
 
