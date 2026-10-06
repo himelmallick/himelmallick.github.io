@@ -8,6 +8,7 @@ project:
     - "software/"
     - "papers/"
     - "talks/"
+    - "contact/"
     - "post/"
   resources:
     - "post/**/*.R"
@@ -41,6 +42,8 @@ website:
         href: talks/index.qmd
       - text: Posts
         href: post/index.qmd
+      - text: Contact
+        href: contact/index.qmd
       - text: Curriculum Vitae
         menu:
           - text: CV

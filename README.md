@@ -23,20 +23,21 @@ quarto preview
 | File | What to change |
 |---|---|
 | `_quarto.yml` | Site title, description, `site-url`, menu, CV links, footer |
-| `index.qmd` | Name, tagline, biography, research areas, education, profile links, contact |
+| `index.qmd` | Name, tagline, biography, research areas, education, profile links |
 | `assets/himel-mallick.jpg` | Your photo (600 x 900 pixels). Rename it and update the name in `index.qmd` |
 | `experience/index.qmd` | Positions and skills |
 | `papers/index.qmd` | Papers |
 | `software/index.qmd` | Software |
 | `talks/index.qmd` | Talks and short courses |
 | `awards/index.qmd` | Honors and awards |
+| `contact/index.qmd` | The address under the message box, and the form's `action` (see below) |
 | `post/` | Delete the existing post folders. Keep `_template`, `_metadata.yml` and `index.qmd` |
 | `assets/theme.scss` | Six colors at the top set the palette. `assets/theme-dark.scss` holds the dark versions |
 | `assets/favicon.svg` | The browser tab icon |
 
 Two parts of the home page are specific to this site and can be removed from `index.qmd`: the "Mallick Lab" video section, and the line `{{< include assets/_laplace.html >}}`, which draws the curve under the name.
 
-The message box in the Contact section sends through [Formspree](https://formspree.io). Create your own free form there and put its address in the `action` of the form in `index.qmd`. Until you do, messages written on your site go to the original author. To do without it, delete the form and put an email link in its place.
+The message box on the Contact page sends through [Formspree](https://formspree.io). Create your own free form there and put its address in the `action` of the form in `contact/index.qmd`. Until you do, messages written on your site go to the original author. To do without it, delete the form and put an email link in its place.
 
 To drop a page, delete its folder and remove it from `render` and `navbar` in `_quarto.yml`. To add one, create `<name>/index.qmd` and add it in the same two places.
 
@@ -141,7 +142,7 @@ GitHub builds the site after every push, so pushing is all it takes to publish. 
 ```
 _quarto.yml              site settings: menu, footer, theme
 index.qmd                home page
-experience/ papers/ software/ talks/ awards/
+experience/ papers/ software/ talks/ awards/ contact/
                          one page each, in index.qmd
 post/                    blog: one folder per post, plus the list page
 assets/theme.scss        the look of the site
