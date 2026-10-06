@@ -226,6 +226,32 @@ pre:not(.sourceCode) { background: var(--wash); border: 1px solid var(--rule); p
 .more { display: inline-block; margin-top: 0.6rem; font-size: 0.95rem; }
 .contact p { margin: 0; }
 
+// Message box in the Contact section (sent through Formspree)
+.contact-form { margin: 0.35rem 0 1.1rem; max-width: 32rem; }
+.contact-form .cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0 1rem; }
+.contact-form .cf-field { margin: 0 0 0.8rem; }
+.contact-form label { display: block; margin-bottom: 0.25rem; font-size: 0.86rem; color: var(--muted); }
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  display: block; width: 100%; padding: 0.5rem 0.6rem;
+  font: inherit; font-size: 1rem; line-height: 1.45; color: var(--ink);
+  background: var(--paper); border: 1px solid var(--rule); border-radius: 3px;
+  &:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+}
+.contact-form textarea { min-height: 7.5rem; resize: vertical; }
+.contact-form .cf-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.9rem; margin: 0; }
+.contact-form button {
+  padding: 0.5rem 1.15rem; font: inherit; font-size: 0.95rem; font-weight: 600;
+  color: var(--paper); background: var(--accent); border: 1px solid var(--accent); border-radius: 3px; cursor: pointer;
+  &:hover { filter: brightness(0.92); }
+  &:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  &:disabled { opacity: 0.6; cursor: default; }
+}
+.contact-form .cf-status { font-size: 0.9rem; color: var(--muted); }
+.contact-form .cf-trap { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+@media (max-width: 480px) { .contact-form .cf-row { grid-template-columns: 1fr; } }
+
 // ---- Lists of posts (home and /post/)
 
 .quarto-listing { margin-top: 0; }

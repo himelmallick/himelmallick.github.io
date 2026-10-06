@@ -36,6 +36,8 @@ quarto preview
 
 Two parts of the home page are specific to this site and can be removed from `index.qmd`: the "Mallick Lab" video section, and the line `{{< include assets/_laplace.html >}}`, which draws the curve under the name.
 
+The message box in the Contact section sends through [Formspree](https://formspree.io). Create your own free form there and put its address in the `action` of the form in `index.qmd`. Until you do, messages written on your site go to the original author. To do without it, delete the form and put an email link in its place.
+
 To drop a page, delete its folder and remove it from `render` and `navbar` in `_quarto.yml`. To add one, create `<name>/index.qmd` and add it in the same two places.
 
 **4. Publish.** In your repository on GitHub, open Settings, then Pages, and set Source to **GitHub Actions**. Push your changes. The workflow in `.github/workflows/publish.yml` builds the site and publishes it at `https://<your-username>.github.io` in about two minutes.

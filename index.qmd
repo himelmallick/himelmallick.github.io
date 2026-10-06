@@ -77,7 +77,40 @@ Himel is a [Fellow of the American Statistical Association (FASA)](https://www.a
 ## Contact {#contact}
 
 ::: {.contact}
-[Contact me](mailto:him4004@med.cornell.edu)\
+```{=html}
+<!-- The form sends messages through Formspree. To reuse this site, create your
+     own form at https://formspree.io and put its address in "action" below. -->
+<form class="contact-form" action="https://formspree.io/f/xeaeojvl" method="POST">
+  <div class="cf-row">
+    <p class="cf-field"><label for="cf-name">Name</label><input id="cf-name" type="text" name="name" autocomplete="name" required></p>
+    <p class="cf-field"><label for="cf-email">Email</label><input id="cf-email" type="email" name="email" autocomplete="email" required></p>
+  </div>
+  <p class="cf-field"><label for="cf-message">Message</label><textarea id="cf-message" name="message" rows="5" required></textarea></p>
+  <p class="cf-trap" aria-hidden="true"><label>Leave this field empty <input type="text" name="_gotcha" tabindex="-1" autocomplete="off"></label></p>
+  <input type="hidden" name="_subject" value="Message from himelmallick.org">
+  <p class="cf-actions"><button type="submit">Send message</button><span class="cf-status" role="status" aria-live="polite"></span></p>
+</form>
+<script>
+(function () {
+  var form = document.querySelector(".contact-form");
+  if (!form || !window.fetch || !window.FormData) return;   // without these, the form submits the ordinary way
+  var status = form.querySelector(".cf-status"), button = form.querySelector("button");
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    button.disabled = true;
+    status.textContent = "Sending...";
+    fetch(form.action, { method: "POST", body: new FormData(form), headers: { Accept: "application/json" } })
+      .then(function (response) {
+        if (!response.ok) throw new Error("not sent");
+        form.reset();
+        status.textContent = "Thank you. Your message has been sent.";
+      })
+      .catch(function () { status.textContent = "The message could not be sent. Please try again later."; })
+      .then(function () { button.disabled = false; });
+  });
+})();
+</script>
+```
 425 E 61st St, New York, NY 10065
 :::
 ::::

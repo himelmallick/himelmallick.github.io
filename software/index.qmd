@@ -6,7 +6,7 @@ Top 5 selected software. Full list is [here](https://github.com/himelmallick). D
 
 ::: {.software}
 [MaAsLin](https://github.com/biobakery/maaslin3)
-: Multivariable association between phenotypes, environments, exposures, covariates and microbial meta-omics features. [MaAsLin 2](https://www.bioconductor.org/packages/release/bioc/html/Maaslin2.html) and [MaAsLin 3](https://www.bioconductor.org/packages/release/bioc/html/maaslin3.html) are on Bioconductor.\
+: Multivariable testing of microbe-host associations. [MaAsLin 2](https://www.bioconductor.org/packages/release/bioc/html/Maaslin2.html) and [MaAsLin 3](https://www.bioconductor.org/packages/release/bioc/html/maaslin3.html) are on Bioconductor.\
   [Bioconductor downloads: {{< var stats.downloads.maaslin >}} · Citations: {{< var stats.citations.maaslin >}}]{.where}
 
 [MelonnPan](https://github.com/biobakery/melonnpan)
@@ -14,7 +14,7 @@ Top 5 selected software. Full list is [here](https://github.com/himelmallick). D
   [Citations: {{< var stats.citations.melonnpan >}}]{.where}
 
 [BayesRecipe](https://github.com/himelmallick/BayesRecipe)
-: Bayesian reciprocal regularization for regression and classification.\
+: Bayesian regularization for regression and classification.\
   [Citations: {{< var stats.citations.bayesrecipe >}}]{.where}
 
 [Tweedieverse](https://github.com/himelmallick/Tweedieverse)
@@ -22,6 +22,6 @@ Top 5 selected software. Full list is [here](https://github.com/himelmallick). D
   [Citations: {{< var stats.citations.tweedieverse >}}]{.where}
 
 [IntegratedLearner](https://github.com/himelmallick/IntegratedLearner)
-: Integrated machine learning that consolidates predictions across longitudinal and cross-sectional omics layers and quantifies the uncertainty of the integration.\
+: Integrated machine learning for multi-omics prediction and classification.\
   [Citations: {{< var stats.citations.integratedlearner >}}]{.where}
 :::
