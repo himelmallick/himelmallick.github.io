@@ -222,5 +222,7 @@ Upcoming and recent short courses and talks. Teaching materials are on [GitHub](
 
 ## Invited Talks
 
+Recent invited talks. Full list is [here](../files/CV_Himel_Mallick.pdf){target="_blank"}.
+
 ::: {#talks-invited}
 :::
