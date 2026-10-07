@@ -3,7 +3,9 @@ title: "Automatically update citation metrics in your CV with a bare minimum scr
 date: 2020-02-16
 date-modified: 2026-10-04
 categories: [R, Resume, Career, AI]
+description-meta: "The inspiration behind this post comes from my non-computational scientist colleagues who simply wanted to import Google Scholar citation metrics in their CVs and resumes with as little overhead as possible."
 image: featured.jpg
+image-alt: "The Google Scholar logo next to a Microsoft Word document"
 ---
 
 *Updated on October 4, 2026. The script can now be copied straight from this page, it falls back on saved numbers when Google Scholar does not answer, the links are refreshed, and there is a new section on doing all of this with Claude.*
@@ -99,7 +101,7 @@ That's it! You have the exact same resume with the citation metrics inserted.
 
 ## (Optional) Step 3: Automating with cron
 
-Now, if you would like to further fine-tune this process [without the hassle of running the script every other day](http://ideophone.org/how-often-does-google-scholar-update/), you can optionally do that thanks to the amazing [`cronR`](https://cran.r-project.org/package=cronR) package (Mac and Linux; on Windows the sister package [`taskscheduleR`](https://cran.r-project.org/package=taskscheduleR) does the same job). Fortunately, this step is dead easy as well, especially if you are already familiar with R.
+Now, if you would like to further fine-tune this process [without the hassle of running the script every other day](https://ideophone.org/how-often-does-google-scholar-update/), you can optionally do that thanks to the amazing [`cronR`](https://cran.r-project.org/package=cronR) package (Mac and Linux; on Windows the sister package [`taskscheduleR`](https://cran.r-project.org/package=taskscheduleR) does the same job). Fortunately, this step is dead easy as well, especially if you are already familiar with R.
 
 In particular, once you are able to install the `cronR` package following instructions [here](https://github.com/bnosac/cronR), you can jump right into the `RStudio add-in` section of that tutorial.
 

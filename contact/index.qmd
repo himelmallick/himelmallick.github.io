@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+description-meta: "Send a message to Himel Mallick at Weill Cornell Medicine, New York."
 ---
 
 ::: {.contact}

@@ -2,7 +2,9 @@
 title: "Year-end reflection: My 2020 highlights"
 date: 2020-12-31
 categories: [Research, Career, Statistics, Biostatistics, Data Science, Academic Service, Peer Review]
+description-meta: "The last day of 2020 is finally here. To bring this decade to a close, I thought I would take a moment to share some of the highlights from this year in the form of pictures and anecdotes."
 image: featured.jpg
+image-alt: "A road through fields toward the horizon, with 2020 written across the sky"
 ---
 
 The last day of 2020 is finally here. To bring this decade to a close, I thought I would take a moment to share some of the highlights from this year in the form of pictures and anecdotes.
@@ -46,7 +48,7 @@ By the same token, I couldn't be more appreciative of the opportunity to give ba
 Apart from these, there have been a few `first-of-its-kind` professional highlights this year as well:
 
 - Completed my first internship as a mentor
-- Edited my first [special issue](https://himelmallick.github.io/post/guest_editing_reflection/) as a lead editor
+- Edited my first [special issue](../guest_editing_reflection/index.qmd) as a lead editor
 - Published my first [Bioconductor package](https://www.bioconductor.org/packages/release/bioc/html/Maaslin2.html)
 - Delivered my first [keynote presentation](https://twitter.com/Mallick_Himel/status/1260271590320885764)
 - Organized my first [JSM invited session](https://ww2.amstat.org/meetings/jsm/2021/invitedsessions.cfm) (scheduled for JSM 2021)

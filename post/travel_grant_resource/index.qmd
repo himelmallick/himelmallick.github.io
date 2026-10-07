@@ -3,7 +3,9 @@ title: "Student paper awards and travel grants - A resource for data science gra
 date: 2020-10-31
 date-modified: 2026-10-04
 categories: [Career, Research, Statistics, Biostatistics, Data Science, Computational Biology]
+description-meta: "A centralized resource of student paper awards and travel grants, geared towards data science graduate students and postdocs (broadly defined)."
 image: featured.jpg
+image-alt: "The Google logo at the center of a network of colored nodes"
 ---
 
 *Updated on October 4, 2026. The list has been rebuilt: every entry was checked against its official page, it has grown from 17 awards to 74, and there are now three ways to contribute, including a short form that needs no Git.*

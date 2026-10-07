@@ -3,7 +3,9 @@ title: "Automatically update citation metrics in your CV with a bare minimum scr
 date: 2020-03-03
 date-modified: 2026-10-04
 categories: [R, Resume, Career, AI]
+description-meta: "In this post, I will go over the steps required to automatically import Google Scholar citation metrics in a LaTeX document without any hassle or compromise."
 image: featured.jpg
+image-alt: "The Google Scholar logo next to the LaTeX logo"
 ---
 
 *Updated on October 4, 2026. The Sweave steps now come with a small example you can run, there is a second route through Quarto that also puts a citation count next to each paper, the automation script has been replaced with one that has been run, and there is a new section on doing all of this with Claude.*
@@ -54,7 +56,7 @@ That's it. Now you can compile this file directly from RStudio by simply executi
 
 ![](Image_1.png){fig-alt="RStudio editor showing the Sweave chunk, the Sexpr calls and the Compile PDF button"}
 
-For your reference, the snapshot above is from my own resume which can be downloaded from [here](http://himelmallick.org/).
+For your reference, the snapshot above is from my own resume which can be downloaded from [here](../../index.qmd).
 
 One caveat I have learned since 2020: Google Scholar sometimes refuses automated requests for a few hours, and on such days the chunk above stops the whole document from compiling. A slightly longer chunk keeps a copy of the last numbers it received and uses that copy when a request fails:
 

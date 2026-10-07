@@ -2,7 +2,9 @@
 title: "Nontraditional Collaboration: A Success Story at JSM 2016"
 date: 2018-08-01
 categories: [Conference, JSM, Collaboration, Research]
+description-meta: "This is a repost of the original post that appeared in AMSTAT News in August 2018."
 image: featured.jpg
+image-alt: "Cover of the August 2018 issue of AMSTAT News"
 ---
 
 This is a repost backdated to match the original post that appeared in [AMSTAT News](https://magazine.amstat.org/) in [August 2018](https://magazine.amstat.org/blog/2018/08/01/nontraditional-collaboration/). I hope you enjoy reading it :)

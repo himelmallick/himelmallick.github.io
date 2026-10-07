@@ -2,7 +2,9 @@
 title: "Yearender: Looking back at 2021"
 date: 2021-12-31
 categories: [Research, Career, Statistics, Biostatistics, Data Science, Academic Service, Peer Review]
+description-meta: "As I come in terms with a particularly difficult year and reflect, there are a number of positive things that I am grateful for."
 image: featured.jpg
+image-alt: "Wooden blocks showing 2020, with the last block turning over to 21"
 ---
 
 Every year a set of memes is circulated widely on social media, the 2022 version of which goes along the lines of:
@@ -19,7 +21,7 @@ The unprecedented consequences of the pandemic have been widely reported in the 
 
 - **Insurmountable personal losses** (It's one thing to read the news or track the worldometer, but it's a whole different ballgame to witness personal losses up close and personal and hear individual stories that are [beyond heartbreaking](https://www.reuters.com/world/india/situation-india-beyond-heartbreaking-who-chief-says-2021-04-26/).)
 
-- **Delayed academic collaborations** (As much as I wanted to keep the [2020 momentum](http://himelmallick.github.io/post/year_end_reflection_2020/) going, [pandemic burnout](https://www.nature.com/articles/d41586-021-00663-2) turned out to be real, which slowly but surely led to an inevitable slowdown in productiveness.)
+- **Delayed academic collaborations** (As much as I wanted to keep the [2020 momentum](../year_end_reflection_2020/index.qmd) going, [pandemic burnout](https://www.nature.com/articles/d41586-021-00663-2) turned out to be real, which slowly but surely led to an inevitable slowdown in productiveness.)
 
 - **COVID diagnosis with moderate-to-severe symptoms** (A massive turning point was testing postive for COVID-19 with fairly severe symptoms. Although I was fortunate to escape a visit to the hospital (thanks to [Favipiravir](https://en.wikipedia.org/wiki/Favipiravir)), the experience of end-to-end recovery was gruesome.)
 
@@ -31,7 +33,7 @@ As I come in terms with a particularly difficult year and reflect, there are a n
 
 - A long overdue family reunion and precious quality time with the extended family
 - Completion of a six-month-long [leadership course](https://www.ccl.org/leadership-programs/leadership-development-program/)
-- \>10K [official downloads](http://bioconductor.org/packages/stats/bioc/Maaslin2/) of our software tool ([MaAsLin 2](https://huttenhower.sph.harvard.edu/maaslin/))
+- \>10K [official downloads](https://bioconductor.org/packages/stats/bioc/Maaslin2/) of our software tool ([MaAsLin 2](https://huttenhower.sph.harvard.edu/maaslin/))
 - \>100 [Publons-verified reviews](https://publons.com/researcher/1190507/himel-mallick/) and \>2500 [Google Scholar citations](https://scholar.google.com/citations?user=twbXG-wAAAAJ&hl=en)
 - Back-to-back keynote presentations including an extremely fulfilling [BVCN featured talk](https://www.youtube.com/watch?v=YV_KRtMfqr0)
 - Promotion to Associate Principal Scientist at work

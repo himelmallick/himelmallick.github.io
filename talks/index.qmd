@@ -1,5 +1,6 @@
 ---
 title: "Talks and Short Courses"
+description-meta: "Short courses, keynotes and invited talks by Himel Mallick, PhD, FASA."
 section-divs: false
 filters:
   - ../assets/talks.lua

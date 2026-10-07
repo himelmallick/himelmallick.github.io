@@ -2,13 +2,16 @@
 title: "The key word in data science is still science"
 date: 2026-10-11
 categories: [Statistics, Biostatistics, Data Science, AI]
+description-meta: "Four years on, an AI assistant can clean a dataset, fit a dozen models, and write up the results in the time it takes to make a coffee. So it is fair to ask whether the 2x2 table still holds."
 image: featured.jpg
 image-alt: "The 2x2 table of data science, 2026 edition: near-perfect or imperfect data against near-perfect or imperfect science, with an AI assistant at work in every cell"
 open-graph:
+  description: "Four years on, an AI assistant can clean a dataset, fit a dozen models, and write up the results in the time it takes to make a coffee. So it is fair to ask whether the 2x2 table still holds."
   image: share.jpg
   image-width: 1200
   image-height: 630
 twitter-card:
+  description: "Four years on, an AI assistant can clean a dataset, fit a dozen models, and write up the results in the time it takes to make a coffee. So it is fair to ask whether the 2x2 table still holds."
   image: share.jpg
 ---
 

@@ -2,6 +2,7 @@
 title: "A re-visit to the famous Jeff Leek commentary"
 date: 2022-10-20
 categories: [Statistics, Biostatistics, Data Science]
+description-meta: "In 2013, I came across this famous blog post by Jeff Leek. Little did I know that I would revisit this post 9 years down the lane."
 image: featured.jpg
 image-alt: "A 2x2 table of data science: near-perfect or imperfect data against near-perfect or imperfect science"
 ---

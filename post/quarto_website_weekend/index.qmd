@@ -3,6 +3,7 @@ title: "How I built a low-maintenance Quarto website over a weekend with an AI a
 subtitle: "Leaving Hugo behind, and everything that went wrong along the way"
 date: 2026-10-04
 categories: [Quarto, AI, Career]
+description-meta: "A complete rebuild of this site, done over one weekend with an AI assistant: why I left Hugo, how the work was divided between me and the assistant, what went wrong, and how you can reuse the result."
 image: featured.jpg
 image-alt: "After: the new home page of this site, built with Quarto"
 open-graph:

@@ -1,13 +1,14 @@
 ---
 title: "Honors and Awards"
+description-meta: "Honors and awards of Himel Mallick, PhD, FASA."
 ---
 
 ::: {.honors}
-April 2026
-: Ritu Banga Impact in Healthcare Research Award, New York, NY
-
 Fall 2025, Fall 2026
 : The Kidney Precision Medicine Project (KPMP) Fall Travel Grant, Washington, DC
+
+April 2026
+: Ritu Banga Impact in Healthcare Research Award, New York, NY
 
 June 2023, June 2025
 : The Stan Altan Nonclinical Biostatistics Paper Award, [The ASA Biopharmaceutical Nonclinical Biostatistics Working Group](https://community.amstat.org/biop/workinggroups/ncbwg/), New Brunswick, NJ
@@ -25,25 +26,25 @@ August 2023
 : Fellow of the [American Statistical Association (FASA)](https://www.amstat.org/your-career/awards/asa-fellows)
 
 December 2022
-: Early Career Award in Statistics and Data Sciences (ECASDS), [Indian International Statistical Association (IISA)](https://www.intindstat.org/), Bengaluru, India
+: Early Career Award in Statistics and Data Sciences (ECASDS), [International Indian Statistical Association (IISA)](https://www.intindstat.org/), Bengaluru, India
 
 November 2018
 : ISME Early Career Scientist Travel Award, National Centre of Microbial Resource (NCMR) at [National Center of Cell Science (NCCS)](http://www.nccs.res.in/), Pune, India
 
 July 2018
-: [IMS New Researchers Travel Award](http://bulletin.imstat.org/2018/03/2018-ims-new-researcher-travel-awards/), [IMS](http://www.imstat.org/)
+: [IMS New Researchers Travel Award](http://bulletin.imstat.org/2018/03/2018-ims-new-researcher-travel-awards/), [IMS](https://www.imstat.org/)
 
 July 2017
-: [IMS New Researchers Conference Travel Award](http://groups.imstat.org/newresearchers/conferences/nrc_2017.html), [IMS](http://www.imstat.org/)
+: [IMS New Researchers Conference Travel Award](http://groups.imstat.org/newresearchers/conferences/nrc_2017.html), [IMS](https://www.imstat.org/)
 
 December 2016
 : [Program in Quantitative Genomics Travel Fund](https://www.hsph.harvard.edu/pqg/studentpostdoc-travel-fund/), [HSPH](https://www.hsph.harvard.edu/)
 
 August 2016
-: Technical Writing Workshop Travel Grant, [National Institute of Statistical Sciences (NISS)](http://www.niss.org/)
+: Technical Writing Workshop Travel Grant, [National Institute of Statistical Sciences (NISS)](https://www.niss.org/)
 
 May 2016
-: [AMS-Simons Travel Grant](http://www.ams.org/programs/travel-grants/AMS-SimonsTG), [American Mathematical Society (AMS)](https://www.ams.org/home/page)
+: [AMS-Simons Travel Grant](https://www.ams.org/programs/travel-grants/AMS-SimonsTG), [American Mathematical Society (AMS)](https://www.ams.org/home/page)
 
 2013–2015
 : The DV Gokhale International Grants in Statistics Program Award, [Institute of International Education](https://www.iie.org/)
@@ -64,19 +65,19 @@ August 2014
 : 'Creativity is A Decision' Award, [UAB Nutrition Obesity Research Center](https://www.norc.uab.edu/)
 
 April 2014 and July 2012
-: [Graduate Student Government Travel Scholarship](http://www.uab.edu/gsg/), UAB
+: [Graduate Student Government Travel Scholarship](https://www.uab.edu/gsg/), UAB
 
 October 2013
 : [Naomi Fineberg Distinguished New Researcher Award](https://www.soph.uab.edu/awards/finebergaward), UAB
 
-May 2013
-: [Caroline P. Ireland Research Travel Scholarship](https://www.uab.edu/graduate/ireland-research-travel-awards), UAB
-
 June 2013
 : Boyd Harshbarger Travel Award, [Southern Research Council on Statistics](https://www.srcos.org/)
 
+May 2013
+: [Caroline P. Ireland Research Travel Scholarship](https://www.uab.edu/graduate/ireland-research-travel-awards), UAB
+
 January 2013
-: NSF Travel Grant, [International Indian Statistical Association](http://www.intindstat.org/)
+: NSF Travel Grant, [International Indian Statistical Association](https://www.intindstat.org/)
 
 June 2012
 : NSF Travel Grant, [International Society for Bayesian Analysis](https://bayesian.org/)

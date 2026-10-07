@@ -1,5 +1,6 @@
 ---
 title: "Notable Software"
+description-meta: "Selected software by Himel Mallick, PhD, FASA."
 ---
 
 Top 5 selected software. Full list is [here](https://github.com/himelmallick). Download counts are from Bioconductor and citation counts are from Google Scholar, as of {{< var stats.citations_date >}}.

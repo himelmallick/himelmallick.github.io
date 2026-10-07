@@ -22,6 +22,9 @@ website:
   description: "Himel Mallick is a statistical scientist and Principal Investigator at Cornell University, with broad research interests in AI and medicine, working on problems at the intersection of computational biology and machine learning."
   site-url: https://www.himelmallick.org
   favicon: assets/favicon.svg
+  # The picture shown when a page without its own image is shared on social media
+  image: /assets/share-card.jpg
+  image-alt: "Himel Mallick, PhD, FASA. Principal Investigator, Cornell University."
   search: false
   open-graph: true
   twitter-card:

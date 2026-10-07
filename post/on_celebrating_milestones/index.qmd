@@ -2,7 +2,9 @@
 title: "Celebrating milestones as a scientist"
 date: 2020-09-15
 categories: [Research, Career, Academics]
+description-meta: "As scientists, we rarely celebrate milestones be it a certain number of citations we have received or a certain number of impactful papers/patents we have co-authored."
 image: featured.jpg
+image-alt: "A green arrow leaping over three hurdles and rising"
 ---
 
 As scientists, we rarely celebrate [milestones](https://www.sciencemag.org/careers/2018/12/what-s-milestone-reflecting-life-scientist) be it a certain number of citations we have received or a certain number of impactful papers/patents we have co-authored. This is in sharp contrast to other professions where it is customary to celebrate even the tiniest bit of success in numbers. Be it how many runs a Cricketer has scored (yes I am an ardent Cricket fan!) or the number of box office successes a filmmaker has delivered.
@@ -15,4 +17,4 @@ Personally, September 2020 marks the milestone of 1000 Google Scholar citations 
 
 ![](Image_1.jpg){fig-alt="Google Scholar profile showing 1003 citations, an h-index of 14 and an i10-index of 18"}
 
-Featured image source: [Clipart Library](http://clipart-library.com/milestone-cliparts.html)
+Featured image source: [Clipart Library](https://clipart-library.com/milestone-cliparts.html)

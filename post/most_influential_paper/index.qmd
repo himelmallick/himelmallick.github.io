@@ -2,7 +2,9 @@
 title: "A paper that changed my life - The Bayesian LASSO"
 date: 2020-11-25
 categories: [Career, Research, Statistics, Biostatistics, Data Science]
+description-meta: "This Thanksgiving, I want to take this opportunity to express my gratitude to the authors of the most influential paper that changed my life in one way or another."
 image: featured.png
+image-alt: "The hierarchical model of the Bayesian LASSO, written as equations"
 ---
 
 As tough as this year has been, it goes without saying that 2020 is a particularly good year to be thankful for science, which happens to be one of the many things that are often [taken for granted](https://www.linkedin.com/pulse/why-im-thankful-science-jeffrey-simmons). While similar [thankfulness posts](https://www.sciencemag.org/careers/2011/11/what-scientists-can-be-grateful-thanksgiving) have appeared [elsewhere](https://www.criver.com/eureka/good-year-be-thankful-scientists), I want to share a different take as a computational scientist.

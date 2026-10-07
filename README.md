@@ -22,7 +22,7 @@ quarto preview
 
 | File | What to change |
 |---|---|
-| `_quarto.yml` | Site title, description, `site-url`, menu, CV links, footer |
+| `_quarto.yml` | Site title, description, share image, `site-url`, menu, CV links, footer |
 | `index.qmd` | Name, tagline, biography, research areas, education, profile links |
 | `assets/himel-mallick.jpg` | Your photo (600 x 900 pixels). Rename it and update the name in `index.qmd` |
 | `experience/index.qmd` | Positions and skills |

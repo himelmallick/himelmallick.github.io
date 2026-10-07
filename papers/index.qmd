@@ -1,5 +1,6 @@
 ---
 title: "Notable Papers"
+description-meta: "Selected publications of Himel Mallick, PhD, FASA."
 ---
 
 Top 5 selected publications. Full list is [here](https://scholar.google.com/citations?user=twbXG-wAAAAJ&hl=en). Citation counts are from Google Scholar, as of {{< var stats.citations_date >}}.

@@ -2,6 +2,7 @@
 title: "Early-career setback - A throwback to my first paper"
 date: 2020-08-20
 categories: [Peer Review, Career, Research, Statistics, Biostatistics, Data Science]
+description-meta: "This 15th August marked 7 years since I submitted my first paper (first-authored research article). The journey to get this work published was a bit bumpy."
 image: featured.jpg
 image-alt: "Bar chart of the field-weighted citation impact of 'A New Bayesian LASSO' by year, above the world average of 1 in every year from 2017 to 2025"
 ---

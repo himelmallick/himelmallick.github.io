@@ -2,7 +2,9 @@
 title: "And they lived happily ever after - a microbial fairy tale of DNA and RNA"
 date: 2018-01-15
 categories: [Metagenomics, Metatranscriptomics, Microbiome, Multi-omics, Data Science, Research]
+description-meta: "This is a repost of the original post that appeared in Nature Research Microbiology Community in January 2018, a prelude to our publication in Nature Microbiology."
 image: featured.png
+image-alt: "Cartoon of DNA and RNA as two characters standing under spotlights on a stage"
 ---
 
 This is a repost backdated to match the original post that appeared in [Nature Research Microbiology Community](https://naturemicrobiologycommunity.nature.com/) in [January 2018](https://naturemicrobiologycommunity.nature.com/users/78027-himel-mallick/posts/29027-and-they-lived-happily-ever-after-a-microbial-fairy-tale-of-dna-and-rna). In case you are wondering, this post is a prelude to the [following publication](https://www.nature.com/articles/s41564-017-0084-4):

@@ -2,6 +2,7 @@
 title: "Title of the post"
 date: 2026-01-01
 categories: [Research, Statistics]
+description-meta: "One or two sentences about the post, for search engines"
 image: featured.jpg        # optional: shown above the text and on social cards
 image-alt: "One sentence describing the image"
 draft: true                # delete this line when the post is ready

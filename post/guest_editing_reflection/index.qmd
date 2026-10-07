@@ -2,7 +2,9 @@
 title: "A reflection on my first guest editorial experience"
 date: 2020-07-30
 categories: [Academic Service, Peer Review, Editing, Guest Editing, Microbiome, Multi-omics, Research]
+description-meta: "Recently, I had a chance to wrap up a special issue at the journal Frontiers in Genetics. This is my first-hand experience as a lead Guest Associate Editor."
 image: featured.png
+image-alt: "The Frontiers logo"
 ---
 
 Recently, I had a chance to wrap up a [special issue](https://www.frontiersin.org/research-topics/8604/statistical-and-computational-methods-for-microbiome-multi-omics-data) at the journal [Frontiers in Genetics](https://www.frontiersin.org/). This is my first-hand experience as a lead Guest Associate Editor.

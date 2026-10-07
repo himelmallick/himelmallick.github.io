@@ -1,5 +1,6 @@
 ---
 title: "Experience"
+description-meta: "Professional experience of Himel Mallick, PhD, FASA, in academia and industry."
 ---
 
 :::: {.timeline}

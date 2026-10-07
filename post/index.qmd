@@ -1,5 +1,6 @@
 ---
 title: "Posts"
+description-meta: "Blog posts by Himel Mallick on statistics, data science, AI and life in research."
 listing:
   contents: "*/index.qmd"
   sort: "date desc"
