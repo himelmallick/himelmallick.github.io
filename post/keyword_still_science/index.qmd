@@ -1,6 +1,6 @@
 ---
 title: "The key word in data science is still science"
-date: 2026-10-10
+date: 2026-10-11
 categories: [Statistics, Biostatistics, Data Science, AI]
 description-meta: "Four years on, an AI assistant can clean a dataset, fit a dozen models, and write up the results in the time it takes to make a coffee. So it is fair to ask whether the 2x2 table still holds."
 image: featured.jpg
@@ -29,18 +29,7 @@ The mechanics of analysis: code, pipelines, standard models, the first draft of 
 
 Knowing whether the answer is right. An AI system that is handed imperfect data still returns a fluent, well-formatted, confident result. "Garbage in, garbage out" has acquired a more dangerous cousin: garbage in, polished prose out. The lose-lose cell of the table now looks like a win on the surface, which makes the combination of imperfect data and imperfect science harder to spot than it was in 2013 or in 2022.
 
-## Where the science lives now
-
-In the same place Jeff Leek pointed to, with different day-to-day work:
-
-- asking a question that the data can answer,
-- understanding how the data were collected and what is missing from them,
-- quantifying uncertainty, so that every prediction comes with an honest statement of how wrong it could be, and
-- designing the check that would expose a wrong answer.
-
-The last habit is the one I would teach first. When I ask an AI assistant for something consequential, the most valuable sentence in my request is the one that asks for proof: a comparison against a known answer, a held-out test, a validation that fluent writing cannot get around.
-
-## An example from my own field
+## An example from the microbiome field
 
 Microbiome research makes the point concrete. In a [recent essay](https://blekhman.substack.com/p/ai-keeps-failing-at-microbiome-prediction), Ran Blekhman reviews why AI keeps failing at microbiome prediction. In the largest benchmark he discusses, 156 modeling pipelines were compared across 83 gut microbiome cohorts and 20 diseases, and ridge regression and random forest came out on top, ahead of neural networks. In another study, a transformer trained on American Gut Project data was outperformed by a plain random forest on nearly every task. The reasons are scientific ones: the typical study has about 160 samples, more than half of the entries in an abundance table are zeros, and the signal linking microbes to disease is modest. In Blekhman's words, "the bottleneck is biological, not algorithmic."
 
