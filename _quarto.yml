@@ -24,11 +24,12 @@ website:
   favicon: assets/favicon.svg
   # The picture shown when a page without its own image is shared on social media
   image: /assets/share-card.jpg
-  image-alt: "Himel Mallick, PhD, FASA. Principal Investigator, Cornell University."
   search: false
-  open-graph: true
+  open-graph:
+    image-alt: "Himel Mallick, PhD, FASA. Principal Investigator, Cornell University."
   twitter-card:
     creator: "@Mallick_Himel"
+    image-alt: "Himel Mallick, PhD, FASA. Principal Investigator, Cornell University."
   navbar:
     title: "Himel Mallick"
     collapse-below: lg
