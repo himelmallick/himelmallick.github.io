@@ -1,14 +1,14 @@
 ---
 title: "Student paper awards and travel grants - A resource for students and early-career researchers in data science"
 date: 2020-10-31
-date-modified: 2026-10-14
+date-modified: 2026-10-04
 categories: [Career, Research, Statistics, Biostatistics, Data Science, Computational Biology]
 description-meta: "A centralized resource of student paper awards and travel grants for undergraduate and graduate students, postdocs and early-career researchers in data science (broadly defined)."
 image: featured.jpg
 image-alt: "The Google logo at the center of a network of colored nodes"
 ---
 
-*Updated on October 4, 2026. The list has been rebuilt: every entry was checked against its official page, it has grown from 17 awards to 74, and there are now three ways to contribute, including a short form that needs no Git. On October 14, 2026, each award also gained a student level, and the list now names the 17 awards open to undergraduates.*
+*Updated on October 4, 2026. The list has been rebuilt: every entry was checked against its official page, it has grown from 17 awards to 74, and there are now three ways to contribute, including a short form that needs no Git. Each award also now carries a student level, and the list names the 17 awards open to undergraduates.*
 
 This post is motivated by the growing list of `awesome` public repositories that curate a list of resources dedicated to a specific topic (such as [this](https://github.com/dangkhoasdc/awesome-ai-residency), [this](https://github.com/academic/awesome-datascience), and [this](https://github.com/josephmisiti/awesome-machine-learning), among others).
 
