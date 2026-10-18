@@ -21,19 +21,19 @@ talks:
   - date: "2026-12"
     type: course
     title: "Deep Learning for Biological Data"
-    where: "Inserm"
+    where: "Inserm, Virtual"
     note: "Joint with Jatin Chaudhary"
   - date: "2026-11-30"
     end: "2026-12-04"
     type: course
     title: "Bayesian Methods for Biomedical Data Science"
-    where: "Physalia Courses, Online"
+    where: "Physalia Courses, Virtual"
     link: "https://www.physalia-courses.org/courses-workshops/bayesian-in-compgen/"
   - date: "2026-11-02"
     end: "2026-11-06"
     type: course
     title: "Causal AI Methods for Computational Biology"
-    where: "Physalia Courses, Online"
+    where: "Physalia Courses, Virtual"
     link: "https://www.physalia-courses.org/courses-workshops/causal-ai-methods/"
   - date: "2026-07-06"
     type: course
@@ -52,13 +52,14 @@ talks:
     end: "2026-04-29"
     type: course
     title: "Statistical Methods for Metatranscriptomics"
-    where: "Physalia Courses, Online"
+    where: "Physalia Courses, Virtual"
     link: "https://www.physalia-courses.org/courses-workshops/metatranscriptomics/"
   - date: "2026-03-02"
     end: "2026-03-06"
     type: course
     title: "Multimodal AI for Systems Biology"
-    where: "Physalia Courses, Online"
+    where: "Physalia Courses, Virtual"
+    note: "Joint with Saptarshi Roy, Sreya Sarkar and Aditya Shankar Pal"
     link: "https://www.physalia-courses.org/courses-workshops/multimodal-ai/"
   - date: "2025-06-14"
     type: course
@@ -114,7 +115,7 @@ talks:
   - date: "2023-03"
     type: keynote
     title: "Integrated Machine Learning for Multi-omics Prediction and Classification"
-    where: "2023 International Conference on Technology, Applied Mathematics, and Statistics, University of Al-Qadisiyyah, Al Diwaniyah, Iraq"
+    where: "2023 International Conference on Technology, Applied Mathematics, and Statistics, University of Al-Qadisiyyah, Al Diwaniyah, Iraq (Virtual)"
     link: "https://cmc.qu.edu.iq/en/2023/03/25/the-college-of-computer-science-and-information-technology-at-the-university-of-al-qadisiyah-holds-its-fifth-international-scientific-conference-on-information-technology-with-a-wide-academic-and-eli/"
   - date: "2021-06"
     type: keynote
@@ -142,7 +143,7 @@ talks:
   - date: "2026-08"
     type: invited
     title: "Multi-omics Data Integration with Bioconductor"
-    where: "Bioconductor Africa Seminar Series"
+    where: "Bioconductor Africa Seminar Series (Virtual)"
     link: "https://www.youtube.com/watch?v=N2W3jobpAqM"
     note: "Invited tutorial"
   - date: "2026-07"
@@ -167,7 +168,7 @@ talks:
   - date: "2025-07"
     type: invited
     title: "Orchestrating Microbiome Multi-omics Integration and Analysis"
-    where: "Biodesign Center for Health Through Microbiomes, Arizona State University, Phoenix, AZ"
+    where: "Biodesign Center for Health Through Microbiomes, Arizona State University, Phoenix, AZ (Virtual)"
   - date: "2025-07"
     type: invited
     title: "Scalable, Uncertainty-aware, Interpretable Multimodal AI"
@@ -175,7 +176,7 @@ talks:
   - date: "2025-06"
     type: invited
     title: "An Integrated Bayesian Framework for Multi-omics Prediction and Classification"
-    where: "Bayesian BioPharm Meeting, Los Angeles, CA"
+    where: "Bayesian BioPharm Meeting, Los Angeles, CA (Virtual)"
     link: "https://bnp14.org/bbp2025/"
   - date: "2025-06"
     type: invited

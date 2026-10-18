@@ -1,14 +1,14 @@
 ---
 title: "Student paper awards and travel grants - A resource for students and early-career researchers in data science"
 date: 2020-10-31
-date-modified: 2026-10-04
+date-modified: 2026-10-18
 categories: [Career, Research, Statistics, Biostatistics, Data Science, Computational Biology]
 description-meta: "A centralized resource of student paper awards and travel grants for undergraduate and graduate students, postdocs and early-career researchers in data science (broadly defined)."
 image: featured.jpg
 image-alt: "The Google logo at the center of a network of colored nodes"
 ---
 
-*Updated on October 4, 2026. The list has been rebuilt: every entry was checked against its official page, it has grown from 17 awards to 74, and there are now three ways to contribute, including a short form that needs no Git. Each award also now carries a student level, and the list names the 17 awards open to undergraduates.*
+*Updated on October 18, 2026. The list has been rebuilt: every entry was checked against its official page, it has grown from 17 awards to 75, and there are now three ways to contribute, including a short form that needs no Git. Each award also now carries a student level, and the list names the 17 awards open to undergraduates.*
 
 This post is motivated by the growing list of `awesome` public repositories that curate a list of resources dedicated to a specific topic (such as [this](https://github.com/dangkhoasdc/awesome-ai-residency), [this](https://github.com/academic/awesome-datascience), and [this](https://github.com/josephmisiti/awesome-machine-learning), among others).
 
@@ -24,7 +24,7 @@ Based on these factors, I have assembled this [public repository](https://github
 
 The first version of this list had 17 entries and was last touched in 2021. Award pages move and deadlines shift every year, so by 2026 most of its entries pointed to an old page or an old date. The new version starts over:
 
-- **74 awards in five groups:** student paper awards and student travel awards (19), the ASA section competitions for JSM (20), early-career awards and travel grants (12), conference support in mathematics, machine learning, computational biology and R (17), and scholarships and other support (6).
+- **75 awards in five groups:** student paper awards and student travel awards (19), the ASA section competitions for JSM (20), early-career awards and travel grants (13), conference support in mathematics, machine learning, computational biology and R (17), and scholarships and other support (6).
 - **Three facts for every award:** who can apply, what it covers, and when the call usually closes. The deadlines are general (for example "November 15" or "mid-October"), so the list stays useful from one year to the next.
 - **A student level for every award** (undergraduate, master's, PhD or early career), taken from the official page, and a separate list of the 17 awards open to undergraduates.
 - **A month-by-month calendar** of deadlines at the bottom.
@@ -39,6 +39,10 @@ If you saved dates from the 2020 version, please check your calendar. Several ha
 - The IMS Lawrence D. Brown Ph.D. Student Award now closes on **July 1**.
 
 The refresh itself was done with [Claude](https://claude.com), which checked each award against its official page and recorded the date of the check. I mention it because it changes what is realistic for a volunteer-run list: a full re-check of every entry is now an evening's work, so the list can be kept current once a year.
+
+## Mathematics funding is open to statisticians
+
+Several travel grants from the mathematics community cover statistics and are easy for statisticians to overlook. The [AMS-Simons Travel Grants](https://www.ams.org/programs/travel-grants/AMS-SimonsTG) fund early-career researchers working in any area supported by the NSF Division of Mathematical Sciences, which includes statistics. I received one in 2016 as a biostatistician. The Simons Foundation's [Travel Support for Mathematicians](https://www.simonsfoundation.org/grant/travel-support-for-mathematicians/) is now on the list as well. It funds tenure-track and tenured faculty in mathematics departments with a PhD program, statistics included, although an appointment solely in a statistics department is not eligible.
 
 ## How to contribute
 
