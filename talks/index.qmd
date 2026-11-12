@@ -214,11 +214,6 @@ Upcoming and recent short courses and talks. Teaching materials are on [GitHub](
 ::: {#talks-upcoming}
 :::
 
-## Short Courses
-
-::: {#talks-courses}
-:::
-
 ## Keynotes
 
 ::: {#talks-keynotes}
@@ -229,4 +224,9 @@ Upcoming and recent short courses and talks. Teaching materials are on [GitHub](
 Recent invited talks. Full list is [here](../files/CV_Himel_Mallick.pdf){target="_blank"}.
 
 ::: {#talks-invited}
+:::
+
+## Short Courses
+
+::: {#talks-courses}
 :::
