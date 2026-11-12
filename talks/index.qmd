@@ -98,6 +98,10 @@ talks:
     note: "Joint with Ali Rahnavard"
 
   # ---- Keynotes ----
+  - date: "2026-12-11"
+    type: keynote
+    title: "From Microbes to Medicine: Foundation Models for Microbial Communities"
+    where: "NIELIT Bio-AI Conclave 2026, Gauhati University, Guwahati, India"
   - date: "2026-05"
     type: keynote
     title: "Foundation Models for Microbial Community Multiomics"
@@ -123,6 +127,14 @@ talks:
     where: "2020 International Virtual Conference on Statistics, University of Al-Qadisiyyah, Al Diwaniyah, Iraq"
 
   # ---- Invited talks ----
+  - date: "2027-01"
+    type: invited
+    title: "Foundation Models for Microbial Communities"
+    where: "Statistical Quality Control and Operations Research, Indian Statistical Institute, Kolkata, India"
+  - date: "2027-01"
+    type: invited
+    title: "Foundation Models for Microbial Communities"
+    where: "Department of Computational and Data Sciences, Indian Institute of Science, Bengaluru, India"
   - date: "2026-10-23"
     type: invited
     title: "Bayesian Multimodal AI for Scalable Biomedical Discovery"
