@@ -1,0 +1,86 @@
+---
+title: "Statisticians: Moving to the Driver's Seat in the Age of AI"
+date: 2026-11-07
+categories: [Statistics, Causal Inference, AI, Data Science]
+description-meta: "As AI makes prediction cheap, causal inference and trustworthy evaluation become the scarce skills, and statisticians belong in the driver's seat."
+draft: true                # delete this line when the post is ready
+---
+
+## From the backyard to the driver's seat
+
+John Tukey famously said that the best thing about being a statistician is that you get to play in everyone's backyard. For decades that line described our role well: we were invited into other people's projects, we helped, and we left.
+
+In 2017, Itai Yanai and Eva Chmielnicki argued in *Genome Biology* that computational biologists had outgrown a similar role. They traced a shift from bioinformatics service providers to leaders of research programs, with computational biologists increasingly serving as principal investigators and senior authors.
+
+I believe statisticians are at the same inflection point today, and AI is the reason. When anyone can fit a model in seconds, the scarce skill is knowing whether an answer reflects cause or coincidence. That skill, causal inference, belongs in the driver's seat.
+
+## Why now: prediction is cheap, trustworthy inference is scarce
+
+AI has collapsed the cost of producing an answer. Foundation models predict protein structures, flag deteriorating patients, and draft entire analysis pipelines. Each of those outputs still has to become evidence: a confidence interval, a validated claim, a regulatory decision.
+
+That conversion is statistical work. It requires design, uncertainty quantification, causal reasoning, and honest evaluation on data the model has never seen. As predictions get cheaper, the value of that conversion goes up.
+
+## Causal inference is the steering wheel
+
+Prediction tells us what is likely to happen. Science, medicine, and policy ask what happens if we intervene. Answering that requires a causal estimand, explicit assumptions about confounding, a design that aligns time zero, and sensitivity analysis. More data and more compute do not supply those choices.
+
+**Hormone therapy is the cautionary tale.** Large observational studies, including the Nurses' Health Study, suggested that postmenopausal hormone therapy lowered coronary heart disease risk. The Women's Health Initiative randomized trial then found greater coronary heart disease incidence in the estrogen plus progestin arm, 68% higher in the first two years. Hernán and colleagues later reanalyzed the Nurses' Health Study as an emulation of the trial, comparing new initiators with non-initiators from a common start of follow-up. The discrepancy could largely be explained by differences in time since menopause and length of follow-up. The same data gave a trustworthy answer once the causal design was right.
+
+**Current AI struggles with formal causal reasoning.** On Corr2Cause, a benchmark of more than 200,000 examples that asks models to infer causal structure from correlational statements, 17 large language models performed close to random. Fine-tuning helped only in familiar settings and failed when queries were perturbed. On CLadder, a NeurIPS 2023 benchmark of associational, interventional, and counterfactual questions, GPT-4 answered about 62% correctly, rising to 70% with a specialized causal chain-of-thought prompt.
+
+An AI agent can fit a propensity score model or a causal forest in seconds. Deciding whether the estimand matches the scientific question, whether positivity holds, and whether time zero is aligned remains expert judgment. That judgment is what training in causal inference produces, and it is the strongest reason statisticians belong in the driver's seat.
+
+## Why AI makes statistical leadership urgent
+
+The evidence points in one direction: AI without statistical judgment produces confident errors, and AI with it produces usable evidence.
+
+**Leakage is undermining ML-based science.** Kapoor and Narayanan surveyed reviews across 17 fields and found data leakage affecting at least 294 published papers. In a civil war prediction case study, complex ML models lost their advantage over decades-old logistic regression once the leakage was corrected.
+
+**Deployed models can fail quietly.** The Epic Sepsis Model ran in hundreds of US hospitals before an independent external validation at Michigan Medicine. Across 38,455 hospitalizations, it reached an AUC of 0.63, below the 0.76 to 0.83 reported by the vendor. It missed 67% of sepsis cases while alerting on 18% of all patients.
+
+**Analytic choices drive conclusions.** In the many-analysts study, 29 teams analyzed one dataset on referee bias. Estimates ranged from an odds ratio of 0.89 to 2.93, and 20 of 29 teams reported a significant effect. AI agents can now generate hundreds of such analyses in minutes, which makes principled design and pre-specification more valuable.
+
+**Statistics turns AI output into evidence.** Prediction-powered inference, published in *Science* in 2023, gives valid confidence intervals when ML predictions such as AlphaFold structures supplement a small gold-standard dataset. The FDA's January 2025 draft guidance on AI in drug development asks sponsors for a seven-step, risk-based credibility assessment tied to a model's context of use. Both are statistical frameworks at their core.
+
+**The labor market agrees.** The Bureau of Labor Statistics projects employment of statisticians to grow about 8.5% from 2024 to 2034, well above the roughly 3% projected for all jobs, with data scientists at 34%. AI adoption is increasing demand for this expertise.
+
+## The shifting role of the statistician
+
+Following the structure of Yanai and Chmielnicki, five dimensions capture the change.
+
+| Dimension | Past | AI era |
+|---|---|---|
+| Role in research | Consultant brought in after data collection | Principal investigator who sets the question and the design |
+| Relationship to models | Fits models others request | Audits, validates, and certifies models others build, including AI |
+| Domain knowledge | Methods-centered | Methods- and domain-centered, fluent in the science |
+| Data | Analyzes data generated by collaborators | Designs studies and evaluation sets so AI outputs can be trusted |
+| Output | p-values and tables in a Methods section | Credible evidence: calibrated uncertainty, causal claims, regulatory-grade validation |
+
+## What needs to change
+
+**Funders** should recognize statisticians as contact PIs on AI-driven projects and fund validation, uncertainty quantification, and evaluation design as primary aims.
+
+**Institutions** should credit senior authorship and grant leadership by statisticians in promotion decisions, and embed statisticians in AI centers from the start.
+
+**Journals and regulators** should require independent external validation and leakage checks for AI-based claims, with a statistician accountable for the evaluation.
+
+**Statisticians** should claim the role: learn the science deeply, build fluency with modern AI tools, and lead questions instead of waiting to be invited into them. As ASA leadership put it in 2025, statisticians are not bystanders in the AI era.
+
+## From the backyard to the driver's seat
+
+Tukey's line captured the joy of a discipline that travels everywhere. In the age of AI, every field has powerful engines for prediction. Statisticians trained in causal inference belong in the driver's seat, steering those engines toward conclusions about cause and effect that hold up.
+
+## References
+
+1. Yanai I, Chmielnicki E. [Computational biologists: moving to the driver's seat](https://pmc.ncbi.nlm.nih.gov/articles/PMC5701351). *Genome Biology*. 2017;18:223.
+2. Hernán MA, Alonso A, Logan R, et al. [Observational studies analyzed like randomized experiments: an application to postmenopausal hormone therapy and coronary heart disease](https://pmc.ncbi.nlm.nih.gov/articles/PMC3731075). *Epidemiology*. 2008;19(6):766-779.
+3. Jin Z, Liu J, Lyu Z, et al. [Can large language models infer causation from correlation?](https://arxiv.org/abs/2306.05836) ICLR 2024.
+4. Jin Z, Chen Y, Leeb F, et al. [CLadder: assessing causal reasoning in language models](https://proceedings.neurips.cc/paper_files/paper/2023/hash/631bb9434d718ea309af82566347d607-Abstract.html). NeurIPS 2023.
+5. Kapoor S, Narayanan A. [Leakage and the reproducibility crisis in machine-learning-based science](https://pmc.ncbi.nlm.nih.gov/articles/PMC10499856). *Patterns*. 2023;4(9):100804.
+6. Wong A, et al. External validation of a widely implemented proprietary sepsis prediction model in hospitalized patients. *JAMA Internal Medicine*. 2021. doi:10.1001/jamainternmed.2021.2626. Summary: [Fierce Healthcare](https://www.fiercehealthcare.com/tech/epic-s-widely-used-sepsis-prediction-model-falls-short-among-michigan-medicine-patients).
+7. Silberzahn R, et al. [Many analysts, one data set](https://dare.uva.nl/id/0785a9cc-2470-4a3a-bea8-0f34828953c2). *Advances in Methods and Practices in Psychological Science*. 2018;1(3):337-356.
+8. Angelopoulos AN, Bates S, Fannjiang C, Jordan MI, Zrnic T. [Prediction-powered inference](https://arxiv.org/abs/2301.09633v4). *Science*. 2023.
+9. US FDA. [Considerations for the use of AI to support regulatory decision-making for drug and biological products](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-use-artificial-intelligence-support-regulatory-decision-making-drug-and-biological) (draft guidance, January 2025).
+10. O*NET / BLS. [Statisticians employment projections 2024-2034](https://www.onetonline.org/link/localtrends/15-2041.01?g=Go&st=WV); [fastest-growing jobs 2024-2034](https://digital-release.newsnationnow.com/business/your-money/fastest-growing-jobs-3).
+11. Amstat News. [Navigating Challenges, Embracing AI, and Shaping the Future](https://magazine.amstat.org/blog/2025/05/01/embracing-ai-shaping-the-future/) (2025).
+12. Tukey quote as cited in [Brillinger, COPSS lecture](https://www.stat.berkeley.edu/users/brill/Papers/copssbrill.pdf).
