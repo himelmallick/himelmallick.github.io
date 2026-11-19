@@ -13,11 +13,49 @@ invited-shown: 10     # how many past invited talks to list
 #   link and note are optional
 talks:
   # ---- Short courses ----
+  - date: "2027-11"
+    type: course
+    title: "Causal AI Methods for Computational Biology"
+    where: "Physalia Courses, Virtual"
+  - date: "2027-11"
+    type: course
+    title: "Bayesian Methods for Biomedical Data Science"
+    where: "Physalia Courses, Virtual"
+  - date: "2027-07-26"
+    end: "2027-07-30"
+    type: course
+    title: "Orchestrating Spatial Multimodal Analysis with Bioconductor"
+    where: "Physalia Courses, Virtual"
+  - date: "2027-06-07"
+    end: "2027-06-11"
+    type: course
+    title: "Orchestrating Multimodal AI with R and Python"
+    where: "Physalia Courses, Virtual"
+  - date: "2027-05-04"
+    end: "2027-05-08"
+    type: course
+    title: "Orchestrating Metatranscriptomics Analysis with Bioconductor"
+    where: "Physalia Courses, Virtual"
+    link: "https://www.physalia-courses.org/courses-workshops/metatranscriptomics/"
+  - date: "2027-04-19"
+    end: "2027-04-23"
+    type: course
+    title: "Orchestrating Multi-omics Analysis with Bioconductor"
+    where: "Physalia Courses, Virtual"
+    link: "https://www.physalia-courses.org/courses-workshops/multiomicsbioconductor/"
+    note: "Joint with Leo Lahti and Tuomas Borman"
   - date: "2027-03"
     type: course
     title: "Multimodal Integration and Multimodal Causal Inference using R/Bioconductor"
     where: "ENAR 2027 Short Course"
     link: "https://www.enar.org/meetings/spring2027/program/short_courses.cfm"
+  - date: "2027-03-08"
+    end: "2027-03-12"
+    type: course
+    title: "Orchestrating Microbiome Analysis with Bioconductor"
+    where: "Physalia Courses, Virtual"
+    link: "https://www.physalia-courses.org/courses-workshops/microbiomebioconductor/"
+    note: "Joint with Leo Lahti and Tuomas Borman"
   - date: "2026-11-30"
     end: "2026-12-04"
     type: course
@@ -128,6 +166,14 @@ talks:
     where: "2020 International Virtual Conference on Statistics, University of Al-Qadisiyyah, Al Diwaniyah, Iraq"
 
   # ---- Invited talks ----
+  - date: "2027-08"
+    type: invited
+    title: "Foundation Models for Microbial Communities"
+    where: "Joint Statistical Meetings (Invited Session), Chicago, IL"
+  - date: "2027-03"
+    type: invited
+    title: "Foundation Models for Microbial Communities"
+    where: "ENAR 2027 Spring Meeting (Invited Session), Boston, MA"
   - date: "2027-01"
     type: invited
     title: "Foundation Models for Microbial Communities"
