@@ -1,5 +1,6 @@
 ---
 title: "Student paper awards and travel grants - A resource for students and early-career researchers in data science"
+description: "A centralized resource of student paper awards and travel grants for undergraduate and graduate students, postdocs and early-career researchers in data science (broadly defined)."
 date: 2020-10-31
 date-modified: 2026-10-18
 categories: [Career, Research, Statistics, Biostatistics, Data Science, Computational Biology]

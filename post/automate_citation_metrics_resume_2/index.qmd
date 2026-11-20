@@ -1,5 +1,6 @@
 ---
 title: "Automatically update citation metrics in your CV with a bare minimum script - Part II"
+description: "In this post, I will go over the steps required to automatically import Google Scholar citation metrics in a LaTeX document without any hassle or compromise."
 date: 2020-03-03
 date-modified: 2026-10-04
 categories: [R, Resume, Career, AI]

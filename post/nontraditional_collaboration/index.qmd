@@ -1,5 +1,6 @@
 ---
 title: "Nontraditional Collaboration: A Success Story at JSM 2016"
+description: "How a nontraditional collaboration became a success story at JSM 2016. Originally published in AMSTAT News in August 2018."
 date: 2018-08-01
 categories: [Conference, JSM, Collaboration, Research]
 description-meta: "This is a repost of the original post that appeared in AMSTAT News in August 2018."

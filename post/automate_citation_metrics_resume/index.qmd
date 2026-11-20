@@ -1,5 +1,6 @@
 ---
 title: "Automatically update citation metrics in your CV with a bare minimum script - Part I"
+description: "The inspiration behind this post comes from my non-computational scientist colleagues who simply wanted to import Google Scholar citation metrics in their CVs and resumes with as little overhead as possible."
 date: 2020-02-16
 date-modified: 2026-10-04
 categories: [R, Resume, Career, AI]

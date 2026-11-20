@@ -1,5 +1,6 @@
 ---
 title: "A re-visit to the famous Jeff Leek commentary"
+description: "In 2013, I came across this famous blog post by Jeff Leek. Little did I know that I would revisit this post 9 years down the lane."
 date: 2022-10-20
 categories: [Statistics, Biostatistics, Data Science]
 description-meta: "In 2013, I came across this famous blog post by Jeff Leek. Little did I know that I would revisit this post 9 years down the lane."

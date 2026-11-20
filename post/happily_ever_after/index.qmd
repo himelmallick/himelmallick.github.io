@@ -1,5 +1,6 @@
 ---
 title: "And they lived happily ever after - a microbial fairy tale of DNA and RNA"
+description: "My first technical blog post, a prelude to our Nature Microbiology paper on microbial DNA and RNA in the human gut. Originally published in the Nature Research Microbiology Community in January 2018."
 date: 2018-01-15
 categories: [Metagenomics, Metatranscriptomics, Microbiome, Multi-omics, Data Science, Research]
 description-meta: "This is a repost of the original post that appeared in Nature Research Microbiology Community in January 2018, a prelude to our publication in Nature Microbiology."

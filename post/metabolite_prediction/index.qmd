@@ -1,5 +1,6 @@
 ---
 title: "Predicting the diverse metabolic activities of the microbiome"
+description: "The backstory behind our Nature Communications paper on predicting the metabolic activities of microbial communities from amplicon or metagenomic sequences. Originally published in the Nature Research Microbiology Community in July 2019."
 date: 2019-07-17
 categories: [Metagenomics, Metabolomics, Microbiome, Multi-omics, Data Science, Research]
 description-meta: "This is a repost of the original post that appeared in Nature Research Microbiology Community in July 2019. It represents the backstory behind our publication in Nature Communications."

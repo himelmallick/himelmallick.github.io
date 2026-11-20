@@ -6,3 +6,6 @@ title-block-banner: false
 # (Quarto only writes this tag itself when site search is on.)
 header-includes: |
   <meta name="quarto:offset" content="../../">
+# Keeps a post's description on the Posts list but out of the post page itself
+include-in-header:
+  text: "<style>#title-block-header .description{display:none}</style>"
