@@ -2,7 +2,7 @@
 title: "My Sandpaper Story"
 description: "When a team decision goes wrong, who carries the blame? A reflection on camaraderie, prompted by Sandpapergate."
 date: 2026-11-19
-categories: [Career, Academics, Mentoring, Reflection]
+categories: [Teamwork, Leadership, Career, Reflection]
 description-meta: "Sandpapergate is back in the news, this time as a story about camaraderie. A short reflection on who carries the blame when a team decision goes wrong, and what good teams do about it."
 image: featured.jpg
 image-alt: "A worn cricket ball on grass under a yellow painted banner that reads Sandpapergate"
