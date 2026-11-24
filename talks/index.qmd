@@ -26,11 +26,12 @@ talks:
     type: course
     title: "Orchestrating Spatial Multimodal Analysis with Bioconductor"
     where: "Physalia Courses, Virtual"
-  - date: "2027-06-07"
-    end: "2027-06-11"
+  - date: "2027-05-24"
+    end: "2027-05-28"
     type: course
-    title: "Orchestrating Multimodal AI with R and Python"
+    title: "Orchestrating Multimodal AI with Bioconductor"
     where: "Physalia Courses, Virtual"
+    link: "https://www.physalia-courses.org/courses-workshops/multimodal-ai/"
   - date: "2027-05-04"
     end: "2027-05-08"
     type: course
