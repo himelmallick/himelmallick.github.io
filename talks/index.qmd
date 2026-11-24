@@ -174,11 +174,11 @@ talks:
     type: invited
     title: "Foundation Models for Microbial Communities"
     where: "ENAR 2027 Spring Meeting (Invited Session), Boston, MA"
-  - date: "2027-01"
+  - date: "2027-01-07"
     type: invited
-    title: "Foundation Models for Microbial Communities"
+    title: "Multimodal Digital Twins for Personalised Risk Prediction"
     where: "Statistical Quality Control and Operations Research, Indian Statistical Institute, Kolkata, India"
-  - date: "2027-01"
+  - date: "2027-01-05"
     type: invited
     title: "Foundation Models for Microbial Communities"
     where: "Department of Computational and Data Sciences, Indian Institute of Science, Bengaluru, India"
